@@ -1,0 +1,1096 @@
+{
+  "scope": "V8.1 standalone prototype only",
+  "browser": "Headless Chromium, Linux",
+  "transport": "Playwright set_content of exact standalone HTML; direct file/http navigation blocked by environment policy",
+  "viewportChecks": 72,
+  "tests": [
+    {
+      "test": "LAYOUT 1920x1080 dark world",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1920,
+          1080
+        ],
+        "theme": "dark",
+        "mode": "world",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1920x1080 dark roads",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1920,
+          1080
+        ],
+        "theme": "dark",
+        "mode": "roads",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1920x1080 dark points",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1920,
+          1080
+        ],
+        "theme": "dark",
+        "mode": "points",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1920x1080 dark places",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1920,
+          1080
+        ],
+        "theme": "dark",
+        "mode": "places",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1920x1080 dark routes",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1920,
+          1080
+        ],
+        "theme": "dark",
+        "mode": "routes",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1920x1080 dark verify",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1920,
+          1080
+        ],
+        "theme": "dark",
+        "mode": "verify",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1920x1080 light world",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1920,
+          1080
+        ],
+        "theme": "light",
+        "mode": "world",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1920x1080 light roads",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1920,
+          1080
+        ],
+        "theme": "light",
+        "mode": "roads",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1920x1080 light points",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1920,
+          1080
+        ],
+        "theme": "light",
+        "mode": "points",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1920x1080 light places",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1920,
+          1080
+        ],
+        "theme": "light",
+        "mode": "places",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1920x1080 light routes",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1920,
+          1080
+        ],
+        "theme": "light",
+        "mode": "routes",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1920x1080 light verify",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1920,
+          1080
+        ],
+        "theme": "light",
+        "mode": "verify",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1600x900 dark world",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1600,
+          900
+        ],
+        "theme": "dark",
+        "mode": "world",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1600x900 dark roads",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1600,
+          900
+        ],
+        "theme": "dark",
+        "mode": "roads",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1600x900 dark points",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1600,
+          900
+        ],
+        "theme": "dark",
+        "mode": "points",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1600x900 dark places",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1600,
+          900
+        ],
+        "theme": "dark",
+        "mode": "places",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1600x900 dark routes",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1600,
+          900
+        ],
+        "theme": "dark",
+        "mode": "routes",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1600x900 dark verify",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1600,
+          900
+        ],
+        "theme": "dark",
+        "mode": "verify",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1600x900 light world",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1600,
+          900
+        ],
+        "theme": "light",
+        "mode": "world",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1600x900 light roads",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1600,
+          900
+        ],
+        "theme": "light",
+        "mode": "roads",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1600x900 light points",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1600,
+          900
+        ],
+        "theme": "light",
+        "mode": "points",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1600x900 light places",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1600,
+          900
+        ],
+        "theme": "light",
+        "mode": "places",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1600x900 light routes",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1600,
+          900
+        ],
+        "theme": "light",
+        "mode": "routes",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1600x900 light verify",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1600,
+          900
+        ],
+        "theme": "light",
+        "mode": "verify",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1536x864 dark world",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1536,
+          864
+        ],
+        "theme": "dark",
+        "mode": "world",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1536x864 dark roads",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1536,
+          864
+        ],
+        "theme": "dark",
+        "mode": "roads",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1536x864 dark points",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1536,
+          864
+        ],
+        "theme": "dark",
+        "mode": "points",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1536x864 dark places",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1536,
+          864
+        ],
+        "theme": "dark",
+        "mode": "places",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1536x864 dark routes",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1536,
+          864
+        ],
+        "theme": "dark",
+        "mode": "routes",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1536x864 dark verify",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1536,
+          864
+        ],
+        "theme": "dark",
+        "mode": "verify",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1536x864 light world",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1536,
+          864
+        ],
+        "theme": "light",
+        "mode": "world",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1536x864 light roads",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1536,
+          864
+        ],
+        "theme": "light",
+        "mode": "roads",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1536x864 light points",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1536,
+          864
+        ],
+        "theme": "light",
+        "mode": "points",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1536x864 light places",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1536,
+          864
+        ],
+        "theme": "light",
+        "mode": "places",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1536x864 light routes",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1536,
+          864
+        ],
+        "theme": "light",
+        "mode": "routes",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1536x864 light verify",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1536,
+          864
+        ],
+        "theme": "light",
+        "mode": "verify",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1440x900 dark world",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1440,
+          900
+        ],
+        "theme": "dark",
+        "mode": "world",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1440x900 dark roads",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1440,
+          900
+        ],
+        "theme": "dark",
+        "mode": "roads",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1440x900 dark points",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1440,
+          900
+        ],
+        "theme": "dark",
+        "mode": "points",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1440x900 dark places",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1440,
+          900
+        ],
+        "theme": "dark",
+        "mode": "places",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1440x900 dark routes",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1440,
+          900
+        ],
+        "theme": "dark",
+        "mode": "routes",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1440x900 dark verify",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1440,
+          900
+        ],
+        "theme": "dark",
+        "mode": "verify",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1440x900 light world",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1440,
+          900
+        ],
+        "theme": "light",
+        "mode": "world",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1440x900 light roads",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1440,
+          900
+        ],
+        "theme": "light",
+        "mode": "roads",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1440x900 light points",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1440,
+          900
+        ],
+        "theme": "light",
+        "mode": "points",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1440x900 light places",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1440,
+          900
+        ],
+        "theme": "light",
+        "mode": "places",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1440x900 light routes",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1440,
+          900
+        ],
+        "theme": "light",
+        "mode": "routes",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1440x900 light verify",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1440,
+          900
+        ],
+        "theme": "light",
+        "mode": "verify",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1366x768 dark world",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1366,
+          768
+        ],
+        "theme": "dark",
+        "mode": "world",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1366x768 dark roads",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1366,
+          768
+        ],
+        "theme": "dark",
+        "mode": "roads",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1366x768 dark points",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1366,
+          768
+        ],
+        "theme": "dark",
+        "mode": "points",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1366x768 dark places",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1366,
+          768
+        ],
+        "theme": "dark",
+        "mode": "places",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1366x768 dark routes",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1366,
+          768
+        ],
+        "theme": "dark",
+        "mode": "routes",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1366x768 dark verify",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1366,
+          768
+        ],
+        "theme": "dark",
+        "mode": "verify",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1366x768 light world",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1366,
+          768
+        ],
+        "theme": "light",
+        "mode": "world",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1366x768 light roads",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1366,
+          768
+        ],
+        "theme": "light",
+        "mode": "roads",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1366x768 light points",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1366,
+          768
+        ],
+        "theme": "light",
+        "mode": "points",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1366x768 light places",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1366,
+          768
+        ],
+        "theme": "light",
+        "mode": "places",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1366x768 light routes",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1366,
+          768
+        ],
+        "theme": "light",
+        "mode": "routes",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1366x768 light verify",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1366,
+          768
+        ],
+        "theme": "light",
+        "mode": "verify",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1280x720 dark world",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1280,
+          720
+        ],
+        "theme": "dark",
+        "mode": "world",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1280x720 dark roads",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1280,
+          720
+        ],
+        "theme": "dark",
+        "mode": "roads",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1280x720 dark points",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1280,
+          720
+        ],
+        "theme": "dark",
+        "mode": "points",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1280x720 dark places",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1280,
+          720
+        ],
+        "theme": "dark",
+        "mode": "places",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1280x720 dark routes",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1280,
+          720
+        ],
+        "theme": "dark",
+        "mode": "routes",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1280x720 dark verify",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1280,
+          720
+        ],
+        "theme": "dark",
+        "mode": "verify",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1280x720 light world",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1280,
+          720
+        ],
+        "theme": "light",
+        "mode": "world",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1280x720 light roads",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1280,
+          720
+        ],
+        "theme": "light",
+        "mode": "roads",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1280x720 light points",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1280,
+          720
+        ],
+        "theme": "light",
+        "mode": "points",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1280x720 light places",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1280,
+          720
+        ],
+        "theme": "light",
+        "mode": "places",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1280x720 light routes",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1280,
+          720
+        ],
+        "theme": "light",
+        "mode": "routes",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "LAYOUT 1280x720 light verify",
+      "status": "PASS",
+      "detail": {
+        "viewport": [
+          1280,
+          720
+        ],
+        "theme": "light",
+        "mode": "verify",
+        "bodyOverflow": false
+      }
+    },
+    {
+      "test": "Exact hierarchy and attached services",
+      "status": "PASS",
+      "detail": "World/Root is one visible node; point-attached services present."
+    },
+    {
+      "test": "Advanced disclosure and theme",
+      "status": "PASS",
+      "detail": "Advanced keyboard toggle and light mode update."
+    },
+    {
+      "test": "Hierarchy search resolves hospital",
+      "status": "PASS",
+      "detail": "Search retains matched point and service; selection opens place inspector."
+    },
+    {
+      "test": "Feature summaries derive from components",
+      "status": "PASS",
+      "detail": "Checkbox creates/removes the typed component; summary follows it."
+    },
+    {
+      "test": "Adapter mapping validation",
+      "status": "PASS",
+      "detail": "4-to-2 ending-lane successor can be removed/repaired; check responds."
+    },
+    {
+      "test": "Finite positive input validation",
+      "status": "PASS",
+      "detail": "Out-of-range number rejected, valid edit retained."
+    },
+    {
+      "test": "Alternate topology invalidates sample graph",
+      "status": "PASS",
+      "detail": "Uncompiled alternate roundabout does not borrow single-lane routes."
+    },
+    {
+      "test": "Shared junction reference and type",
+      "status": "PASS",
+      "detail": "Shared-reference selection and mismatch check respond."
+    },
+    {
+      "test": "Independent local transforms",
+      "status": "PASS",
+      "detail": "Only selected place changes; siblings remain untouched."
+    },
+    {
+      "test": "Gizmo pointer translation",
+      "status": "PASS",
+      "detail": "Pointer-captured X handle changes only X offset."
+    },
+    {
+      "test": "Gizmo rotation",
+      "status": "PASS",
+      "detail": "Rotation handle changes selected yaw."
+    },
+    {
+      "test": "Reparent preserves local offsets",
+      "status": "PASS",
+      "detail": "Reparent retains local transform, changes owning point and frame binding."
+    },
+    {
+      "test": "Add typed place and require access",
+      "status": "PASS",
+      "detail": "New place has point ownership and explicitly missing access, caught by check."
+    },
+    {
+      "test": "Four-level mesh entry cascade",
+      "status": "PASS",
+      "detail": "All four precedence levels and fully missing entry exercised."
+    },
+    {
+      "test": "Forward graph route through two adapters and roundabout",
+      "status": "PASS",
+      "detail": {
+        "nodes": 9,
+        "result": "FOUND"
+      }
+    },
+    {
+      "test": "Missing lane link no-path handling",
+      "status": "PASS",
+      "detail": "Missing ending-lane successor yields empty NO_PATH, never straight-line fallback."
+    },
+    {
+      "test": "Dynamic closure overlay",
+      "status": "PASS",
+      "detail": "Exit closure filters links; reopening restores the fixture route."
+    },
+    {
+      "test": "Participant-specific service access",
+      "status": "PASS",
+      "detail": "Bus-only link rejects Car and permits Bus."
+    },
+    {
+      "test": "Changed service placement invalidates sample connector",
+      "status": "PASS",
+      "detail": "Modified bus pose cannot reuse the stale fixed connector."
+    },
+    {
+      "test": "Undo/redo limitation is explicit",
+      "status": "PASS",
+      "detail": "Prototype does not pretend that history transactions exist."
+    },
+    {
+      "test": "Accessible modal close",
+      "status": "PASS",
+      "detail": "Native modal and Escape close operate."
+    },
+    {
+      "test": "Fixture references and export metadata",
+      "status": "PASS",
+      "detail": "All fixture graph references resolve; export declares scope and nonproduction status."
+    },
+    {
+      "test": "Review JSON download",
+      "status": "PASS",
+      "detail": "Blob JSON download captured; feedback and nonproduction flags round-trip."
+    },
+    {
+      "test": "No uncaught browser JavaScript errors",
+      "status": "PASS",
+      "detail": "No uncaught page errors."
+    },
+    {
+      "test": "No external requests from standalone prototype",
+      "status": "PASS",
+      "detail": "Zero network requests."
+    },
+    {
+      "test": "No external script/style assets in standalone",
+      "status": "PASS",
+      "detail": "Standalone is network independent."
+    },
+    {
+      "test": "Sixty prior detailed HTML screens preserved",
+      "status": "PASS",
+      "detail": "60 unchanged page-entry files preserved."
+    },
+    {
+      "test": "Five prior phase files preserved",
+      "status": "PASS",
+      "detail": "5 original unapproved phase draft files preserved."
+    },
+    {
+      "test": "Future acceptance cases have UNEXECUTED status",
+      "status": "PASS",
+      "detail": "Engine tests clearly separate from browser results."
+    }
+  ],
+  "passed": 101,
+  "failed": 0,
+  "uncaughtErrors": [],
+  "networkRequests": []
+}

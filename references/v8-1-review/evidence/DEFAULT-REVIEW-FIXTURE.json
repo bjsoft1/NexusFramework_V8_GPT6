@@ -1,0 +1,577 @@
+{
+  "schema": "Nexus.V8.1.ReviewFixture",
+  "schemaVersion": 1,
+  "prototypeOnly": true,
+  "productionReady": false,
+  "approval": "Pending user review",
+  "units": {
+    "position": "m",
+    "rotation": "degrees",
+    "viewport": "schematic pixels; nonphysical"
+  },
+  "hierarchy": "World/Root > State > City > Highway > HighwayPoint > Place",
+  "meshFallback": [
+    "Highway",
+    "City",
+    "State",
+    "Root"
+  ],
+  "featureSummaryAuthority": "Derived from component records; not independent persisted flags",
+  "components": [
+    {
+      "id": "CW-P03",
+      "type": "Crosswalk",
+      "ownerPointId": "P03",
+      "payload": {
+        "approachFrame": {
+          "segmentId": "S02",
+          "role": "End"
+        },
+        "span": "between road edges",
+        "depthRule": "sidewalk width + highway border width",
+        "waitingPointOffsetsM": [],
+        "pedestrianLinks": [],
+        "authoringStatus": "Design fixture; complete geometry and links required"
+      }
+    },
+    {
+      "id": "SIG-P03",
+      "type": "TrafficSignal",
+      "ownerPointId": "P03",
+      "payload": {
+        "controllerId": "CTRL-J01",
+        "movementGroups": [],
+        "authoringStatus": "Design fixture; complete timing and conflicts required"
+      }
+    }
+  ],
+  "points": [
+    {
+      "id": "P01",
+      "label": "West entry",
+      "x": 110,
+      "y": 430,
+      "kind": "road",
+      "profileBefore": 6,
+      "profileAfter": 6,
+      "anchorSegment": "S01",
+      "role": "Start",
+      "crosswalk": false,
+      "signal": false
+    },
+    {
+      "id": "P02",
+      "label": "6 \u2192 4 adapter",
+      "x": 350,
+      "y": 430,
+      "kind": "road",
+      "profileBefore": 6,
+      "profileAfter": 4,
+      "anchorSegment": "S01",
+      "role": "End",
+      "adapterId": "A64",
+      "crosswalk": false,
+      "signal": false
+    },
+    {
+      "id": "P03",
+      "label": "Central junction",
+      "x": 610,
+      "y": 430,
+      "kind": "junction",
+      "profileBefore": 4,
+      "profileAfter": 4,
+      "anchorSegment": "S02",
+      "role": "End",
+      "junctionId": "J01",
+      "crosswalk": true,
+      "signal": true
+    },
+    {
+      "id": "P04",
+      "label": "4 \u2192 2 adapter",
+      "x": 800,
+      "y": 430,
+      "kind": "road",
+      "profileBefore": 4,
+      "profileAfter": 2,
+      "anchorSegment": "S04",
+      "role": "End",
+      "adapterId": "A42",
+      "crosswalk": false,
+      "signal": false
+    },
+    {
+      "id": "P05",
+      "label": "East roundabout",
+      "x": 1000,
+      "y": 430,
+      "kind": "roundabout",
+      "profileBefore": 2,
+      "profileAfter": 2,
+      "anchorSegment": "S05",
+      "role": "End",
+      "junctionId": "R01",
+      "roundaboutId": "R01",
+      "crosswalk": false,
+      "signal": false
+    },
+    {
+      "id": "P06",
+      "label": "East exit",
+      "x": 1205,
+      "y": 430,
+      "kind": "road",
+      "profileBefore": 2,
+      "profileAfter": 2,
+      "anchorSegment": "S06",
+      "role": "End",
+      "crosswalk": false,
+      "signal": false
+    }
+  ],
+  "places": [
+    {
+      "id": "PL01",
+      "type": "City park",
+      "name": "Riverside park",
+      "pointId": "P01",
+      "anchorSegment": "S01",
+      "anchorRole": "Start",
+      "offset": {
+        "x": 25,
+        "y": -90,
+        "z": 0,
+        "yaw": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "access": "WALK-PARK",
+      "size": [
+        130,
+        85
+      ]
+    },
+    {
+      "id": "PL02",
+      "type": "Parking",
+      "name": "West parking",
+      "pointId": "P02",
+      "anchorSegment": "S01",
+      "anchorRole": "End",
+      "offset": {
+        "x": -65,
+        "y": 85,
+        "z": 0,
+        "yaw": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "access": "ACCESS-PARKING",
+      "size": [
+        120,
+        75
+      ]
+    },
+    {
+      "id": "PL03",
+      "type": "Bus stop",
+      "name": "Central bus stop",
+      "pointId": "P02",
+      "anchorSegment": "S01",
+      "anchorRole": "End",
+      "offset": {
+        "x": 50,
+        "y": -55,
+        "z": 0,
+        "yaw": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "access": "BUS-BAY",
+      "size": [
+        102,
+        34
+      ]
+    },
+    {
+      "id": "PL04",
+      "type": "Hospital",
+      "name": "City hospital",
+      "pointId": "P03",
+      "anchorSegment": "S02",
+      "anchorRole": "End",
+      "offset": {
+        "x": 65,
+        "y": 95,
+        "z": 0,
+        "yaw": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "access": "ACCESS-HOSPITAL",
+      "size": [
+        140,
+        90
+      ]
+    },
+    {
+      "id": "PL05",
+      "type": "Petrol pump",
+      "name": "East fuel station",
+      "pointId": "P04",
+      "anchorSegment": "S04",
+      "anchorRole": "End",
+      "offset": {
+        "x": 55,
+        "y": 100,
+        "z": 0,
+        "yaw": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "access": "ACCESS-FUEL",
+      "size": [
+        110,
+        65
+      ]
+    }
+  ],
+  "authoring": {
+    "mode": "points",
+    "selected": "P02",
+    "placeId": "PL03",
+    "advanced": false,
+    "theme": "dark",
+    "labels": true,
+    "lanes": true,
+    "zoom": 1,
+    "laneWidth": 3.5,
+    "taper64": 70,
+    "taper42": 60,
+    "merge64": true,
+    "merge42": true,
+    "drivingSide": "Left",
+    "junctionType": "Four-way",
+    "roundaboutType": "Single circulating lane",
+    "sourceCurrent": true,
+    "mesh": {
+      "root": "Urban road kit",
+      "state": "",
+      "city": "",
+      "highway": ""
+    },
+    "route": null,
+    "startLane": "F3",
+    "destination": "EAST",
+    "participant": "Car",
+    "closed": false,
+    "dirty": 0,
+    "review": "",
+    "diagnostics": null
+  },
+  "graph": {
+    "nodes": {
+      "F1": {
+        "xy": [
+          110,
+          397.5
+        ]
+      },
+      "F2": {
+        "xy": [
+          110,
+          410.5
+        ]
+      },
+      "F3": {
+        "xy": [
+          110,
+          423.5
+        ]
+      },
+      "A64.F1": {
+        "xy": [
+          365,
+          410.5
+        ]
+      },
+      "A64.F2": {
+        "xy": [
+          365,
+          423.5
+        ]
+      },
+      "J01.W.F1": {
+        "xy": [
+          555,
+          410.5
+        ]
+      },
+      "J01.W.F2": {
+        "xy": [
+          555,
+          423.5
+        ]
+      },
+      "J01.E.F1": {
+        "xy": [
+          655,
+          410.5
+        ]
+      },
+      "J01.E.F2": {
+        "xy": [
+          655,
+          423.5
+        ]
+      },
+      "A42.F1": {
+        "xy": [
+          830,
+          423.5
+        ]
+      },
+      "R01.ENTRY.W": {
+        "xy": [
+          910,
+          430
+        ]
+      },
+      "R01.ARC.1": {
+        "xy": [
+          1000,
+          350
+        ]
+      },
+      "R01.ARC.2": {
+        "xy": [
+          1090,
+          430
+        ]
+      },
+      "EAST": {
+        "xy": [
+          1205,
+          423.5
+        ]
+      },
+      "NORTH": {
+        "xy": [
+          1000,
+          190
+        ]
+      },
+      "BUS-BAY": {
+        "xy": [
+          450,
+          320
+        ]
+      }
+    },
+    "edges": [
+      {
+        "from": "F1",
+        "to": "A64.F1",
+        "kind": "Continue",
+        "classes": [
+          "Car",
+          "Bus"
+        ]
+      },
+      {
+        "from": "F2",
+        "to": "A64.F2",
+        "kind": "Continue",
+        "classes": [
+          "Car",
+          "Bus"
+        ]
+      },
+      {
+        "from": "F3",
+        "to": "A64.F2",
+        "kind": "Merge",
+        "classes": [
+          "Car",
+          "Bus"
+        ]
+      },
+      {
+        "from": "A64.F1",
+        "to": "J01.W.F1",
+        "kind": "Continue",
+        "classes": [
+          "Car",
+          "Bus"
+        ]
+      },
+      {
+        "from": "A64.F2",
+        "to": "J01.W.F2",
+        "kind": "Continue",
+        "classes": [
+          "Car",
+          "Bus"
+        ]
+      },
+      {
+        "from": "J01.W.F1",
+        "to": "J01.E.F1",
+        "kind": "Junction connector",
+        "classes": [
+          "Car",
+          "Bus"
+        ]
+      },
+      {
+        "from": "J01.W.F2",
+        "to": "J01.E.F2",
+        "kind": "Junction connector",
+        "classes": [
+          "Car",
+          "Bus"
+        ]
+      },
+      {
+        "from": "J01.E.F1",
+        "to": "A42.F1",
+        "kind": "Continue",
+        "classes": [
+          "Car",
+          "Bus"
+        ]
+      },
+      {
+        "from": "J01.E.F2",
+        "to": "A42.F1",
+        "kind": "Merge",
+        "classes": [
+          "Car",
+          "Bus"
+        ]
+      },
+      {
+        "from": "A42.F1",
+        "to": "R01.ENTRY.W",
+        "kind": "Yield connector",
+        "classes": [
+          "Car",
+          "Bus"
+        ]
+      },
+      {
+        "from": "R01.ENTRY.W",
+        "to": "R01.ARC.1",
+        "kind": "Circulate",
+        "classes": [
+          "Car",
+          "Bus"
+        ]
+      },
+      {
+        "from": "R01.ARC.1",
+        "to": "R01.ARC.2",
+        "kind": "Circulate",
+        "classes": [
+          "Car",
+          "Bus"
+        ]
+      },
+      {
+        "from": "R01.ARC.2",
+        "to": "EAST",
+        "kind": "Exit",
+        "classes": [
+          "Car",
+          "Bus"
+        ]
+      },
+      {
+        "from": "R01.ARC.1",
+        "to": "NORTH",
+        "kind": "Exit",
+        "classes": [
+          "Car",
+          "Bus"
+        ]
+      },
+      {
+        "from": "A64.F1",
+        "to": "BUS-BAY",
+        "kind": "Bus-only access",
+        "classes": [
+          "Bus"
+        ]
+      }
+    ],
+    "scope": "forward-lane illustrative subgraph; no reverse graph, dynamic collision checks, full service graph or lane-change planner"
+  },
+  "checks": [
+    {
+      "id": "V01",
+      "title": "Hierarchy and place bindings",
+      "pass": true,
+      "detail": "Every place references an existing point and its selected segment frame.",
+      "fix": "places"
+    },
+    {
+      "id": "V02",
+      "title": "Forward adapter successors",
+      "pass": true,
+      "detail": "Both sample ending lanes have explicit merge successors. Reverse-link verification belongs to the engine phase.",
+      "fix": "roads"
+    },
+    {
+      "id": "V03",
+      "title": "Positive profile inputs",
+      "pass": true,
+      "detail": "Width and taper are finite and positive. No swept-volume or curvature test is performed here.",
+      "fix": "roads"
+    },
+    {
+      "id": "V04",
+      "title": "Place access references",
+      "pass": true,
+      "detail": "No empty entrance reference. Existence and full reachability of all access lanes remain engine checks.",
+      "fix": "places"
+    },
+    {
+      "id": "V05",
+      "title": "Mesh catalog entry resolved",
+      "pass": true,
+      "detail": "Sample road entry resolves from root. Real asset compatibility is not tested.",
+      "fix": "world"
+    },
+    {
+      "id": "V06",
+      "title": "Finite place offsets",
+      "pass": true,
+      "detail": "Local XYZ and rotation offsets are finite numbers; tilted frames are not simulated.",
+      "fix": "places"
+    },
+    {
+      "id": "V07",
+      "title": "Graph matches the sample templates",
+      "pass": true,
+      "detail": "Alternate junction/roundabout templates need new connectors; they cannot silently reuse this sample graph.",
+      "fix": "points"
+    },
+    {
+      "id": "V08",
+      "title": "Shared topology identity",
+      "pass": true,
+      "detail": "One unique roundabout ID in the authored fixture\u2014not a count of its approach references.",
+      "fix": "points"
+    }
+  ],
+  "limitations": [
+    "No Unreal/Landscape access",
+    "No actual meshes or complete road graph",
+    "Forward-only sample BFS",
+    "No avoidance/physics or swept-volume verification",
+    "Service access IDs other than bus bay are placeholders",
+    "No save/import, persistence, undo/redo or project mutation"
+  ],
+  "review": ""
+}

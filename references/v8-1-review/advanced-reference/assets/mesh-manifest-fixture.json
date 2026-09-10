@@ -1,0 +1,23 @@
+{
+  "_notice": "Synthetic mesh ownership manifest. No meshes or Unreal assets were generated.",
+  "schemaVersion": "1-prototype",
+  "worldId": "b967f2ec-fdcf-5dc4-a8a8-af6f5744c0e1",
+  "buildId": "a6f8a875-ff7f-560b-9faf-6b534ba44d8f",
+  "sourceFingerprint": "fixture:source-001",
+  "chunks": [
+    {
+      "id": "db81d325-9489-5d67-89d6-0b1a03f3f613",
+      "code": "CH-001",
+      "ownerBuildId": "a6f8a875-ff7f-560b-9faf-6b534ba44d8f",
+      "sourceHighwayIds": [
+        "50a25881-da68-5b73-bff3-326d728c393d"
+      ],
+      "catalogSlots": [
+        "road.straight.lanes4",
+        "sidewalk.standard"
+      ],
+      "outputStatus": "NotGenerated",
+      "replacePolicy": "Owned outputs only"
+    }
+  ]
+}

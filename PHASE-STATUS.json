@@ -1,0 +1,76 @@
+{
+  "package_revision": "V8.1-aligned five-phase documentation / 1.0",
+  "prepared_date": "2026-09-10",
+  "document_status": "CONSOLIDATED_FOR_REVIEW",
+  "prototype_approval": "PENDING",
+  "plan_approval": "PENDING",
+  "production_code_created": false,
+  "engine_tests_executed": 0,
+  "phases": [
+    {
+      "phase": 1,
+      "title": "Foundation, simple editor and Landscape authority",
+      "plan": "phases/01-Foundation-and-Landscape.md",
+      "tasks": 20,
+      "planned_test_scenarios": 15,
+      "implementation": "NOT_STARTED",
+      "automated_engine_tests": "NOT_EXECUTED",
+      "manual_engine_verification": "NOT_EXECUTED",
+      "reviewer_decision": "PENDING",
+      "approval_reference": null,
+      "evidence": []
+    },
+    {
+      "phase": 2,
+      "title": "Mesh inheritance, road profiles and directional adapters",
+      "plan": "phases/02-Mesh-Inheritance-Roads-and-Adapters.md",
+      "tasks": 20,
+      "planned_test_scenarios": 15,
+      "implementation": "NOT_STARTED",
+      "automated_engine_tests": "NOT_EXECUTED",
+      "manual_engine_verification": "NOT_EXECUTED",
+      "reviewer_decision": "PENDING",
+      "approval_reference": null,
+      "evidence": []
+    },
+    {
+      "phase": 3,
+      "title": "Shared junctions, point features and attached places",
+      "plan": "phases/03-Junctions-Point-Features-and-Places.md",
+      "tasks": 20,
+      "planned_test_scenarios": 15,
+      "implementation": "NOT_STARTED",
+      "automated_engine_tests": "NOT_EXECUTED",
+      "manual_engine_verification": "NOT_EXECUTED",
+      "reviewer_decision": "PENDING",
+      "approval_reference": null,
+      "evidence": []
+    },
+    {
+      "phase": 4,
+      "title": "Advanced tools, lane queries and actionable validation",
+      "plan": "phases/04-Editor-Tools-Navigation-and-Validation.md",
+      "tasks": 20,
+      "planned_test_scenarios": 15,
+      "implementation": "NOT_STARTED",
+      "automated_engine_tests": "NOT_EXECUTED",
+      "manual_engine_verification": "NOT_EXECUTED",
+      "reviewer_decision": "PENDING",
+      "approval_reference": null,
+      "evidence": []
+    },
+    {
+      "phase": 5,
+      "title": "Coherent publication, runtime consumers and release verification",
+      "plan": "phases/05-Compiler-Runtime-and-Release.md",
+      "tasks": 20,
+      "planned_test_scenarios": 15,
+      "implementation": "NOT_STARTED",
+      "automated_engine_tests": "NOT_EXECUTED",
+      "manual_engine_verification": "NOT_EXECUTED",
+      "reviewer_decision": "PENDING",
+      "approval_reference": null,
+      "evidence": []
+    }
+  ]
+}

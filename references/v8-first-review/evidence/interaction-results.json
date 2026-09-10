@@ -1,0 +1,136 @@
+{
+  "mode": "Inline HTML in Chromium; no UE execution",
+  "checks": 32,
+  "passed": 32,
+  "pageErrors": [],
+  "results": [
+    {
+      "test": "Previous / next and Alt navigation",
+      "pass": true
+    },
+    {
+      "test": "Command palette finds and opens parking",
+      "pass": true
+    },
+    {
+      "test": "Empty palette and Escape",
+      "pass": true
+    },
+    {
+      "test": "Sidebar searches across all 60 screens",
+      "pass": true
+    },
+    {
+      "test": "Theme toggle changes both directions",
+      "pass": true
+    },
+    {
+      "test": "Unassigned children inherit Root",
+      "pass": true
+    },
+    {
+      "test": "Highway beats City beats State",
+      "pass": true
+    },
+    {
+      "test": "Clearing overrides reveals each parent",
+      "pass": true
+    },
+    {
+      "test": "No assignment is explicitly blocked",
+      "pass": true
+    },
+    {
+      "test": "Per-entry inheritance and parent update",
+      "pass": true
+    },
+    {
+      "test": "Null assets and blank entries are transparent",
+      "pass": true
+    },
+    {
+      "test": "Edit / revert / apply / route retains sample field",
+      "pass": true
+    },
+    {
+      "test": "Negative width blocks Apply and preserves draft",
+      "pass": true
+    },
+    {
+      "test": "One-way accepted; zero total lanes blocked",
+      "pass": true
+    },
+    {
+      "test": "Fractional parking rows blocked",
+      "pass": true
+    },
+    {
+      "test": "Review changes and local mark-reviewed state",
+      "pass": true
+    },
+    {
+      "test": "Inspector Notes saves review feedback",
+      "pass": true
+    },
+    {
+      "test": "Review JSON download contains 60 entries and saved notes",
+      "pass": true
+    },
+    {
+      "test": "Schema tabs and runtime JSON download",
+      "pass": true
+    },
+    {
+      "test": "Mesh manifest JSON download",
+      "pass": true
+    },
+    {
+      "test": "Catalog category filtering and asset inspection",
+      "pass": true
+    },
+    {
+      "test": "Local filename intake is explicitly not an import",
+      "pass": true
+    },
+    {
+      "test": "Three independent sub-point offsets",
+      "pass": true
+    },
+    {
+      "test": "Pointer drag updates selected schematic point",
+      "pass": true
+    },
+    {
+      "test": "Escape cancels drag without applying",
+      "pass": true
+    },
+    {
+      "test": "Rotate gizmo changes local demo angle",
+      "pass": true
+    },
+    {
+      "test": "Scale gizmo produces positive scale",
+      "pass": true
+    },
+    {
+      "test": "Compile simulation completion / cancel / explicit failure",
+      "pass": true
+    },
+    {
+      "test": "Fixture play / pause state",
+      "pass": true
+    },
+    {
+      "test": "Invalid route safely renders screen 01",
+      "pass": true
+    },
+    {
+      "test": "Dialog focus remains within modal and Escape closes",
+      "pass": true
+    },
+    {
+      "test": "Unavailable storage handled without uncaught errors",
+      "pass": true
+    }
+  ]
+}

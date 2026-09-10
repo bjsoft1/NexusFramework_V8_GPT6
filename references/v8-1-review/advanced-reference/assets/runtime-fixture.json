@@ -1,0 +1,2455 @@
+{
+  "_notice": "SYNTHETIC DESIGN FIXTURE. Not produced by Unreal, not validated for driving, and not a complete runtime implementation. This small consistent subset is independent of larger illustrative viewport counts.",
+  "schemaVersion": "1-prototype",
+  "units": {
+    "position": "meters",
+    "rotation": "degrees",
+    "speed": "kilometers/hour"
+  },
+  "coordinateSystem": "Unreal-style axes; illustrative right-hand traffic; actual importer must convert meters to centimeters explicitly",
+  "world": {
+    "id": "b967f2ec-fdcf-5dc4-a8a8-af6f5744c0e1",
+    "name": "Nexus City",
+    "rootMeshConfigAssetId": "207451b2-f1f7-58e8-8ac4-ffc72abebebf",
+    "sourceFingerprint": "fixture:source-001",
+    "authoringFingerprint": "fixture:authoring-013",
+    "catalogFingerprint": "fixture:catalog-006",
+    "buildState": "PrototypeOnly"
+  },
+  "states": [
+    {
+      "id": "69b29142-825a-56d2-90d1-5ba65149c4aa",
+      "name": "Central State",
+      "worldId": "b967f2ec-fdcf-5dc4-a8a8-af6f5744c0e1"
+    }
+  ],
+  "cities": [
+    {
+      "id": "83a47c20-d6ce-5c2e-846b-187f8ded1293",
+      "name": "Riverbend",
+      "stateId": "69b29142-825a-56d2-90d1-5ba65149c4aa"
+    }
+  ],
+  "laneProfiles": [
+    {
+      "id": "29a7f201-46bd-5860-a9f4-92d506b8e7ad",
+      "forwardLanes": 2,
+      "reverseLanes": 2,
+      "laneWidthM": 4,
+      "medianWidthM": 0.6,
+      "leftSidewalkWidthM": 3,
+      "rightSidewalkWidthM": 3,
+      "highwayBorderWidthM": 0.25
+    }
+  ],
+  "highways": [
+    {
+      "id": "50a25881-da68-5b73-bff3-326d728c393d",
+      "code": "HW-001",
+      "name": "East Connector",
+      "cityId": "83a47c20-d6ce-5c2e-846b-187f8ded1293",
+      "meshConfigAssetId": "9ca84b23-a8d3-5e5a-88c8-4ff48ac20acf",
+      "defaultLaneProfileId": "29a7f201-46bd-5860-a9f4-92d506b8e7ad",
+      "pointIds": [
+        "39945967-9d87-58c5-9973-31977109af01",
+        "63dd811e-ad52-58c3-9926-462334dbbf4f",
+        "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55"
+      ],
+      "segmentIds": [
+        "edf40c23-7345-57ff-a462-4915bd1144f3",
+        "7bea4c42-85a3-5abe-a7db-63bbf9e16e4d"
+      ],
+      "ConnectedHighwayIds": [
+        "bdcae2b5-599b-528d-92e4-fbe1eabd5766",
+        "790d8e26-eb92-5799-92c5-96ccbe4f0b13"
+      ]
+    },
+    {
+      "id": "bdcae2b5-599b-528d-92e4-fbe1eabd5766",
+      "code": "HW-002",
+      "name": "North Avenue",
+      "cityId": "83a47c20-d6ce-5c2e-846b-187f8ded1293",
+      "meshConfigAssetId": null,
+      "defaultLaneProfileId": "29a7f201-46bd-5860-a9f4-92d506b8e7ad",
+      "pointIds": [
+        "1cce9f6f-ab3c-5fbf-9c8e-067f03ab3942",
+        "2605477f-7afe-5c62-a634-192d2f14cb74",
+        "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55"
+      ],
+      "segmentIds": [
+        "dd98441e-d972-53d6-bc1f-1f7322d8d82a",
+        "92d8781f-20d0-586a-acc0-1e8218bf3e01"
+      ],
+      "ConnectedHighwayIds": [
+        "50a25881-da68-5b73-bff3-326d728c393d"
+      ]
+    },
+    {
+      "id": "790d8e26-eb92-5799-92c5-96ccbe4f0b13",
+      "code": "HW-003",
+      "name": "Riverside Link",
+      "cityId": "83a47c20-d6ce-5c2e-846b-187f8ded1293",
+      "meshConfigAssetId": null,
+      "defaultLaneProfileId": "29a7f201-46bd-5860-a9f4-92d506b8e7ad",
+      "pointIds": [
+        "08a3e9a1-9c04-5521-af48-934a86fe62f9",
+        "39945967-9d87-58c5-9973-31977109af01"
+      ],
+      "segmentIds": [
+        "50172791-c5e0-5b00-83a9-36c2b412ba4d"
+      ],
+      "ConnectedHighwayIds": [
+        "50a25881-da68-5b73-bff3-326d728c393d"
+      ]
+    }
+  ],
+  "points": [
+    {
+      "id": "63dd811e-ad52-58c3-9926-462334dbbf4f",
+      "code": "CP-001",
+      "sourceBinding": {
+        "landscapeId": "5954c5af-2826-5589-9233-8dc9d46e3e26",
+        "controlPointGuid": "f0b4f5ed-e63f-540e-93db-1653cc3632a4"
+      },
+      "positionM": [
+        0,
+        0,
+        0
+      ],
+      "junctionType": "Terminal",
+      "featureSummary": {
+        "hasTrafficLight": false,
+        "hasCrosswalk": false
+      },
+      "featureSummaryAuthority": "derived-from-linked-activation-records"
+    },
+    {
+      "id": "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55",
+      "code": "CP-002",
+      "sourceBinding": {
+        "landscapeId": "5954c5af-2826-5589-9233-8dc9d46e3e26",
+        "controlPointGuid": "3e78ae18-0300-5d62-b5d5-8846e7ed966d"
+      },
+      "positionM": [
+        100,
+        0,
+        0
+      ],
+      "junctionType": "Cross",
+      "featureSummary": {
+        "hasTrafficLight": true,
+        "hasCrosswalk": true
+      },
+      "featureSummaryAuthority": "derived-from-linked-activation-records"
+    },
+    {
+      "id": "39945967-9d87-58c5-9973-31977109af01",
+      "code": "CP-003",
+      "sourceBinding": {
+        "landscapeId": "5954c5af-2826-5589-9233-8dc9d46e3e26",
+        "controlPointGuid": "2d170aaa-8465-5441-b34f-ffc932026091"
+      },
+      "positionM": [
+        200,
+        0,
+        0
+      ],
+      "junctionType": "Branch",
+      "featureSummary": {
+        "hasTrafficLight": false,
+        "hasCrosswalk": false
+      },
+      "featureSummaryAuthority": "derived-from-linked-activation-records"
+    },
+    {
+      "id": "2605477f-7afe-5c62-a634-192d2f14cb74",
+      "code": "CP-004",
+      "sourceBinding": {
+        "landscapeId": "5954c5af-2826-5589-9233-8dc9d46e3e26",
+        "controlPointGuid": "dc40b5d6-1d5e-5af8-91d8-fe21049afc1f"
+      },
+      "positionM": [
+        100,
+        -100,
+        0
+      ],
+      "junctionType": "Terminal",
+      "featureSummary": {
+        "hasTrafficLight": false,
+        "hasCrosswalk": false
+      },
+      "featureSummaryAuthority": "derived-from-linked-activation-records"
+    },
+    {
+      "id": "1cce9f6f-ab3c-5fbf-9c8e-067f03ab3942",
+      "code": "CP-005",
+      "sourceBinding": {
+        "landscapeId": "5954c5af-2826-5589-9233-8dc9d46e3e26",
+        "controlPointGuid": "7682b561-b083-58e0-938c-283d3f72f6a4"
+      },
+      "positionM": [
+        100,
+        100,
+        0
+      ],
+      "junctionType": "Terminal",
+      "featureSummary": {
+        "hasTrafficLight": false,
+        "hasCrosswalk": false
+      },
+      "featureSummaryAuthority": "derived-from-linked-activation-records"
+    },
+    {
+      "id": "08a3e9a1-9c04-5521-af48-934a86fe62f9",
+      "code": "CP-006",
+      "sourceBinding": {
+        "landscapeId": "5954c5af-2826-5589-9233-8dc9d46e3e26",
+        "controlPointGuid": "d2e8d21e-c58e-53f2-a359-e0c80f7c1219"
+      },
+      "positionM": [
+        280,
+        50,
+        0
+      ],
+      "junctionType": "Terminal",
+      "featureSummary": {
+        "hasTrafficLight": false,
+        "hasCrosswalk": false
+      },
+      "featureSummaryAuthority": "derived-from-linked-activation-records"
+    }
+  ],
+  "segments": [
+    {
+      "id": "edf40c23-7345-57ff-a462-4915bd1144f3",
+      "code": "SEG-001",
+      "highwayId": "50a25881-da68-5b73-bff3-326d728c393d",
+      "startPointId": "63dd811e-ad52-58c3-9926-462334dbbf4f",
+      "endPointId": "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55",
+      "startTangentM": [
+        100,
+        0,
+        0
+      ],
+      "endTangentM": [
+        100,
+        0,
+        0
+      ],
+      "lengthM": 100.0,
+      "laneProfileId": "29a7f201-46bd-5860-a9f4-92d506b8e7ad",
+      "geometryAuthority": "Landscape",
+      "semanticAuthority": "NexusAuthoring"
+    },
+    {
+      "id": "7bea4c42-85a3-5abe-a7db-63bbf9e16e4d",
+      "code": "SEG-002",
+      "highwayId": "50a25881-da68-5b73-bff3-326d728c393d",
+      "startPointId": "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55",
+      "endPointId": "39945967-9d87-58c5-9973-31977109af01",
+      "startTangentM": [
+        100,
+        0,
+        0
+      ],
+      "endTangentM": [
+        100,
+        0,
+        0
+      ],
+      "lengthM": 100.0,
+      "laneProfileId": "29a7f201-46bd-5860-a9f4-92d506b8e7ad",
+      "geometryAuthority": "Landscape",
+      "semanticAuthority": "NexusAuthoring"
+    },
+    {
+      "id": "dd98441e-d972-53d6-bc1f-1f7322d8d82a",
+      "code": "SEG-003",
+      "highwayId": "bdcae2b5-599b-528d-92e4-fbe1eabd5766",
+      "startPointId": "2605477f-7afe-5c62-a634-192d2f14cb74",
+      "endPointId": "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55",
+      "startTangentM": [
+        0,
+        100,
+        0
+      ],
+      "endTangentM": [
+        0,
+        100,
+        0
+      ],
+      "lengthM": 100.0,
+      "laneProfileId": "29a7f201-46bd-5860-a9f4-92d506b8e7ad",
+      "geometryAuthority": "Landscape",
+      "semanticAuthority": "NexusAuthoring"
+    },
+    {
+      "id": "92d8781f-20d0-586a-acc0-1e8218bf3e01",
+      "code": "SEG-004",
+      "highwayId": "bdcae2b5-599b-528d-92e4-fbe1eabd5766",
+      "startPointId": "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55",
+      "endPointId": "1cce9f6f-ab3c-5fbf-9c8e-067f03ab3942",
+      "startTangentM": [
+        0,
+        100,
+        0
+      ],
+      "endTangentM": [
+        0,
+        100,
+        0
+      ],
+      "lengthM": 100.0,
+      "laneProfileId": "29a7f201-46bd-5860-a9f4-92d506b8e7ad",
+      "geometryAuthority": "Landscape",
+      "semanticAuthority": "NexusAuthoring"
+    },
+    {
+      "id": "50172791-c5e0-5b00-83a9-36c2b412ba4d",
+      "code": "SEG-005",
+      "highwayId": "790d8e26-eb92-5799-92c5-96ccbe4f0b13",
+      "startPointId": "39945967-9d87-58c5-9973-31977109af01",
+      "endPointId": "08a3e9a1-9c04-5521-af48-934a86fe62f9",
+      "startTangentM": [
+        80,
+        50,
+        0
+      ],
+      "endTangentM": [
+        80,
+        50,
+        0
+      ],
+      "lengthM": 94.339811,
+      "laneProfileId": "29a7f201-46bd-5860-a9f4-92d506b8e7ad",
+      "geometryAuthority": "Landscape",
+      "semanticAuthority": "NexusAuthoring"
+    }
+  ],
+  "lanes": [
+    {
+      "id": "14a7d954-93ae-5023-9e57-0d5e9ea09db9",
+      "code": "LN-001-01",
+      "segmentId": "edf40c23-7345-57ff-a462-4915bd1144f3",
+      "highwayId": "50a25881-da68-5b73-bff3-326d728c393d",
+      "direction": "Reverse",
+      "widthM": 4,
+      "speedLimitKph": 50,
+      "allowedAgentClasses": [
+        "Car",
+        "Van",
+        "Bus"
+      ],
+      "centerlineSamplesM": [
+        [
+          100.0,
+          -6.3,
+          0
+        ],
+        [
+          75.0,
+          -6.3,
+          0
+        ],
+        [
+          50.0,
+          -6.3,
+          0
+        ],
+        [
+          25.0,
+          -6.3,
+          0
+        ],
+        [
+          0.0,
+          -6.3,
+          0
+        ]
+      ],
+      "startPointId": "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55",
+      "endPointId": "63dd811e-ad52-58c3-9926-462334dbbf4f",
+      "predecessorLaneIds": [
+        "fe244fc7-46dc-53ed-ab54-ee5140b59068"
+      ],
+      "successorLaneIds": [],
+      "lateralNeighborLaneIds": [
+        "8fa1f2c8-bb9f-5efb-977d-a8c020325455"
+      ],
+      "laneChangeIntervals": [
+        {
+          "targetLaneId": "8fa1f2c8-bb9f-5efb-977d-a8c020325455",
+          "startStationM": 24,
+          "endStationM": 76,
+          "permission": "DashedLineOnly",
+          "runtimeGapCheckRequired": true
+        }
+      ]
+    },
+    {
+      "id": "8fa1f2c8-bb9f-5efb-977d-a8c020325455",
+      "code": "LN-001-02",
+      "segmentId": "edf40c23-7345-57ff-a462-4915bd1144f3",
+      "highwayId": "50a25881-da68-5b73-bff3-326d728c393d",
+      "direction": "Reverse",
+      "widthM": 4,
+      "speedLimitKph": 50,
+      "allowedAgentClasses": [
+        "Car",
+        "Van",
+        "Bus"
+      ],
+      "centerlineSamplesM": [
+        [
+          100.0,
+          -2.3,
+          0
+        ],
+        [
+          75.0,
+          -2.3,
+          0
+        ],
+        [
+          50.0,
+          -2.3,
+          0
+        ],
+        [
+          25.0,
+          -2.3,
+          0
+        ],
+        [
+          0.0,
+          -2.3,
+          0
+        ]
+      ],
+      "startPointId": "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55",
+      "endPointId": "63dd811e-ad52-58c3-9926-462334dbbf4f",
+      "predecessorLaneIds": [
+        "5396a505-29f1-598c-b753-46c3880e14b1"
+      ],
+      "successorLaneIds": [],
+      "lateralNeighborLaneIds": [
+        "14a7d954-93ae-5023-9e57-0d5e9ea09db9"
+      ],
+      "laneChangeIntervals": [
+        {
+          "targetLaneId": "14a7d954-93ae-5023-9e57-0d5e9ea09db9",
+          "startStationM": 24,
+          "endStationM": 76,
+          "permission": "DashedLineOnly",
+          "runtimeGapCheckRequired": true
+        }
+      ]
+    },
+    {
+      "id": "d28553dc-f146-568a-abb7-20605991c0cf",
+      "code": "LN-001-03",
+      "segmentId": "edf40c23-7345-57ff-a462-4915bd1144f3",
+      "highwayId": "50a25881-da68-5b73-bff3-326d728c393d",
+      "direction": "Forward",
+      "widthM": 4,
+      "speedLimitKph": 50,
+      "allowedAgentClasses": [
+        "Car",
+        "Van",
+        "Bus"
+      ],
+      "centerlineSamplesM": [
+        [
+          0.0,
+          2.3,
+          0
+        ],
+        [
+          25.0,
+          2.3,
+          0
+        ],
+        [
+          50.0,
+          2.3,
+          0
+        ],
+        [
+          75.0,
+          2.3,
+          0
+        ],
+        [
+          100.0,
+          2.3,
+          0
+        ]
+      ],
+      "startPointId": "63dd811e-ad52-58c3-9926-462334dbbf4f",
+      "endPointId": "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55",
+      "predecessorLaneIds": [],
+      "successorLaneIds": [
+        "26964bd7-aadd-5bac-a6d8-6041d46b51cf"
+      ],
+      "lateralNeighborLaneIds": [
+        "787e33ac-f1fc-5766-85ad-b76f109f5af4"
+      ],
+      "laneChangeIntervals": [
+        {
+          "targetLaneId": "787e33ac-f1fc-5766-85ad-b76f109f5af4",
+          "startStationM": 24,
+          "endStationM": 76,
+          "permission": "DashedLineOnly",
+          "runtimeGapCheckRequired": true
+        }
+      ]
+    },
+    {
+      "id": "787e33ac-f1fc-5766-85ad-b76f109f5af4",
+      "code": "LN-001-04",
+      "segmentId": "edf40c23-7345-57ff-a462-4915bd1144f3",
+      "highwayId": "50a25881-da68-5b73-bff3-326d728c393d",
+      "direction": "Forward",
+      "widthM": 4,
+      "speedLimitKph": 50,
+      "allowedAgentClasses": [
+        "Car",
+        "Van",
+        "Bus"
+      ],
+      "centerlineSamplesM": [
+        [
+          0.0,
+          6.3,
+          0
+        ],
+        [
+          25.0,
+          6.3,
+          0
+        ],
+        [
+          50.0,
+          6.3,
+          0
+        ],
+        [
+          75.0,
+          6.3,
+          0
+        ],
+        [
+          100.0,
+          6.3,
+          0
+        ]
+      ],
+      "startPointId": "63dd811e-ad52-58c3-9926-462334dbbf4f",
+      "endPointId": "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55",
+      "predecessorLaneIds": [],
+      "successorLaneIds": [
+        "328eb949-747a-56f6-be9e-f8c4ad8aec66"
+      ],
+      "lateralNeighborLaneIds": [
+        "d28553dc-f146-568a-abb7-20605991c0cf"
+      ],
+      "laneChangeIntervals": [
+        {
+          "targetLaneId": "d28553dc-f146-568a-abb7-20605991c0cf",
+          "startStationM": 24,
+          "endStationM": 76,
+          "permission": "DashedLineOnly",
+          "runtimeGapCheckRequired": true
+        }
+      ]
+    },
+    {
+      "id": "fe244fc7-46dc-53ed-ab54-ee5140b59068",
+      "code": "LN-002-01",
+      "segmentId": "7bea4c42-85a3-5abe-a7db-63bbf9e16e4d",
+      "highwayId": "50a25881-da68-5b73-bff3-326d728c393d",
+      "direction": "Reverse",
+      "widthM": 4,
+      "speedLimitKph": 50,
+      "allowedAgentClasses": [
+        "Car",
+        "Van",
+        "Bus"
+      ],
+      "centerlineSamplesM": [
+        [
+          200.0,
+          -6.3,
+          0
+        ],
+        [
+          175.0,
+          -6.3,
+          0
+        ],
+        [
+          150.0,
+          -6.3,
+          0
+        ],
+        [
+          125.0,
+          -6.3,
+          0
+        ],
+        [
+          100.0,
+          -6.3,
+          0
+        ]
+      ],
+      "startPointId": "39945967-9d87-58c5-9973-31977109af01",
+      "endPointId": "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55",
+      "predecessorLaneIds": [],
+      "successorLaneIds": [
+        "14a7d954-93ae-5023-9e57-0d5e9ea09db9"
+      ],
+      "lateralNeighborLaneIds": [
+        "5396a505-29f1-598c-b753-46c3880e14b1"
+      ],
+      "laneChangeIntervals": [
+        {
+          "targetLaneId": "5396a505-29f1-598c-b753-46c3880e14b1",
+          "startStationM": 24,
+          "endStationM": 76,
+          "permission": "DashedLineOnly",
+          "runtimeGapCheckRequired": true
+        }
+      ]
+    },
+    {
+      "id": "5396a505-29f1-598c-b753-46c3880e14b1",
+      "code": "LN-002-02",
+      "segmentId": "7bea4c42-85a3-5abe-a7db-63bbf9e16e4d",
+      "highwayId": "50a25881-da68-5b73-bff3-326d728c393d",
+      "direction": "Reverse",
+      "widthM": 4,
+      "speedLimitKph": 50,
+      "allowedAgentClasses": [
+        "Car",
+        "Van",
+        "Bus"
+      ],
+      "centerlineSamplesM": [
+        [
+          200.0,
+          -2.3,
+          0
+        ],
+        [
+          175.0,
+          -2.3,
+          0
+        ],
+        [
+          150.0,
+          -2.3,
+          0
+        ],
+        [
+          125.0,
+          -2.3,
+          0
+        ],
+        [
+          100.0,
+          -2.3,
+          0
+        ]
+      ],
+      "startPointId": "39945967-9d87-58c5-9973-31977109af01",
+      "endPointId": "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55",
+      "predecessorLaneIds": [],
+      "successorLaneIds": [
+        "8fa1f2c8-bb9f-5efb-977d-a8c020325455"
+      ],
+      "lateralNeighborLaneIds": [
+        "fe244fc7-46dc-53ed-ab54-ee5140b59068"
+      ],
+      "laneChangeIntervals": [
+        {
+          "targetLaneId": "fe244fc7-46dc-53ed-ab54-ee5140b59068",
+          "startStationM": 24,
+          "endStationM": 76,
+          "permission": "DashedLineOnly",
+          "runtimeGapCheckRequired": true
+        }
+      ]
+    },
+    {
+      "id": "26964bd7-aadd-5bac-a6d8-6041d46b51cf",
+      "code": "LN-002-03",
+      "segmentId": "7bea4c42-85a3-5abe-a7db-63bbf9e16e4d",
+      "highwayId": "50a25881-da68-5b73-bff3-326d728c393d",
+      "direction": "Forward",
+      "widthM": 4,
+      "speedLimitKph": 50,
+      "allowedAgentClasses": [
+        "Car",
+        "Van",
+        "Bus"
+      ],
+      "centerlineSamplesM": [
+        [
+          100.0,
+          2.3,
+          0
+        ],
+        [
+          125.0,
+          2.3,
+          0
+        ],
+        [
+          150.0,
+          2.3,
+          0
+        ],
+        [
+          175.0,
+          2.3,
+          0
+        ],
+        [
+          200.0,
+          2.3,
+          0
+        ]
+      ],
+      "startPointId": "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55",
+      "endPointId": "39945967-9d87-58c5-9973-31977109af01",
+      "predecessorLaneIds": [
+        "d28553dc-f146-568a-abb7-20605991c0cf"
+      ],
+      "successorLaneIds": [],
+      "lateralNeighborLaneIds": [
+        "328eb949-747a-56f6-be9e-f8c4ad8aec66"
+      ],
+      "laneChangeIntervals": [
+        {
+          "targetLaneId": "328eb949-747a-56f6-be9e-f8c4ad8aec66",
+          "startStationM": 24,
+          "endStationM": 76,
+          "permission": "DashedLineOnly",
+          "runtimeGapCheckRequired": true
+        }
+      ]
+    },
+    {
+      "id": "328eb949-747a-56f6-be9e-f8c4ad8aec66",
+      "code": "LN-002-04",
+      "segmentId": "7bea4c42-85a3-5abe-a7db-63bbf9e16e4d",
+      "highwayId": "50a25881-da68-5b73-bff3-326d728c393d",
+      "direction": "Forward",
+      "widthM": 4,
+      "speedLimitKph": 50,
+      "allowedAgentClasses": [
+        "Car",
+        "Van",
+        "Bus"
+      ],
+      "centerlineSamplesM": [
+        [
+          100.0,
+          6.3,
+          0
+        ],
+        [
+          125.0,
+          6.3,
+          0
+        ],
+        [
+          150.0,
+          6.3,
+          0
+        ],
+        [
+          175.0,
+          6.3,
+          0
+        ],
+        [
+          200.0,
+          6.3,
+          0
+        ]
+      ],
+      "startPointId": "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55",
+      "endPointId": "39945967-9d87-58c5-9973-31977109af01",
+      "predecessorLaneIds": [
+        "787e33ac-f1fc-5766-85ad-b76f109f5af4"
+      ],
+      "successorLaneIds": [],
+      "lateralNeighborLaneIds": [
+        "26964bd7-aadd-5bac-a6d8-6041d46b51cf"
+      ],
+      "laneChangeIntervals": [
+        {
+          "targetLaneId": "26964bd7-aadd-5bac-a6d8-6041d46b51cf",
+          "startStationM": 24,
+          "endStationM": 76,
+          "permission": "DashedLineOnly",
+          "runtimeGapCheckRequired": true
+        }
+      ]
+    },
+    {
+      "id": "298a70b5-6acb-5a4d-b4db-7c00de3b23e3",
+      "code": "LN-003-01",
+      "segmentId": "dd98441e-d972-53d6-bc1f-1f7322d8d82a",
+      "highwayId": "bdcae2b5-599b-528d-92e4-fbe1eabd5766",
+      "direction": "Reverse",
+      "widthM": 4,
+      "speedLimitKph": 50,
+      "allowedAgentClasses": [
+        "Car",
+        "Van",
+        "Bus"
+      ],
+      "centerlineSamplesM": [
+        [
+          106.3,
+          0.0,
+          0
+        ],
+        [
+          106.3,
+          -25.0,
+          0
+        ],
+        [
+          106.3,
+          -50.0,
+          0
+        ],
+        [
+          106.3,
+          -75.0,
+          0
+        ],
+        [
+          106.3,
+          -100.0,
+          0
+        ]
+      ],
+      "startPointId": "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55",
+      "endPointId": "2605477f-7afe-5c62-a634-192d2f14cb74",
+      "predecessorLaneIds": [
+        "13846a21-658e-5db4-8305-70ead279bdc4"
+      ],
+      "successorLaneIds": [],
+      "lateralNeighborLaneIds": [
+        "7080b045-2cb8-5176-9156-679441a736de"
+      ],
+      "laneChangeIntervals": [
+        {
+          "targetLaneId": "7080b045-2cb8-5176-9156-679441a736de",
+          "startStationM": 24,
+          "endStationM": 76,
+          "permission": "DashedLineOnly",
+          "runtimeGapCheckRequired": true
+        }
+      ]
+    },
+    {
+      "id": "7080b045-2cb8-5176-9156-679441a736de",
+      "code": "LN-003-02",
+      "segmentId": "dd98441e-d972-53d6-bc1f-1f7322d8d82a",
+      "highwayId": "bdcae2b5-599b-528d-92e4-fbe1eabd5766",
+      "direction": "Reverse",
+      "widthM": 4,
+      "speedLimitKph": 50,
+      "allowedAgentClasses": [
+        "Car",
+        "Van",
+        "Bus"
+      ],
+      "centerlineSamplesM": [
+        [
+          102.3,
+          0.0,
+          0
+        ],
+        [
+          102.3,
+          -25.0,
+          0
+        ],
+        [
+          102.3,
+          -50.0,
+          0
+        ],
+        [
+          102.3,
+          -75.0,
+          0
+        ],
+        [
+          102.3,
+          -100.0,
+          0
+        ]
+      ],
+      "startPointId": "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55",
+      "endPointId": "2605477f-7afe-5c62-a634-192d2f14cb74",
+      "predecessorLaneIds": [
+        "eba9b72f-cb71-5acb-b893-6e1722805418"
+      ],
+      "successorLaneIds": [],
+      "lateralNeighborLaneIds": [
+        "298a70b5-6acb-5a4d-b4db-7c00de3b23e3"
+      ],
+      "laneChangeIntervals": [
+        {
+          "targetLaneId": "298a70b5-6acb-5a4d-b4db-7c00de3b23e3",
+          "startStationM": 24,
+          "endStationM": 76,
+          "permission": "DashedLineOnly",
+          "runtimeGapCheckRequired": true
+        }
+      ]
+    },
+    {
+      "id": "8208810c-829c-5972-8d69-ee01b882e908",
+      "code": "LN-003-03",
+      "segmentId": "dd98441e-d972-53d6-bc1f-1f7322d8d82a",
+      "highwayId": "bdcae2b5-599b-528d-92e4-fbe1eabd5766",
+      "direction": "Forward",
+      "widthM": 4,
+      "speedLimitKph": 50,
+      "allowedAgentClasses": [
+        "Car",
+        "Van",
+        "Bus"
+      ],
+      "centerlineSamplesM": [
+        [
+          97.7,
+          -100.0,
+          0
+        ],
+        [
+          97.7,
+          -75.0,
+          0
+        ],
+        [
+          97.7,
+          -50.0,
+          0
+        ],
+        [
+          97.7,
+          -25.0,
+          0
+        ],
+        [
+          97.7,
+          0.0,
+          0
+        ]
+      ],
+      "startPointId": "2605477f-7afe-5c62-a634-192d2f14cb74",
+      "endPointId": "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55",
+      "predecessorLaneIds": [],
+      "successorLaneIds": [
+        "7449cfa4-9d23-5e2f-8fd5-8376c8886806"
+      ],
+      "lateralNeighborLaneIds": [
+        "03a51b2c-1e00-55a2-a724-13efa84548e1"
+      ],
+      "laneChangeIntervals": [
+        {
+          "targetLaneId": "03a51b2c-1e00-55a2-a724-13efa84548e1",
+          "startStationM": 24,
+          "endStationM": 76,
+          "permission": "DashedLineOnly",
+          "runtimeGapCheckRequired": true
+        }
+      ]
+    },
+    {
+      "id": "03a51b2c-1e00-55a2-a724-13efa84548e1",
+      "code": "LN-003-04",
+      "segmentId": "dd98441e-d972-53d6-bc1f-1f7322d8d82a",
+      "highwayId": "bdcae2b5-599b-528d-92e4-fbe1eabd5766",
+      "direction": "Forward",
+      "widthM": 4,
+      "speedLimitKph": 50,
+      "allowedAgentClasses": [
+        "Car",
+        "Van",
+        "Bus"
+      ],
+      "centerlineSamplesM": [
+        [
+          93.7,
+          -100.0,
+          0
+        ],
+        [
+          93.7,
+          -75.0,
+          0
+        ],
+        [
+          93.7,
+          -50.0,
+          0
+        ],
+        [
+          93.7,
+          -25.0,
+          0
+        ],
+        [
+          93.7,
+          0.0,
+          0
+        ]
+      ],
+      "startPointId": "2605477f-7afe-5c62-a634-192d2f14cb74",
+      "endPointId": "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55",
+      "predecessorLaneIds": [],
+      "successorLaneIds": [
+        "b1d12927-1332-509e-893d-ea02f4ef8afd"
+      ],
+      "lateralNeighborLaneIds": [
+        "8208810c-829c-5972-8d69-ee01b882e908"
+      ],
+      "laneChangeIntervals": [
+        {
+          "targetLaneId": "8208810c-829c-5972-8d69-ee01b882e908",
+          "startStationM": 24,
+          "endStationM": 76,
+          "permission": "DashedLineOnly",
+          "runtimeGapCheckRequired": true
+        }
+      ]
+    },
+    {
+      "id": "13846a21-658e-5db4-8305-70ead279bdc4",
+      "code": "LN-004-01",
+      "segmentId": "92d8781f-20d0-586a-acc0-1e8218bf3e01",
+      "highwayId": "bdcae2b5-599b-528d-92e4-fbe1eabd5766",
+      "direction": "Reverse",
+      "widthM": 4,
+      "speedLimitKph": 50,
+      "allowedAgentClasses": [
+        "Car",
+        "Van",
+        "Bus"
+      ],
+      "centerlineSamplesM": [
+        [
+          106.3,
+          100.0,
+          0
+        ],
+        [
+          106.3,
+          75.0,
+          0
+        ],
+        [
+          106.3,
+          50.0,
+          0
+        ],
+        [
+          106.3,
+          25.0,
+          0
+        ],
+        [
+          106.3,
+          0.0,
+          0
+        ]
+      ],
+      "startPointId": "1cce9f6f-ab3c-5fbf-9c8e-067f03ab3942",
+      "endPointId": "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55",
+      "predecessorLaneIds": [],
+      "successorLaneIds": [
+        "298a70b5-6acb-5a4d-b4db-7c00de3b23e3"
+      ],
+      "lateralNeighborLaneIds": [
+        "eba9b72f-cb71-5acb-b893-6e1722805418"
+      ],
+      "laneChangeIntervals": [
+        {
+          "targetLaneId": "eba9b72f-cb71-5acb-b893-6e1722805418",
+          "startStationM": 24,
+          "endStationM": 76,
+          "permission": "DashedLineOnly",
+          "runtimeGapCheckRequired": true
+        }
+      ]
+    },
+    {
+      "id": "eba9b72f-cb71-5acb-b893-6e1722805418",
+      "code": "LN-004-02",
+      "segmentId": "92d8781f-20d0-586a-acc0-1e8218bf3e01",
+      "highwayId": "bdcae2b5-599b-528d-92e4-fbe1eabd5766",
+      "direction": "Reverse",
+      "widthM": 4,
+      "speedLimitKph": 50,
+      "allowedAgentClasses": [
+        "Car",
+        "Van",
+        "Bus"
+      ],
+      "centerlineSamplesM": [
+        [
+          102.3,
+          100.0,
+          0
+        ],
+        [
+          102.3,
+          75.0,
+          0
+        ],
+        [
+          102.3,
+          50.0,
+          0
+        ],
+        [
+          102.3,
+          25.0,
+          0
+        ],
+        [
+          102.3,
+          0.0,
+          0
+        ]
+      ],
+      "startPointId": "1cce9f6f-ab3c-5fbf-9c8e-067f03ab3942",
+      "endPointId": "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55",
+      "predecessorLaneIds": [],
+      "successorLaneIds": [
+        "7080b045-2cb8-5176-9156-679441a736de"
+      ],
+      "lateralNeighborLaneIds": [
+        "13846a21-658e-5db4-8305-70ead279bdc4"
+      ],
+      "laneChangeIntervals": [
+        {
+          "targetLaneId": "13846a21-658e-5db4-8305-70ead279bdc4",
+          "startStationM": 24,
+          "endStationM": 76,
+          "permission": "DashedLineOnly",
+          "runtimeGapCheckRequired": true
+        }
+      ]
+    },
+    {
+      "id": "7449cfa4-9d23-5e2f-8fd5-8376c8886806",
+      "code": "LN-004-03",
+      "segmentId": "92d8781f-20d0-586a-acc0-1e8218bf3e01",
+      "highwayId": "bdcae2b5-599b-528d-92e4-fbe1eabd5766",
+      "direction": "Forward",
+      "widthM": 4,
+      "speedLimitKph": 50,
+      "allowedAgentClasses": [
+        "Car",
+        "Van",
+        "Bus"
+      ],
+      "centerlineSamplesM": [
+        [
+          97.7,
+          0.0,
+          0
+        ],
+        [
+          97.7,
+          25.0,
+          0
+        ],
+        [
+          97.7,
+          50.0,
+          0
+        ],
+        [
+          97.7,
+          75.0,
+          0
+        ],
+        [
+          97.7,
+          100.0,
+          0
+        ]
+      ],
+      "startPointId": "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55",
+      "endPointId": "1cce9f6f-ab3c-5fbf-9c8e-067f03ab3942",
+      "predecessorLaneIds": [
+        "8208810c-829c-5972-8d69-ee01b882e908"
+      ],
+      "successorLaneIds": [],
+      "lateralNeighborLaneIds": [
+        "b1d12927-1332-509e-893d-ea02f4ef8afd"
+      ],
+      "laneChangeIntervals": [
+        {
+          "targetLaneId": "b1d12927-1332-509e-893d-ea02f4ef8afd",
+          "startStationM": 24,
+          "endStationM": 76,
+          "permission": "DashedLineOnly",
+          "runtimeGapCheckRequired": true
+        }
+      ]
+    },
+    {
+      "id": "b1d12927-1332-509e-893d-ea02f4ef8afd",
+      "code": "LN-004-04",
+      "segmentId": "92d8781f-20d0-586a-acc0-1e8218bf3e01",
+      "highwayId": "bdcae2b5-599b-528d-92e4-fbe1eabd5766",
+      "direction": "Forward",
+      "widthM": 4,
+      "speedLimitKph": 50,
+      "allowedAgentClasses": [
+        "Car",
+        "Van",
+        "Bus"
+      ],
+      "centerlineSamplesM": [
+        [
+          93.7,
+          0.0,
+          0
+        ],
+        [
+          93.7,
+          25.0,
+          0
+        ],
+        [
+          93.7,
+          50.0,
+          0
+        ],
+        [
+          93.7,
+          75.0,
+          0
+        ],
+        [
+          93.7,
+          100.0,
+          0
+        ]
+      ],
+      "startPointId": "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55",
+      "endPointId": "1cce9f6f-ab3c-5fbf-9c8e-067f03ab3942",
+      "predecessorLaneIds": [
+        "03a51b2c-1e00-55a2-a724-13efa84548e1"
+      ],
+      "successorLaneIds": [],
+      "lateralNeighborLaneIds": [
+        "7449cfa4-9d23-5e2f-8fd5-8376c8886806"
+      ],
+      "laneChangeIntervals": [
+        {
+          "targetLaneId": "7449cfa4-9d23-5e2f-8fd5-8376c8886806",
+          "startStationM": 24,
+          "endStationM": 76,
+          "permission": "DashedLineOnly",
+          "runtimeGapCheckRequired": true
+        }
+      ]
+    },
+    {
+      "id": "2e7c8729-73cf-5c33-b9b9-5308362310d0",
+      "code": "LN-005-01",
+      "segmentId": "50172791-c5e0-5b00-83a9-36c2b412ba4d",
+      "highwayId": "790d8e26-eb92-5799-92c5-96ccbe4f0b13",
+      "direction": "Reverse",
+      "widthM": 4,
+      "speedLimitKph": 50,
+      "allowedAgentClasses": [
+        "Car",
+        "Van",
+        "Bus"
+      ],
+      "centerlineSamplesM": [
+        [
+          283.339,
+          44.6576,
+          0
+        ],
+        [
+          263.339,
+          32.1576,
+          0
+        ],
+        [
+          243.339,
+          19.6576,
+          0
+        ],
+        [
+          223.339,
+          7.1576,
+          0
+        ],
+        [
+          203.339,
+          -5.3424,
+          0
+        ]
+      ],
+      "startPointId": "08a3e9a1-9c04-5521-af48-934a86fe62f9",
+      "endPointId": "39945967-9d87-58c5-9973-31977109af01",
+      "predecessorLaneIds": [],
+      "successorLaneIds": [],
+      "lateralNeighborLaneIds": [
+        "deedb37b-2a55-5eef-a994-154f4438f21d"
+      ],
+      "laneChangeIntervals": [
+        {
+          "targetLaneId": "deedb37b-2a55-5eef-a994-154f4438f21d",
+          "startStationM": 24,
+          "endStationM": 76,
+          "permission": "DashedLineOnly",
+          "runtimeGapCheckRequired": true
+        }
+      ]
+    },
+    {
+      "id": "deedb37b-2a55-5eef-a994-154f4438f21d",
+      "code": "LN-005-02",
+      "segmentId": "50172791-c5e0-5b00-83a9-36c2b412ba4d",
+      "highwayId": "790d8e26-eb92-5799-92c5-96ccbe4f0b13",
+      "direction": "Reverse",
+      "widthM": 4,
+      "speedLimitKph": 50,
+      "allowedAgentClasses": [
+        "Car",
+        "Van",
+        "Bus"
+      ],
+      "centerlineSamplesM": [
+        [
+          281.219,
+          48.0496,
+          0
+        ],
+        [
+          261.219,
+          35.5496,
+          0
+        ],
+        [
+          241.219,
+          23.0496,
+          0
+        ],
+        [
+          221.219,
+          10.5496,
+          0
+        ],
+        [
+          201.219,
+          -1.9504,
+          0
+        ]
+      ],
+      "startPointId": "08a3e9a1-9c04-5521-af48-934a86fe62f9",
+      "endPointId": "39945967-9d87-58c5-9973-31977109af01",
+      "predecessorLaneIds": [],
+      "successorLaneIds": [],
+      "lateralNeighborLaneIds": [
+        "2e7c8729-73cf-5c33-b9b9-5308362310d0"
+      ],
+      "laneChangeIntervals": [
+        {
+          "targetLaneId": "2e7c8729-73cf-5c33-b9b9-5308362310d0",
+          "startStationM": 24,
+          "endStationM": 76,
+          "permission": "DashedLineOnly",
+          "runtimeGapCheckRequired": true
+        }
+      ]
+    },
+    {
+      "id": "1a18375b-0b3b-5ddc-ae70-a0011d315329",
+      "code": "LN-005-03",
+      "segmentId": "50172791-c5e0-5b00-83a9-36c2b412ba4d",
+      "highwayId": "790d8e26-eb92-5799-92c5-96ccbe4f0b13",
+      "direction": "Forward",
+      "widthM": 4,
+      "speedLimitKph": 50,
+      "allowedAgentClasses": [
+        "Car",
+        "Van",
+        "Bus"
+      ],
+      "centerlineSamplesM": [
+        [
+          198.781,
+          1.9504,
+          0
+        ],
+        [
+          218.781,
+          14.4504,
+          0
+        ],
+        [
+          238.781,
+          26.9504,
+          0
+        ],
+        [
+          258.781,
+          39.4504,
+          0
+        ],
+        [
+          278.781,
+          51.9504,
+          0
+        ]
+      ],
+      "startPointId": "39945967-9d87-58c5-9973-31977109af01",
+      "endPointId": "08a3e9a1-9c04-5521-af48-934a86fe62f9",
+      "predecessorLaneIds": [],
+      "successorLaneIds": [],
+      "lateralNeighborLaneIds": [
+        "c03ca6f5-2938-5075-8bf5-b3631a4df3da"
+      ],
+      "laneChangeIntervals": [
+        {
+          "targetLaneId": "c03ca6f5-2938-5075-8bf5-b3631a4df3da",
+          "startStationM": 24,
+          "endStationM": 76,
+          "permission": "DashedLineOnly",
+          "runtimeGapCheckRequired": true
+        }
+      ]
+    },
+    {
+      "id": "c03ca6f5-2938-5075-8bf5-b3631a4df3da",
+      "code": "LN-005-04",
+      "segmentId": "50172791-c5e0-5b00-83a9-36c2b412ba4d",
+      "highwayId": "790d8e26-eb92-5799-92c5-96ccbe4f0b13",
+      "direction": "Forward",
+      "widthM": 4,
+      "speedLimitKph": 50,
+      "allowedAgentClasses": [
+        "Car",
+        "Van",
+        "Bus"
+      ],
+      "centerlineSamplesM": [
+        [
+          196.661,
+          5.3424,
+          0
+        ],
+        [
+          216.661,
+          17.8424,
+          0
+        ],
+        [
+          236.661,
+          30.3424,
+          0
+        ],
+        [
+          256.661,
+          42.8424,
+          0
+        ],
+        [
+          276.661,
+          55.3424,
+          0
+        ]
+      ],
+      "startPointId": "39945967-9d87-58c5-9973-31977109af01",
+      "endPointId": "08a3e9a1-9c04-5521-af48-934a86fe62f9",
+      "predecessorLaneIds": [],
+      "successorLaneIds": [],
+      "lateralNeighborLaneIds": [
+        "1a18375b-0b3b-5ddc-ae70-a0011d315329"
+      ],
+      "laneChangeIntervals": [
+        {
+          "targetLaneId": "1a18375b-0b3b-5ddc-ae70-a0011d315329",
+          "startStationM": 24,
+          "endStationM": 76,
+          "permission": "DashedLineOnly",
+          "runtimeGapCheckRequired": true
+        }
+      ]
+    }
+  ],
+  "junctionConnectors": [
+    {
+      "id": "bb13bcbb-f716-5513-ad99-9691340cc860",
+      "junctionPointId": "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55",
+      "fromLaneId": "787e33ac-f1fc-5766-85ad-b76f109f5af4",
+      "toLaneId": "b1d12927-1332-509e-893d-ea02f4ef8afd",
+      "maneuver": "RightTurn",
+      "permission": "SignalControlled",
+      "signalGroupId": "8f669a45-fc89-52ed-8340-ffb3c49256ab"
+    }
+  ],
+  "pedestrianNodes": [
+    {
+      "id": "8104b3bb-46e7-5163-b65b-9bc82a7132bb",
+      "positionM": [
+        95,
+        -11,
+        0
+      ],
+      "usableWidthM": 2.4,
+      "walkable": true,
+      "accessible": true
+    },
+    {
+      "id": "4c4328fa-1ffe-5a88-a278-ed75d87a1508",
+      "positionM": [
+        95,
+        11,
+        0
+      ],
+      "usableWidthM": 2.4,
+      "walkable": true,
+      "accessible": true
+    },
+    {
+      "id": "e7196fde-5fbc-56c2-88b5-a83d67575f8c",
+      "positionM": [
+        150,
+        13,
+        0
+      ],
+      "usableWidthM": 2.4,
+      "walkable": true,
+      "accessible": true
+    },
+    {
+      "id": "70ec5b7d-4b37-5b10-8af6-71cc77eda0e9",
+      "positionM": [
+        42,
+        26,
+        0
+      ],
+      "usableWidthM": 2.4,
+      "walkable": true,
+      "accessible": true
+    }
+  ],
+  "pedestrianEdges": [
+    {
+      "id": "4a0e13cd-180c-5074-b334-31f588858553",
+      "fromNodeId": "8104b3bb-46e7-5163-b65b-9bc82a7132bb",
+      "toNodeId": "4c4328fa-1ffe-5a88-a278-ed75d87a1508",
+      "type": "Crosswalk",
+      "signalGroupId": "8f669a45-fc89-52ed-8340-ffb3c49256ab"
+    },
+    {
+      "id": "6a030628-db16-50e2-aab1-d168ff058c12",
+      "fromNodeId": "4c4328fa-1ffe-5a88-a278-ed75d87a1508",
+      "toNodeId": "e7196fde-5fbc-56c2-88b5-a83d67575f8c",
+      "type": "Sidewalk",
+      "signalGroupId": null
+    },
+    {
+      "id": "fd55fe34-f9b0-5b84-ad2c-c22a93c04c02",
+      "fromNodeId": "4c4328fa-1ffe-5a88-a278-ed75d87a1508",
+      "toNodeId": "70ec5b7d-4b37-5b10-8af6-71cc77eda0e9",
+      "type": "Sidewalk",
+      "signalGroupId": null
+    }
+  ],
+  "signalGroups": [
+    {
+      "id": "8f669a45-fc89-52ed-8340-ffb3c49256ab",
+      "code": "SG-JX-001",
+      "timingProvenance": "illustrative only; not certified or UE tested"
+    }
+  ],
+  "activations": [
+    {
+      "id": "ef0d2629-2ab1-5ed1-906b-2c2f9036f532",
+      "code": "TL-001",
+      "type": "TrafficLight",
+      "anchorPointId": "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55",
+      "highwayId": "50a25881-da68-5b73-bff3-326d728c393d",
+      "meshSlots": {
+        "pole": "light.traffic"
+      },
+      "payload": {
+        "signalGroupId": "8f669a45-fc89-52ed-8340-ffb3c49256ab",
+        "controlledLaneIds": [
+          "d28553dc-f146-568a-abb7-20605991c0cf",
+          "787e33ac-f1fc-5766-85ad-b76f109f5af4"
+        ],
+        "headOffsets": [
+          {
+            "id": "d2cf3997-93e6-51d7-9d3f-76624845dfb8",
+            "code": "HEAD-0",
+            "positionM": [
+              0,
+              0,
+              4.0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "4009f99b-29bb-5e17-89c3-87cee0d83e42",
+            "code": "HEAD-1",
+            "positionM": [
+              0,
+              0,
+              4.3
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "2c36f2bb-ec36-5577-8452-e32a5d524d9f",
+            "code": "HEAD-2",
+            "positionM": [
+              0,
+              0,
+              4.6
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "71f6b716-1cc7-5bd0-bd74-3df065cd0829",
+      "code": "CW-001",
+      "type": "Crosswalk",
+      "anchorPointId": "8dd0e94d-5f37-53d6-aec6-c4bc6d8afa55",
+      "highwayId": "50a25881-da68-5b73-bff3-326d728c393d",
+      "meshSlots": {
+        "marking": "crosswalk.marking"
+      },
+      "payload": {
+        "spanM": 16.6,
+        "depthM": 3.25,
+        "depthRule": "sidewalkWidthM + highwayBorderWidthM",
+        "start": {
+          "id": "729088b2-9b16-52b0-a1d8-dd377fb239de",
+          "code": "CW-START",
+          "positionM": [
+            95,
+            -8.3,
+            0
+          ],
+          "rotationDeg": [
+            0,
+            0,
+            0
+          ]
+        },
+        "end": {
+          "id": "d2fa3a02-2b10-5e53-a2ed-9622333f2cd2",
+          "code": "CW-END",
+          "positionM": [
+            95,
+            8.3,
+            0
+          ],
+          "rotationDeg": [
+            0,
+            0,
+            0
+          ]
+        },
+        "waitingPoints": [
+          {
+            "id": "841e1845-460e-5f60-923f-5ba3f1b71c8f",
+            "code": "CW-WAIT-0",
+            "positionM": [
+              94.0,
+              -11,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "92e48582-a824-5f19-a0a9-6b7c21fef20a",
+            "code": "CW-WAIT-1",
+            "positionM": [
+              94.8,
+              -11,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "771a3927-ada6-5254-aac4-c474f734117f",
+            "code": "CW-WAIT-2",
+            "positionM": [
+              95.6,
+              -11,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "signalGroupId": "8f669a45-fc89-52ed-8340-ffb3c49256ab"
+      }
+    },
+    {
+      "id": "c0fd86ab-a10c-5128-934b-f431088094e6",
+      "code": "BS-001",
+      "type": "BusStop",
+      "anchorPointId": "39945967-9d87-58c5-9973-31977109af01",
+      "highwayId": "50a25881-da68-5b73-bff3-326d728c393d",
+      "meshSlots": {
+        "shelter": "bus.shelter",
+        "base": "bus.base",
+        "indicator": "bus.indicator",
+        "seatChair": "seat.bench"
+      },
+      "payload": {
+        "name": "Riverbend East",
+        "laneId": "328eb949-747a-56f6-be9e-f8c4ad8aec66",
+        "entryPoint": {
+          "id": "8d790b53-e5f8-5131-8695-d52cc5b68fea",
+          "code": "BUS-ENTRY",
+          "positionM": [
+            130,
+            6.3,
+            0
+          ],
+          "rotationDeg": [
+            0,
+            0,
+            0
+          ]
+        },
+        "stoppingPoint": {
+          "id": "d1f2e0d7-8b23-50ab-b9c0-5f60f46e613f",
+          "code": "BUS-STOP",
+          "positionM": [
+            154,
+            9.8,
+            0
+          ],
+          "rotationDeg": [
+            0,
+            0,
+            0
+          ]
+        },
+        "exitPoint": {
+          "id": "0c311365-3d73-5fb8-8ffa-0832a67f1905",
+          "code": "BUS-EXIT",
+          "positionM": [
+            181,
+            6.3,
+            0
+          ],
+          "rotationDeg": [
+            0,
+            0,
+            0
+          ]
+        },
+        "passengerWaitingPoints": [
+          {
+            "id": "949b02bd-57de-5dc7-996b-9eecbc1a8409",
+            "code": "WAIT-001",
+            "positionM": [
+              145.0,
+              13,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "49bc9918-5ea6-5bd0-ad31-e30cf35d1f39",
+            "code": "WAIT-002",
+            "positionM": [
+              145.8,
+              13,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "462acfed-5b31-5874-b029-13684b38d8d7",
+            "code": "WAIT-003",
+            "positionM": [
+              146.6,
+              13,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "boardingPoint": {
+          "id": "e6de582f-c8fc-5d5f-98c4-9a0becee9aa2",
+          "code": "BOARD",
+          "positionM": [
+            155,
+            12,
+            0
+          ],
+          "rotationDeg": [
+            0,
+            0,
+            0
+          ]
+        },
+        "alightingPoint": {
+          "id": "cdad0531-ee82-5ae6-82d4-a992a91eecbc",
+          "code": "ALIGHT",
+          "positionM": [
+            151,
+            12,
+            0
+          ],
+          "rotationDeg": [
+            0,
+            0,
+            0
+          ]
+        },
+        "seatInteractionPoints": [
+          {
+            "id": "2d4e1e7a-7aa8-5f0d-82c9-402605f623c1",
+            "code": "SEAT-001",
+            "positionM": [
+              150.0,
+              14.0,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "06a7aea3-5b47-55a9-81ef-20f52cc255b7",
+            "code": "SEAT-002",
+            "positionM": [
+              150.55,
+              14.0,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "017b5897-828b-50f1-9ce0-1bb15fec4e5f",
+            "code": "SEAT-003",
+            "positionM": [
+              151.1,
+              14.0,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "e95ddb33-355a-57a2-bfb7-c60116c477a1",
+            "code": "SEAT-004",
+            "positionM": [
+              150.0,
+              15.2,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "1e882870-0e44-5df0-87c6-5e5f99cbff99",
+            "code": "SEAT-005",
+            "positionM": [
+              150.55,
+              15.2,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "b2306493-a97a-5d8d-894e-b248c6402e9c",
+            "code": "SEAT-006",
+            "positionM": [
+              151.1,
+              15.2,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "shelter": {
+          "enabled": true,
+          "offsetM": [
+            0,
+            4,
+            0
+          ],
+          "rotationDeg": [
+            0,
+            0,
+            0
+          ]
+        },
+        "bayLengthM": 18,
+        "bayWidthM": 3.5,
+        "capacity": 12,
+        "dwellTargetSeconds": 20
+      }
+    },
+    {
+      "id": "0cd4126c-2ab3-5fbd-9d04-4461e6946cb3",
+      "code": "SG-001",
+      "type": "SeatGroup",
+      "anchorPointId": "39945967-9d87-58c5-9973-31977109af01",
+      "highwayId": "50a25881-da68-5b73-bff3-326d728c393d",
+      "meshSlots": {
+        "seat": "seat.bench"
+      },
+      "payload": {
+        "physicalMeshCount": 2,
+        "seatCapacityPerMesh": 3,
+        "logicalSeatCount": 6,
+        "seatSpacingM": 0.55,
+        "rowGapM": 1.2,
+        "groupId": "4ba30caa-7083-53b1-aad8-672a46b02fcd",
+        "interactionPoints": [
+          {
+            "id": "2d4e1e7a-7aa8-5f0d-82c9-402605f623c1",
+            "code": "SEAT-001",
+            "positionM": [
+              150.0,
+              14.0,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "06a7aea3-5b47-55a9-81ef-20f52cc255b7",
+            "code": "SEAT-002",
+            "positionM": [
+              150.55,
+              14.0,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "017b5897-828b-50f1-9ce0-1bb15fec4e5f",
+            "code": "SEAT-003",
+            "positionM": [
+              151.1,
+              14.0,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "e95ddb33-355a-57a2-bfb7-c60116c477a1",
+            "code": "SEAT-004",
+            "positionM": [
+              150.0,
+              15.2,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "1e882870-0e44-5df0-87c6-5e5f99cbff99",
+            "code": "SEAT-005",
+            "positionM": [
+              150.55,
+              15.2,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "b2306493-a97a-5d8d-894e-b248c6402e9c",
+            "code": "SEAT-006",
+            "positionM": [
+              151.1,
+              15.2,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "busStopId": "c0fd86ab-a10c-5128-934b-f431088094e6"
+      }
+    },
+    {
+      "id": "0cb26886-d1ce-5893-b6ff-ebf22635442a",
+      "code": "P-001",
+      "type": "Parking",
+      "anchorPointId": "63dd811e-ad52-58c3-9926-462334dbbf4f",
+      "highwayId": "50a25881-da68-5b73-bff3-326d728c393d",
+      "meshSlots": {
+        "base": "parking.base",
+        "indicator": "parking.indicator"
+      },
+      "payload": {
+        "rows": 2,
+        "columns": 6,
+        "rowGapM": 6,
+        "columnGapM": 0.15,
+        "spotWidthM": 2.6,
+        "spotLengthM": 5.2,
+        "angleDeg": 90,
+        "entryLaneId": "787e33ac-f1fc-5766-85ad-b76f109f5af4",
+        "exitLaneId": "14a7d954-93ae-5023-9e57-0d5e9ea09db9",
+        "entryPoint": {
+          "id": "f48b2fa6-673b-528c-9e25-0e2aafac4435",
+          "code": "P-ENTRY",
+          "positionM": [
+            37,
+            14,
+            0
+          ],
+          "rotationDeg": [
+            0,
+            0,
+            0
+          ]
+        },
+        "exitPoint": {
+          "id": "b27e6b5b-2405-5333-bd84-1ec84b43f33a",
+          "code": "P-EXIT",
+          "positionM": [
+            58,
+            14,
+            0
+          ],
+          "rotationDeg": [
+            0,
+            0,
+            0
+          ]
+        },
+        "allowedVehicleClasses": [
+          "Car",
+          "Van"
+        ],
+        "bays": [
+          {
+            "id": "201ab4b0-f538-5db6-83b2-5d6614acd70d",
+            "code": "BAY-001",
+            "positionM": [
+              40.0,
+              24.0,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              90
+            ],
+            "row": 0,
+            "column": 0,
+            "widthM": 2.6,
+            "lengthM": 5.2,
+            "allowedVehicleClasses": [
+              "Car",
+              "Van"
+            ],
+            "accessible": true
+          },
+          {
+            "id": "cd1620a1-24b3-5723-bf36-5b173f275df9",
+            "code": "BAY-002",
+            "positionM": [
+              42.75,
+              24.0,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              90
+            ],
+            "row": 0,
+            "column": 1,
+            "widthM": 2.6,
+            "lengthM": 5.2,
+            "allowedVehicleClasses": [
+              "Car",
+              "Van"
+            ],
+            "accessible": true
+          },
+          {
+            "id": "661f1c4e-b035-550c-b9b0-9f6cb6185c6b",
+            "code": "BAY-003",
+            "positionM": [
+              45.5,
+              24.0,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              90
+            ],
+            "row": 0,
+            "column": 2,
+            "widthM": 2.6,
+            "lengthM": 5.2,
+            "allowedVehicleClasses": [
+              "Car",
+              "Van"
+            ],
+            "accessible": false
+          },
+          {
+            "id": "98c2d7f8-115c-5b3f-a2d2-633133434e83",
+            "code": "BAY-004",
+            "positionM": [
+              48.25,
+              24.0,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              90
+            ],
+            "row": 0,
+            "column": 3,
+            "widthM": 2.6,
+            "lengthM": 5.2,
+            "allowedVehicleClasses": [
+              "Car",
+              "Van"
+            ],
+            "accessible": false
+          },
+          {
+            "id": "0c2ff1dd-b410-53dc-bdae-1a9376a85da1",
+            "code": "BAY-005",
+            "positionM": [
+              51.0,
+              24.0,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              90
+            ],
+            "row": 0,
+            "column": 4,
+            "widthM": 2.6,
+            "lengthM": 5.2,
+            "allowedVehicleClasses": [
+              "Car",
+              "Van"
+            ],
+            "accessible": false
+          },
+          {
+            "id": "ddd15221-77a3-5957-8067-75f4a15ef5c0",
+            "code": "BAY-006",
+            "positionM": [
+              53.75,
+              24.0,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              90
+            ],
+            "row": 0,
+            "column": 5,
+            "widthM": 2.6,
+            "lengthM": 5.2,
+            "allowedVehicleClasses": [
+              "Car",
+              "Van"
+            ],
+            "accessible": false
+          },
+          {
+            "id": "570285ab-6982-5a8d-9e68-7cc3d76ec94d",
+            "code": "BAY-007",
+            "positionM": [
+              40.0,
+              35.2,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              90
+            ],
+            "row": 1,
+            "column": 0,
+            "widthM": 2.6,
+            "lengthM": 5.2,
+            "allowedVehicleClasses": [
+              "Car",
+              "Van"
+            ],
+            "accessible": false
+          },
+          {
+            "id": "3bab06b4-8d4a-5a9a-ba0d-a229bbec669c",
+            "code": "BAY-008",
+            "positionM": [
+              42.75,
+              35.2,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              90
+            ],
+            "row": 1,
+            "column": 1,
+            "widthM": 2.6,
+            "lengthM": 5.2,
+            "allowedVehicleClasses": [
+              "Car",
+              "Van"
+            ],
+            "accessible": false
+          },
+          {
+            "id": "cba04b28-fb37-5c88-99ff-2b45b137e9f4",
+            "code": "BAY-009",
+            "positionM": [
+              45.5,
+              35.2,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              90
+            ],
+            "row": 1,
+            "column": 2,
+            "widthM": 2.6,
+            "lengthM": 5.2,
+            "allowedVehicleClasses": [
+              "Car",
+              "Van"
+            ],
+            "accessible": false
+          },
+          {
+            "id": "194f51d6-7a2e-537a-b029-084ac8cf9ef2",
+            "code": "BAY-010",
+            "positionM": [
+              48.25,
+              35.2,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              90
+            ],
+            "row": 1,
+            "column": 3,
+            "widthM": 2.6,
+            "lengthM": 5.2,
+            "allowedVehicleClasses": [
+              "Car",
+              "Van"
+            ],
+            "accessible": false
+          },
+          {
+            "id": "22fbfac7-0eb0-5d56-8c03-7c0854b038fb",
+            "code": "BAY-011",
+            "positionM": [
+              51.0,
+              35.2,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              90
+            ],
+            "row": 1,
+            "column": 4,
+            "widthM": 2.6,
+            "lengthM": 5.2,
+            "allowedVehicleClasses": [
+              "Car",
+              "Van"
+            ],
+            "accessible": false
+          },
+          {
+            "id": "cc6f7d3d-7309-5e25-b328-69b1e443b141",
+            "code": "BAY-012",
+            "positionM": [
+              53.75,
+              35.2,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              90
+            ],
+            "row": 1,
+            "column": 5,
+            "widthM": 2.6,
+            "lengthM": 5.2,
+            "allowedVehicleClasses": [
+              "Car",
+              "Van"
+            ],
+            "accessible": false
+          }
+        ]
+      }
+    }
+  ],
+  "runtimeState": {
+    "ownership": "Separate mutable store, not baked into static authoring",
+    "parkingStates": [
+      {
+        "bayId": "cd1620a1-24b3-5723-bf36-5b173f275df9",
+        "state": "Reserved",
+        "agentId": "f26a6795-36f5-5c03-9098-d7696ded5537",
+        "leaseSeconds": 30
+      }
+    ],
+    "signalStates": [],
+    "seatReservations": [],
+    "proxyPolicy": {
+      "activationRadiusM": 150,
+      "deactivationRadiusM": 200,
+      "maxActiveActors": 256,
+      "retainLogicalStateWhenPooled": true
+    }
+  },
+  "catalogAssets": [
+    {
+      "id": "207451b2-f1f7-58e8-8ac4-ffc72abebebf",
+      "level": "Root",
+      "slots": {
+        "bus.base": "fixture:/Nexus/bus/base",
+        "bus.indicator": "fixture:/Nexus/bus/indicator",
+        "bus.shelter": "fixture:/Nexus/bus/shelter",
+        "crosswalk.marking": "fixture:/Nexus/crosswalk/marking",
+        "junction.cross.lanes4": "fixture:/Nexus/junction/cross/lanes4",
+        "light.traffic": "fixture:/Nexus/light/traffic",
+        "parking.base": "fixture:/Nexus/parking/base",
+        "parking.indicator": "fixture:/Nexus/parking/indicator",
+        "road.straight.lanes4": "fixture:/Nexus/road/straight/lanes4",
+        "seat.bench": "fixture:/Nexus/seat/bench",
+        "sidewalk.standard": "fixture:/Nexus/sidewalk/standard"
+      }
+    },
+    {
+      "id": "9ca84b23-a8d3-5e5a-88c8-4ff48ac20acf",
+      "level": "Highway",
+      "slots": {}
+    }
+  ]
+}

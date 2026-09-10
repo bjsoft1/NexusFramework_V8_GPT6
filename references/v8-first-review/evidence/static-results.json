@@ -1,0 +1,232 @@
+{
+  "scope": "Prototype files and synthetic fixture references only; no geometry/AI/UE correctness proof",
+  "checks": 45,
+  "passed": 45,
+  "results": [
+    {
+      "test": "Exactly 60 unique screen IDs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "60 unique titles and slugs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Five groups of twelve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Every screen has substantive guidance and fields",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "60 physical HTML entry files",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "All entry-page local assets exist",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "test": "All entry-page initial screen IDs match",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "test": "Standalone has no external script or stylesheet dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Standalone contains current shipped JS and CSS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Exactly five phase drafts",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "01-foundation-landscape-DRAFT.md: twenty numbered points",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "01-foundation-landscape-DRAFT.md: eight test cases and explicit pending gate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "02-mesh-cascade-roads-DRAFT.md: twenty numbered points",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "02-mesh-cascade-roads-DRAFT.md: eight test cases and explicit pending gate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "03-junctions-services-DRAFT.md: twenty numbered points",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "03-junctions-services-DRAFT.md: eight test cases and explicit pending gate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "04-tools-navigation-DRAFT.md: twenty numbered points",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "04-tools-navigation-DRAFT.md: eight test cases and explicit pending gate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "05-compiler-runtime-release-DRAFT.md: twenty numbered points",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "05-compiler-runtime-release-DRAFT.md: eight test cases and explicit pending gate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Node syntax check: four JavaScript files",
+      "pass": true,
+      "detail": "\n\n\n"
+    },
+    {
+      "test": "Top-level fixture GUIDs valid and unique",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "State/city/highway parent references exist",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Highway point, segment, profile, catalog links exist",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "ConnectedHighwayIds present, valid, reciprocal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Segment endpoints and source authority",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Lane owner, profile width and endpoints",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Lane graph references valid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Lane-change intervals within source segment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Junction connectors reference known lanes and signal groups",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Pedestrian edges reference known nodes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Activation anchors and highways exist",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "All activation mesh slots resolvable in root fixture",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Bus stopping entry exit shelter base indicator and seats retained",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Bus N>=3 independent wait and seat points",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Seat physical/logical capacity relationship",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Shared bus/seat logical poses are consistent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Parking separate payload round-trip",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Parking grid count, unique IDs, dimensions and spaces",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Parking base and indicator slots retained",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Parking state is separate and refers to an existing bay",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Crosswalk depth rule and N>=3 waiting points",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Pooling hysteresis and state retention explicitly declared",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Runtime JSON full round-trip",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "test": "Manifest references known world/highway/catalog slots",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

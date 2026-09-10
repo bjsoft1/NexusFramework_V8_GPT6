@@ -1,0 +1,46 @@
+{
+  "prepared_date": "2026-09-10",
+  "source_files": [
+    {
+      "source": "NexusFramework_V8(1).zip",
+      "bytes": 5004858,
+      "sha256": "aa0363d9936f94bb75b7abd5b66f140dd1b4c415f0f49a61e12683e429d428ac"
+    },
+    {
+      "source": "NexusFramework_V8_Prototype.zip",
+      "bytes": 24785730,
+      "sha256": "385c56b4264fc4371d5ac404c643bc32bbff64a6e4d00af42c64411b941e42f8"
+    },
+    {
+      "source": "NexusFramework_V8_1_Simplified_Review.zip",
+      "bytes": 2524187,
+      "sha256": "2f6b18485bddefc46d0807c6f8eb2ca1f3dd4a5b59b4b171a87ce1b95d4a52e7"
+    },
+    {
+      "source": "NexusFramework_V8_Review.html",
+      "bytes": 259723,
+      "sha256": "a42e0de153a0b5dcf4c6448dedb7c70667fdae8576beb8523ca681bf356bca2c"
+    },
+    {
+      "source": "NexusFramework_V8_1_Simple_Review.html",
+      "bytes": 66384,
+      "sha256": "e7dec137d130b9547db1e4cb090c0d800b8b251975a3a3a5b33ee58974750591"
+    }
+  ],
+  "review_reference_counts": {
+    "references/v8-first-review": 22,
+    "references/v8-1-review": 20
+  },
+  "legacy_document_count": 612,
+  "legacy_versions": {
+    "NexusFramework_V5": 55,
+    "NexusFramework_V6": 291,
+    "NexusFramework_V7": 247,
+    "NexusFramework_V0": 1,
+    "NexusFramework_V1": 4,
+    "NexusFramework_V2": 4,
+    "NexusFramework_V3": 4,
+    "NexusFramework_V4": 6
+  },
+  "original_sources_modified": false
+}

@@ -1,0 +1,842 @@
+{
+  "evidence_class": "DOCUMENT_PACKAGE_AND_GUIDE_ONLY",
+  "engine_tests_executed": 0,
+  "browser_environment": "System Chromium 144 with inline HTML content; file URL and loopback HTTP navigation blocked by container policy; default Playwright bundled browser absent",
+  "static_checks": [
+    {
+      "check": "Exactly five current phase files",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "01-Foundation-and-Landscape.md: 20 sequential tasks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "01-Foundation-and-Landscape.md: explicit stop gate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "01-Foundation-and-Landscape.md: 15 scenario definitions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "01-Foundation-and-Landscape.md: pending/unexecuted status",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "02-Mesh-Inheritance-Roads-and-Adapters.md: 20 sequential tasks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "02-Mesh-Inheritance-Roads-and-Adapters.md: explicit stop gate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "02-Mesh-Inheritance-Roads-and-Adapters.md: 15 scenario definitions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "02-Mesh-Inheritance-Roads-and-Adapters.md: pending/unexecuted status",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "03-Junctions-Point-Features-and-Places.md: 20 sequential tasks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "03-Junctions-Point-Features-and-Places.md: explicit stop gate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "03-Junctions-Point-Features-and-Places.md: 15 scenario definitions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "03-Junctions-Point-Features-and-Places.md: pending/unexecuted status",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "04-Editor-Tools-Navigation-and-Validation.md: 20 sequential tasks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "04-Editor-Tools-Navigation-and-Validation.md: explicit stop gate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "04-Editor-Tools-Navigation-and-Validation.md: 15 scenario definitions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "04-Editor-Tools-Navigation-and-Validation.md: pending/unexecuted status",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "05-Compiler-Runtime-and-Release.md: 20 sequential tasks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "05-Compiler-Runtime-and-Release.md: explicit stop gate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "05-Compiler-Runtime-and-Release.md: 15 scenario definitions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "05-Compiler-Runtime-and-Release.md: pending/unexecuted status",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "75 unique scenario IDs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON and phase scenario IDs match",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All planned tests remain unexecuted",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Twenty requirements all covered",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original 36 scenarios all mapped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All phase approvals pending",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No production implementation claimed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Current Markdown links resolve",
+      "passed": true,
+      "detail": "85 links; errors=[]"
+    },
+    {
+      "check": "No bundled font files",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original input files unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All review documents/JSON preserved: v8-first-review",
+      "passed": true,
+      "detail": "22 files"
+    },
+    {
+      "check": "All review documents/JSON preserved: v8-1-review",
+      "passed": true,
+      "detail": "20 files"
+    },
+    {
+      "check": "All original legacy MD/TXT/HTML docs preserved",
+      "passed": true,
+      "detail": "603 source documents"
+    },
+    {
+      "check": "Legacy archive integrity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Legacy archive safe paths/no fonts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Legacy per-file hashes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unchanged prototype copy: V8.1-Simple-Review.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unchanged prototype copy: V8-60-Screen-Reference.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Offline guide includes 24 documents",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Guide internal/file links resolve",
+      "passed": true,
+      "detail": "35 file links; errors=[]"
+    },
+    {
+      "check": "Guide has no external asset dependency",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "browser_checks": [
+    {
+      "check": "light 1920x1080: 00-START-HERE.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "light 1920x1080: 01-MASTER-REQUIREMENTS.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "light 1920x1080: 02-FIVE-PHASE-ROADMAP.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "light 1920x1080: phases/01-Foundation-and-Landscape.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "light 1920x1080: phases/02-Mesh-Inheritance-Roads-and-Adapters.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "light 1920x1080: phases/03-Junctions-Point-Features-and-Places.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "light 1920x1080: phases/04-Editor-Tools-Navigation-and-Validation.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "light 1920x1080: phases/05-Compiler-Runtime-and-Release.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "light 1920x1080: architecture/01-Hierarchy-and-Data-Ownership.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "light 1920x1080: architecture/02-Mesh-Inheritance-and-Road-Profiles.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "light 1920x1080: architecture/03-Point-Features-and-Places.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "light 1920x1080: architecture/04-Lane-Graph-and-Runtime-Contract.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "light 1920x1080: architecture/05-Editor-UX-and-Gizmo-Contract.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "light 1920x1080: architecture/06-Compiler-Persistence-and-Publishing.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "light 1920x1080: verification/DOCUMENT-PACKAGE-CHECKS.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "light 1920x1080: verification/ENGINE-36-COVERAGE.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "light 1920x1080: verification/PHASE-GATE-REPORT-TEMPLATE.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "light 1920x1080: verification/REGRESSION-FIXTURES.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "light 1920x1080: verification/REQUIREMENT-COVERAGE.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "light 1920x1080: verification/TEST-MATRIX.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "light 1920x1080: decisions/DECISION-REGISTER.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "light 1920x1080: AGENT-INSTRUCTIONS.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "light 1920x1080: references/README.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "light 1920x1080: prototype-reference/README.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "dark 1920x1080: 00-START-HERE.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "dark 1920x1080: 01-MASTER-REQUIREMENTS.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "dark 1920x1080: 02-FIVE-PHASE-ROADMAP.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "dark 1920x1080: phases/01-Foundation-and-Landscape.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "dark 1920x1080: phases/02-Mesh-Inheritance-Roads-and-Adapters.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "dark 1920x1080: phases/03-Junctions-Point-Features-and-Places.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "dark 1920x1080: phases/04-Editor-Tools-Navigation-and-Validation.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "dark 1920x1080: phases/05-Compiler-Runtime-and-Release.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "dark 1920x1080: architecture/01-Hierarchy-and-Data-Ownership.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "dark 1920x1080: architecture/02-Mesh-Inheritance-and-Road-Profiles.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "dark 1920x1080: architecture/03-Point-Features-and-Places.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "dark 1920x1080: architecture/04-Lane-Graph-and-Runtime-Contract.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "dark 1920x1080: architecture/05-Editor-UX-and-Gizmo-Contract.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "dark 1920x1080: architecture/06-Compiler-Persistence-and-Publishing.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "dark 1920x1080: verification/DOCUMENT-PACKAGE-CHECKS.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "dark 1920x1080: verification/ENGINE-36-COVERAGE.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "dark 1920x1080: verification/PHASE-GATE-REPORT-TEMPLATE.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "dark 1920x1080: verification/REGRESSION-FIXTURES.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "dark 1920x1080: verification/REQUIREMENT-COVERAGE.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "dark 1920x1080: verification/TEST-MATRIX.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "dark 1920x1080: decisions/DECISION-REGISTER.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "dark 1920x1080: AGENT-INSTRUCTIONS.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "dark 1920x1080: references/README.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "dark 1920x1080: prototype-reference/README.md",
+      "passed": true,
+      "detail": {
+        "vw": 1920,
+        "sw": 1920,
+        "visible": 1,
+        "heading": true
+      }
+    },
+    {
+      "check": "1366x768: 00-START-HERE.md",
+      "passed": true,
+      "detail": {
+        "vw": 1366,
+        "sw": 1366
+      }
+    },
+    {
+      "check": "1366x768: phases/01-Foundation-and-Landscape.md",
+      "passed": true,
+      "detail": {
+        "vw": 1366,
+        "sw": 1366
+      }
+    },
+    {
+      "check": "1366x768: phases/03-Junctions-Point-Features-and-Places.md",
+      "passed": true,
+      "detail": {
+        "vw": 1366,
+        "sw": 1366
+      }
+    },
+    {
+      "check": "1366x768: phases/05-Compiler-Runtime-and-Release.md",
+      "passed": true,
+      "detail": {
+        "vw": 1366,
+        "sw": 1366
+      }
+    },
+    {
+      "check": "1280x720: 00-START-HERE.md",
+      "passed": true,
+      "detail": {
+        "vw": 1280,
+        "sw": 1280
+      }
+    },
+    {
+      "check": "1280x720: phases/01-Foundation-and-Landscape.md",
+      "passed": true,
+      "detail": {
+        "vw": 1280,
+        "sw": 1280
+      }
+    },
+    {
+      "check": "1280x720: phases/03-Junctions-Point-Features-and-Places.md",
+      "passed": true,
+      "detail": {
+        "vw": 1280,
+        "sw": 1280
+      }
+    },
+    {
+      "check": "1280x720: phases/05-Compiler-Runtime-and-Release.md",
+      "passed": true,
+      "detail": {
+        "vw": 1280,
+        "sw": 1280
+      }
+    },
+    {
+      "check": "960x720: 00-START-HERE.md",
+      "passed": true,
+      "detail": {
+        "vw": 960,
+        "sw": 960
+      }
+    },
+    {
+      "check": "960x720: phases/01-Foundation-and-Landscape.md",
+      "passed": true,
+      "detail": {
+        "vw": 960,
+        "sw": 960
+      }
+    },
+    {
+      "check": "960x720: phases/03-Junctions-Point-Features-and-Places.md",
+      "passed": true,
+      "detail": {
+        "vw": 960,
+        "sw": 960
+      }
+    },
+    {
+      "check": "960x720: phases/05-Compiler-Runtime-and-Release.md",
+      "passed": true,
+      "detail": {
+        "vw": 960,
+        "sw": 960
+      }
+    },
+    {
+      "check": "In-document navigation works",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Document search filters matching content",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No-result search state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Clearing search restores navigation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Search keyboard shortcut",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Theme toggle changes mode",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Unknown fragment falls back to start",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No uncaught guide JavaScript errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "javascript_errors": [],
+  "summary": {
+    "static_pass": 42,
+    "static_total": 42,
+    "browser_pass": 68,
+    "browser_total": 68
+  }
+}

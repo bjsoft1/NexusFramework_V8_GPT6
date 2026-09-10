@@ -1,0 +1,4528 @@
+[
+  {
+    "id": 1,
+    "slug": "01-world-workspace",
+    "title": "World workspace",
+    "subtitle": "A single place to author roads, place services, and prepare runtime data.",
+    "kind": "home",
+    "scene": "city",
+    "focus": "Nexus World",
+    "fields": [
+      {
+        "label": "World name",
+        "value": "Nexus City",
+        "type": "text",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Active level",
+        "value": "L_NexusCity",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Source state",
+        "value": "Sample landscape fixture",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Workspace",
+        "value": "Authoring",
+        "type": "select",
+        "options": [
+          "Authoring",
+          "Review",
+          "Compact"
+        ],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Review the world hierarchy and active source.",
+      "Follow the five workflow groups from left to right.",
+      "Open the landscape selector to begin."
+    ],
+    "checks": [
+      "The current level and data authority are visible.",
+      "Every screen is reachable without entering Landscape Mode."
+    ],
+    "rows": [],
+    "action": "Start landscape setup",
+    "group": 1,
+    "groupName": "Workspace & landscape"
+  },
+  {
+    "id": 2,
+    "slug": "02-world-root-identity",
+    "title": "World root & identity",
+    "subtitle": "Create the persistent world boundary; names are never runtime identifiers.",
+    "kind": "form",
+    "scene": "city",
+    "focus": "World / Nexus City",
+    "fields": [
+      {
+        "label": "Display name",
+        "value": "Nexus City",
+        "type": "text",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Developer code",
+        "value": "NEXUS_WORLD",
+        "type": "text",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "World GUID",
+        "value": "b4956c91-40fc-470c-a071-6e4c9e8c9181",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Units",
+        "value": "Centimeters in UE; meters in UI",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Root mesh config",
+        "value": "MC_Root_Default",
+        "type": "select",
+        "options": [
+          "MC_Root_Default",
+          "Unassigned"
+        ],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Name the world and review its stable identity.",
+      "Assign the root catalog for inherited defaults.",
+      "Preview the authored fields before applying."
+    ],
+    "checks": [
+      "Renaming does not change GUIDs.",
+      "Exactly one root owns each hierarchy."
+    ],
+    "rows": [],
+    "action": "Preview root changes",
+    "group": 1,
+    "groupName": "Workspace & landscape"
+  },
+  {
+    "id": 3,
+    "slug": "03-states-cities-ownership",
+    "title": "States, cities & ownership",
+    "subtitle": "Organize semantic ownership without duplicating landscape geometry.",
+    "kind": "hierarchy",
+    "scene": "city",
+    "focus": "City / Riverbend",
+    "fields": [
+      {
+        "label": "State",
+        "value": "Central State",
+        "type": "text",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "City",
+        "value": "Riverbend",
+        "type": "text",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Developer code",
+        "value": "CITY_RB",
+        "type": "text",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Highways",
+        "value": "3 bound highways",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Reparent behavior",
+        "value": "Preview dependencies first",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Select a city in the tree.",
+      "Inspect the parent and inherited catalog.",
+      "Preview a move; preserve IDs and links."
+    ],
+    "checks": [
+      "Parent cycles are rejected.",
+      "Reparenting shows which mesh entries will change."
+    ],
+    "rows": [
+      [
+        "Central State",
+        "Riverbend",
+        "3 highways",
+        "Active"
+      ],
+      [
+        "Central State",
+        "North District",
+        "2 highways",
+        "Sample"
+      ],
+      [
+        "Western State",
+        "Lakeside",
+        "1 highway",
+        "Sample"
+      ]
+    ],
+    "action": "Preview city reparent",
+    "group": 1,
+    "groupName": "Workspace & landscape"
+  },
+  {
+    "id": 4,
+    "slug": "04-choose-landscape-sources",
+    "title": "Choose landscape sources",
+    "subtitle": "Bind one or several landscapes and inspect unloaded cells before scanning.",
+    "kind": "sources",
+    "scene": "terrain",
+    "focus": "Landscape / Main",
+    "fields": [
+      {
+        "label": "Landscape",
+        "value": "Landscape_Main",
+        "type": "select",
+        "options": [
+          "Landscape_Main",
+          "Landscape_North"
+        ],
+        "source": null
+      },
+      {
+        "label": "World Partition",
+        "value": "Enabled in sample",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Scan scope",
+        "value": "Loaded + registered sources",
+        "type": "select",
+        "options": [
+          "Loaded + registered sources",
+          "Selected landscape",
+          "Loaded cells only"
+        ],
+        "source": null
+      },
+      {
+        "label": "Geometry authority",
+        "value": "Landscape spline data",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Select the landscape sources to inspect.",
+      "Check loaded and unavailable cell states.",
+      "Run a read-only sample scan."
+    ],
+    "checks": [
+      "Unloaded sources are not mistaken for deleted points.",
+      "Scanning must not modify terrain or assets."
+    ],
+    "rows": [
+      [
+        "Landscape_Main",
+        "36 cells",
+        "Loaded",
+        "Selected"
+      ],
+      [
+        "Landscape_North",
+        "12 cells",
+        "Partially loaded",
+        "Available"
+      ],
+      [
+        "Landscape_Remote",
+        "8 cells",
+        "Unloaded",
+        "Deferred"
+      ]
+    ],
+    "action": "Run sample scan",
+    "group": 1,
+    "groupName": "Workspace & landscape"
+  },
+  {
+    "id": 5,
+    "slug": "05-landscape-scan-inventory",
+    "title": "Landscape scan inventory",
+    "subtitle": "Inspect points, tangents, segment links, and source fingerprints before binding.",
+    "kind": "table",
+    "scene": "terrain",
+    "focus": "Scan / SCAN-001",
+    "fields": [
+      {
+        "label": "Source fingerprint",
+        "value": "fixture:landscape-001",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Control points",
+        "value": "18",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Spline segments",
+        "value": "21",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Unavailable cells",
+        "value": "8",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Read mode",
+        "value": "Non-mutating",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Review discovered source records.",
+      "Filter new, matched, and deferred records.",
+      "Continue to the reconciliation diff."
+    ],
+    "checks": [
+      "Every point keeps a source binding.",
+      "Missing loaded data and unloaded data have different states."
+    ],
+    "rows": [
+      [
+        "CP-001",
+        "Control point",
+        "Matched",
+        "HW-001"
+      ],
+      [
+        "CP-008",
+        "Control point",
+        "Moved",
+        "HW-001"
+      ],
+      [
+        "SEG-014",
+        "Spline segment",
+        "New",
+        "Unbound"
+      ],
+      [
+        "CELL-043",
+        "Partition cell",
+        "Deferred",
+        "Unloaded"
+      ]
+    ],
+    "action": "Review reconciliation",
+    "group": 1,
+    "groupName": "Workspace & landscape"
+  },
+  {
+    "id": 6,
+    "slug": "06-scan-diff-reconcile",
+    "title": "Scan → diff → reconcile",
+    "subtitle": "Pull geometry from Landscape while retaining Nexus codes, lane profiles, and service payloads.",
+    "kind": "diff",
+    "scene": "spline",
+    "focus": "Point / CP-008",
+    "fields": [
+      {
+        "label": "Geometry source",
+        "value": "Landscape only",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Match key",
+        "value": "Persistent binding GUID",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Missing reference policy",
+        "value": "Require review",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Semantic data",
+        "value": "Preserve authored values",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Compare the previous scan with the current scan.",
+      "Review moved points, new links, and unresolved bindings.",
+      "Apply only accepted mapping changes."
+    ],
+    "checks": [
+      "Code, lane profile, and activation metadata survive rescan.",
+      "No Apply button silently writes geometry back to Landscape."
+    ],
+    "rows": [
+      [
+        "CP-008 position",
+        "(140, 80, 0) m",
+        "(142, 80, 0) m",
+        "Pull source"
+      ],
+      [
+        "HW-001 code",
+        "EAST_CONNECTOR",
+        "EAST_CONNECTOR",
+        "Preserve"
+      ],
+      [
+        "SEG-014 binding",
+        "Unbound",
+        "Needs owner",
+        "Review"
+      ]
+    ],
+    "action": "Preview reconciliation",
+    "group": 1,
+    "groupName": "Workspace & landscape"
+  },
+  {
+    "id": 7,
+    "slug": "07-legacy-layout-import",
+    "title": "Legacy layout import",
+    "subtitle": "Preview V0–V7 migration risks without modifying the original source package.",
+    "kind": "migration",
+    "scene": "city",
+    "focus": "Import / Legacy layout",
+    "fields": [
+      {
+        "label": "Source version",
+        "value": "V7",
+        "type": "select",
+        "options": [
+          "V7",
+          "V6",
+          "V5",
+          "V0 / V1 reference only"
+        ],
+        "source": null
+      },
+      {
+        "label": "Destination",
+        "value": "New V8 authoring asset",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Identity collisions",
+        "value": "Block and show duplicates",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Backup policy",
+        "value": "Immutable input copy",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Choose an input layout version.",
+      "Review ID, binding, and payload compatibility.",
+      "Export the sample migration report; do not overwrite source."
+    ],
+    "checks": [
+      "Unsupported schemas fail with an explanation.",
+      "Repeated import cannot duplicate stable identities."
+    ],
+    "rows": [
+      [
+        "World identity",
+        "Preserve GUID",
+        "Compatible",
+        "Sample"
+      ],
+      [
+        "Spline bindings",
+        "Rebind after scan",
+        "Review",
+        "Sample"
+      ],
+      [
+        "Bus / parking payloads",
+        "Field-by-field comparison",
+        "Required",
+        "Sample"
+      ],
+      [
+        "Unknown future schema",
+        "Reject non-destructively",
+        "Blocked",
+        "Sample"
+      ]
+    ],
+    "action": "Export migration checklist",
+    "group": 1,
+    "groupName": "Workspace & landscape"
+  },
+  {
+    "id": 8,
+    "slug": "08-bind-highway-control-points",
+    "title": "Bind highway control points",
+    "subtitle": "Select landscape-owned points and assign highway ownership—not a second spline model.",
+    "kind": "viewport",
+    "scene": "spline",
+    "focus": "Highway / East Connector",
+    "fields": [
+      {
+        "label": "Highway name",
+        "value": "East Connector",
+        "type": "text",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Developer code",
+        "value": "HW_EAST",
+        "type": "text",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "First point",
+        "value": "CP-001",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Last point",
+        "value": "CP-009",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Connected highways",
+        "value": "HW-002, HW-003",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Create geometry",
+        "value": "Use native Landscape tools",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Select a chain of native spline points.",
+      "Assign the chain to a highway.",
+      "Inspect point ownership and connected highways."
+    ],
+    "checks": [
+      "Points are not hand-created in a parallel Nexus geometry store.",
+      "Joining highways does not duplicate their shared control point."
+    ],
+    "rows": [],
+    "action": "Preview highway binding",
+    "group": 1,
+    "groupName": "Workspace & landscape"
+  },
+  {
+    "id": 9,
+    "slug": "09-segments-tangent-inspection",
+    "title": "Segments & tangent inspection",
+    "subtitle": "See curve geometry, lane ownership, and runtime sampling on the same selection.",
+    "kind": "viewport",
+    "scene": "spline",
+    "focus": "Segment / SEG-006",
+    "fields": [
+      {
+        "label": "Start point",
+        "value": "CP-006",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "End point",
+        "value": "CP-007",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Length (m)",
+        "value": "68.45",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Start tangent",
+        "value": "(32.8, 6.4, 0.0)",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "End tangent",
+        "value": "(28.1, 11.9, 0.0)",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Sample spacing (m)",
+        "value": 2,
+        "type": "number",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Select a curved segment.",
+      "Inspect source tangents and sampled stations.",
+      "Check curve continuity at both ends."
+    ],
+    "checks": [
+      "Curve samples follow the spline rather than straight chords.",
+      "Save/load preserves signed tangent data."
+    ],
+    "rows": [],
+    "action": "Inspect segment samples",
+    "group": 1,
+    "groupName": "Workspace & landscape"
+  },
+  {
+    "id": 10,
+    "slug": "10-branches-loops-crossings",
+    "title": "Branches, loops & crossings",
+    "subtitle": "Distinguish a connected junction from an overpass that only crosses in projection.",
+    "kind": "topology",
+    "scene": "junction",
+    "focus": "Topology / J-003",
+    "fields": [
+      {
+        "label": "Topology class",
+        "value": "Connected junction",
+        "type": "select",
+        "options": [
+          "Connected junction",
+          "Grade-separated crossing",
+          "Closed loop"
+        ],
+        "source": null
+      },
+      {
+        "label": "Incoming highways",
+        "value": "HW-001, HW-002, HW-003",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Elevation difference (m)",
+        "value": 0,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Junction rule",
+        "value": "Explicit connectivity",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Inspect the branch node and its incoming segments.",
+      "Classify loops and grade-separated crossings.",
+      "Review the connectivity preview before linking."
+    ],
+    "checks": [
+      "An overpass never gains a false turn edge.",
+      "Closed loops retain a stable traversal direction."
+    ],
+    "rows": [
+      [
+        "HW-001 → HW-002",
+        "Same elevation",
+        "Connected",
+        "Turn link"
+      ],
+      [
+        "HW-001 → HW-003",
+        "Same elevation",
+        "Connected",
+        "Turn link"
+      ],
+      [
+        "HW-004 × HW-001",
+        "6.2 m separation",
+        "Not connected",
+        "Overpass"
+      ]
+    ],
+    "action": "Preview topology links",
+    "group": 1,
+    "groupName": "Workspace & landscape"
+  },
+  {
+    "id": 11,
+    "slug": "11-draft-compare-apply",
+    "title": "Draft, compare & apply",
+    "subtitle": "Edits remain drafts until validation and impact review succeed.",
+    "kind": "diff",
+    "scene": "road",
+    "focus": "Draft / East Connector",
+    "fields": [
+      {
+        "label": "Lane width (m)",
+        "value": 4,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Speed limit (km/h)",
+        "value": 50,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Sidewalk width (m)",
+        "value": 3,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Source revision",
+        "value": "authoring:12",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Commit policy",
+        "value": "One named transaction",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Change a draft field in Details.",
+      "Inspect the field diff and affected outputs.",
+      "Apply or revert the draft; committed undo belongs to Unreal."
+    ],
+    "checks": [
+      "Revert never undoes unrelated committed work.",
+      "Blocking validation preserves the draft without applying."
+    ],
+    "rows": [
+      [
+        "Lane width",
+        "3.5 m",
+        "4.0 m",
+        "21 segments affected"
+      ],
+      [
+        "Speed limit",
+        "40 km/h",
+        "50 km/h",
+        "8 lane records affected"
+      ],
+      [
+        "Sidewalk width",
+        "3.0 m",
+        "3.0 m",
+        "Unchanged"
+      ]
+    ],
+    "action": "Preview draft impact",
+    "group": 1,
+    "groupName": "Workspace & landscape"
+  },
+  {
+    "id": 12,
+    "slug": "12-save-recovery-conflicts",
+    "title": "Save, recovery & conflicts",
+    "subtitle": "Show source, base, and recovered draft values without silently choosing a winner.",
+    "kind": "recovery",
+    "scene": "city",
+    "focus": "Recovery / Draft 008",
+    "fields": [
+      {
+        "label": "Recovery record",
+        "value": "DR-008",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Base revision",
+        "value": "12",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Current revision",
+        "value": "13",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Conflict resolution",
+        "value": "Review each field",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Recovery target",
+        "value": "Separate draft only",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Compare the recovery draft with the current source.",
+      "Choose the source or draft value per conflicting field.",
+      "Review the resulting diff before applying."
+    ],
+    "checks": [
+      "Autosave never overwrites authoritative data.",
+      "Interrupted saves leave a recoverable prior file."
+    ],
+    "rows": [
+      [
+        "Lane width",
+        "Base: 3.5 m",
+        "Source: 3.8 m",
+        "Draft: 4.0 m"
+      ],
+      [
+        "Speed limit",
+        "Base: 40",
+        "Source: 40",
+        "Draft: 50"
+      ],
+      [
+        "Sidewalk",
+        "Base: 3.0 m",
+        "Source: 3.0 m",
+        "Draft: 3.0 m"
+      ]
+    ],
+    "action": "Review recovery choices",
+    "group": 1,
+    "groupName": "Workspace & landscape"
+  },
+  {
+    "id": 13,
+    "slug": "13-mesh-catalog-browser",
+    "title": "Mesh catalog browser",
+    "subtitle": "Use your own mesh assets for roads, junctions, lights, and activation components.",
+    "kind": "catalog",
+    "scene": "road",
+    "focus": "Catalog / MC_Root_Default",
+    "fields": [
+      {
+        "label": "Category",
+        "value": "All assets",
+        "type": "select",
+        "options": [
+          "All assets",
+          "Highway",
+          "Junction",
+          "Roadside",
+          "Bus stop",
+          "Parking"
+        ],
+        "source": null
+      },
+      {
+        "label": "Mesh origin",
+        "value": "Local project asset",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Preview",
+        "value": "Schematic thumbnails only",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Asset key",
+        "value": "road.straight.lanes4",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Browse categories and lane-count variants.",
+      "Choose local filenames to demonstrate asset intake.",
+      "Inspect the semantic slot before assigning a mesh."
+    ],
+    "checks": [
+      "The catalog is extensible rather than a fixed list of fields.",
+      "A browser file selection does not pretend to import into Unreal."
+    ],
+    "rows": [],
+    "action": "Choose local mesh files",
+    "group": 2,
+    "groupName": "Mesh configuration & roads"
+  },
+  {
+    "id": 14,
+    "slug": "14-root-mesh-defaults",
+    "title": "Root mesh defaults",
+    "subtitle": "Define the shared baseline for every state, city, and highway without copying effective values.",
+    "kind": "cascade",
+    "scene": "road",
+    "focus": "Root / MC_Root_Default",
+    "fields": [
+      {
+        "label": "Configuration level",
+        "value": "Root",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Config asset",
+        "value": "MC_Root_Default",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Selected slot",
+        "value": "road.straight.lanes4",
+        "type": "select",
+        "options": [
+          "road.straight.lanes4",
+          "bus.shelter",
+          "parking.base",
+          "light.traffic"
+        ],
+        "source": null
+      },
+      {
+        "label": "Ownership",
+        "value": "Shared mesh config data asset",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Select a semantic mesh slot.",
+      "Assign its root-level default.",
+      "Inspect all levels that inherit the selected slot."
+    ],
+    "checks": [
+      "Unresolved required slots block generation.",
+      "Changing Root updates only descendants without closer overrides."
+    ],
+    "rows": [],
+    "action": "Preview root impact",
+    "group": 2,
+    "groupName": "Mesh configuration & roads"
+  },
+  {
+    "id": 15,
+    "slug": "15-state-mesh-overrides",
+    "title": "State mesh overrides",
+    "subtitle": "Override only the entries that differ from the root catalog.",
+    "kind": "cascade",
+    "scene": "road",
+    "focus": "State / Central State",
+    "fields": [
+      {
+        "label": "Configuration level",
+        "value": "State",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Config asset",
+        "value": "MC_CentralState",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Selected slot",
+        "value": "light.traffic",
+        "type": "select",
+        "options": [
+          "road.straight.lanes4",
+          "bus.shelter",
+          "parking.base",
+          "light.traffic"
+        ],
+        "source": null
+      },
+      {
+        "label": "Unset behavior",
+        "value": "Continue to Root",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Inspect the inherited value and its source.",
+      "Override one entry at State level.",
+      "Clear the override to restore inheritance."
+    ],
+    "checks": [
+      "An empty asset reference is transparent to resolution.",
+      "Clearing an override never copies the parent value locally."
+    ],
+    "rows": [],
+    "action": "Preview state impact",
+    "group": 2,
+    "groupName": "Mesh configuration & roads"
+  },
+  {
+    "id": 16,
+    "slug": "16-city-mesh-overrides",
+    "title": "City mesh overrides",
+    "subtitle": "Give Riverbend its own bus shelter while retaining shared road and parking defaults.",
+    "kind": "cascade",
+    "scene": "bus",
+    "focus": "City / Riverbend",
+    "fields": [
+      {
+        "label": "Configuration level",
+        "value": "City",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Config asset",
+        "value": "MC_Riverbend",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Selected slot",
+        "value": "bus.shelter",
+        "type": "select",
+        "options": [
+          "road.straight.lanes4",
+          "bus.shelter",
+          "parking.base",
+          "light.traffic"
+        ],
+        "source": null
+      },
+      {
+        "label": "Affected highways",
+        "value": "3 highways",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Choose the bus shelter entry.",
+      "Compare the City assignment with inherited defaults.",
+      "Review only the impacted service components."
+    ],
+    "checks": [
+      "A shelter override does not shadow unrelated root entries.",
+      "The effective source is visible for each asset slot."
+    ],
+    "rows": [],
+    "action": "Preview city impact",
+    "group": 2,
+    "groupName": "Mesh configuration & roads"
+  },
+  {
+    "id": 17,
+    "slug": "17-highway-mesh-overrides",
+    "title": "Highway mesh overrides",
+    "subtitle": "The highway is the deepest mesh-configuration scope; points do not introduce another override level.",
+    "kind": "cascade",
+    "scene": "road",
+    "focus": "Highway / East Connector",
+    "fields": [
+      {
+        "label": "Configuration level",
+        "value": "Highway",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Config asset",
+        "value": "MC_EastConnector",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Selected slot",
+        "value": "road.straight.lanes4",
+        "type": "select",
+        "options": [
+          "road.straight.lanes4",
+          "bus.shelter",
+          "parking.base",
+          "light.traffic"
+        ],
+        "source": null
+      },
+      {
+        "label": "Point mesh overrides",
+        "value": "Not part of this design",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Select a highway-level catalog entry.",
+      "Set a specific mesh or leave the entry inherited.",
+      "Inspect the full fallback path before applying."
+    ],
+    "checks": [
+      "Fallback ends at Highway on the child side.",
+      "Road and activation meshes use the same resolver."
+    ],
+    "rows": [],
+    "action": "Preview highway impact",
+    "group": 2,
+    "groupName": "Mesh configuration & roads"
+  },
+  {
+    "id": 18,
+    "slug": "18-live-fallback-resolver",
+    "title": "Live fallback resolver",
+    "subtitle": "Resolve each entry at read/generation time: Highway → City → State → Root.",
+    "kind": "cascade",
+    "scene": "road",
+    "focus": "Resolver / Effective catalog",
+    "fields": [
+      {
+        "label": "Selected slot",
+        "value": "road.straight.lanes4",
+        "type": "select",
+        "options": [
+          "road.straight.lanes4",
+          "bus.shelter",
+          "parking.base",
+          "light.traffic"
+        ],
+        "source": null
+      },
+      {
+        "label": "Evaluation",
+        "value": "Per entry, nearest assigned wins",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Cache policy",
+        "value": "Derived; source-hash invalidated",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Authoring write-back",
+        "value": "Never store resolved copies",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Change an assignment in any level card.",
+      "Watch the effective mesh and source update.",
+      "Clear all levels to inspect the unresolved state."
+    ],
+    "checks": [
+      "Null passes through; it does not mean explicitly disabled.",
+      "Per-entry fallback is a proposed decision for your approval."
+    ],
+    "rows": [],
+    "action": "Export resolver example",
+    "group": 2,
+    "groupName": "Mesh configuration & roads"
+  },
+  {
+    "id": 19,
+    "slug": "19-missing-assets-blocked-build",
+    "title": "Missing assets & blocked build",
+    "subtitle": "A required missing mesh is a visible blocker—not a silent engine-default replacement.",
+    "kind": "validation",
+    "scene": "road",
+    "focus": "Issue / MESH-004",
+    "fields": [
+      {
+        "label": "Validation scope",
+        "value": "East Connector",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Broken key",
+        "value": "junction.cross.lanes4",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Severity",
+        "value": "Blocking",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Build status",
+        "value": "Blocked until resolved",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Repair scope",
+        "value": "Assign at Root or closer level",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Read the missing-entry diagnostic.",
+      "Jump to the nearest intended configuration scope.",
+      "Revalidate before generating any output."
+    ],
+    "checks": [
+      "Broken references and unassigned slots are distinguishable.",
+      "A missing required asset prevents a publish action."
+    ],
+    "rows": [
+      [
+        "MESH-004",
+        "junction.cross.lanes4",
+        "Unassigned at all levels",
+        "Blocking"
+      ],
+      [
+        "MESH-007",
+        "sign.speed50",
+        "Dangling asset reference",
+        "Blocking"
+      ],
+      [
+        "MESH-008",
+        "bus.advertisement",
+        "Optional and unused",
+        "Informational"
+      ]
+    ],
+    "action": "Open catalog repair",
+    "group": 2,
+    "groupName": "Mesh configuration & roads"
+  },
+  {
+    "id": 20,
+    "slug": "20-lane-profile-widths",
+    "title": "Lane profile & widths",
+    "subtitle": "Define directional lanes, dimensions, rules, and segment-specific transitions explicitly.",
+    "kind": "lanes",
+    "scene": "road",
+    "focus": "Profile / Urban 4L",
+    "fields": [
+      {
+        "label": "Forward lanes",
+        "value": 2,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Reverse lanes",
+        "value": 2,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Lane width (m)",
+        "value": 4,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Median width (m)",
+        "value": 0.6,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Speed limit (km/h)",
+        "value": 50,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Traffic side",
+        "value": "Right-hand demo",
+        "type": "select",
+        "options": [
+          "Right-hand demo",
+          "Left-hand demo"
+        ],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Set a highway-level lane profile.",
+      "Review direction and width for each lane.",
+      "Use segment profile references where lane count changes."
+    ],
+    "checks": [
+      "Proposed semantic lane profiles survive geometry rescan.",
+      "Lane directions, widths, and permitted vehicle classes compile together."
+    ],
+    "rows": [],
+    "action": "Preview lane profile",
+    "group": 2,
+    "groupName": "Mesh configuration & roads"
+  },
+  {
+    "id": 21,
+    "slug": "21-sidewalks-curbs-borders",
+    "title": "Sidewalks, curbs & borders",
+    "subtitle": "Separate walkable space from curb geometry and keep road-module boundaries compatible.",
+    "kind": "section",
+    "scene": "road",
+    "focus": "Section / Urban 4L",
+    "fields": [
+      {
+        "label": "Left sidewalk (m)",
+        "value": 3,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Right sidewalk (m)",
+        "value": 3,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Border width (m)",
+        "value": 0.25,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Curb height (m)",
+        "value": 0.15,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Walkable",
+        "value": "Both sides",
+        "type": "select",
+        "options": [
+          "Both sides",
+          "Left only",
+          "Right only",
+          "Neither"
+        ],
+        "source": null
+      },
+      {
+        "label": "Mesh ownership",
+        "value": "Resolved highway catalog",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Inspect the dimensioned road cross-section.",
+      "Set independent walking and curb dimensions.",
+      "Review seams, normals, and join boundaries."
+    ],
+    "checks": [
+      "Zero sidewalk width does not create a walkable route.",
+      "Road, junction, and roundabout boundary profiles agree."
+    ],
+    "rows": [],
+    "action": "Preview section changes",
+    "group": 2,
+    "groupName": "Mesh configuration & roads"
+  },
+  {
+    "id": 22,
+    "slug": "22-markings-crossing-footprint",
+    "title": "Markings & crossing footprint",
+    "subtitle": "Make the crosswalk depth explicit and separate it from its curb-to-curb span.",
+    "kind": "section",
+    "scene": "crosswalk",
+    "focus": "Crosswalk / CW-001",
+    "fields": [
+      {
+        "label": "Curb-to-curb span (m)",
+        "value": 16.6,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Depth along travel (m)",
+        "value": 3.25,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Depth rule",
+        "value": "Sidewalk + highway border",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Sidewalk + border (m)",
+        "value": "3.00 + 0.25 = 3.25",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Bar spacing (m)",
+        "value": 0.5,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Material mode",
+        "value": "Texture / material mask",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Check the two perpendicular footprint dimensions.",
+      "Set the crossing depth to sidewalk plus border width.",
+      "Preview stripe fit and connection to waiting areas."
+    ],
+    "checks": [
+      "The width and depth labels cannot be confused.",
+      "Marking visuals never substitute for crossing runtime edges."
+    ],
+    "rows": [],
+    "action": "Preview crossing footprint",
+    "group": 2,
+    "groupName": "Mesh configuration & roads"
+  },
+  {
+    "id": 23,
+    "slug": "23-lane-transitions-adapters",
+    "title": "Lane transitions & adapters",
+    "subtitle": "Connect 6 → 4 → 2 lanes with explicit merges rather than only stretching a mesh.",
+    "kind": "transition",
+    "scene": "transition",
+    "focus": "Transition / TR-002",
+    "fields": [
+      {
+        "label": "Incoming lanes",
+        "value": 6,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Outgoing lanes",
+        "value": 4,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Taper length (m)",
+        "value": 60,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Merge side",
+        "value": "Outer lane",
+        "type": "select",
+        "options": [
+          "Outer lane",
+          "Inner lane"
+        ],
+        "source": null
+      },
+      {
+        "label": "Adapter slot",
+        "value": "road.transition.6to4",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Lane links",
+        "value": "Explicit merge mappings",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Select incoming and outgoing lane profiles.",
+      "Review taper geometry and lane correspondence.",
+      "Validate merge edges and seam dimensions."
+    ],
+    "checks": [
+      "Dropped lanes have a legal continuation or explicit terminal.",
+      "Generation never creates unexplained orphan lane IDs."
+    ],
+    "rows": [
+      [
+        "L-01",
+        "L-01",
+        "Through",
+        "Allowed"
+      ],
+      [
+        "L-02",
+        "L-02",
+        "Through",
+        "Allowed"
+      ],
+      [
+        "L-03",
+        "L-02",
+        "Merge",
+        "Yield"
+      ],
+      [
+        "L-06",
+        "L-05",
+        "Merge",
+        "Yield"
+      ]
+    ],
+    "action": "Preview adapter",
+    "group": 2,
+    "groupName": "Mesh configuration & roads"
+  },
+  {
+    "id": 24,
+    "slug": "24-road-mesh-generation-preview",
+    "title": "Road mesh generation preview",
+    "subtitle": "Build a derived sample preview from validated source geometry and resolved catalog entries.",
+    "kind": "build",
+    "scene": "road",
+    "focus": "Preview / East Connector",
+    "fields": [
+      {
+        "label": "Build scope",
+        "value": "Selected highway",
+        "type": "select",
+        "options": [
+          "Selected highway",
+          "Selected city",
+          "Dirty chunks only"
+        ],
+        "source": null
+      },
+      {
+        "label": "Preview policy",
+        "value": "Separate from final outputs",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Instancing",
+        "value": "HISM for repeated static meshes",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Terrain write",
+        "value": "Off; explicit separate operation",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Output owner",
+        "value": "Generator GUID + build fingerprint",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Review source and catalog prerequisites.",
+      "Inspect only the affected road chunks.",
+      "Promote a validated preview without duplicate ownership."
+    ],
+    "checks": [
+      "Repeated build does not accumulate duplicate actors.",
+      "Cancel or failure keeps the prior valid output intact."
+    ],
+    "rows": [
+      [
+        "Road segments",
+        "21",
+        "Resolved",
+        "Preview fixture"
+      ],
+      [
+        "Sidewalk modules",
+        "42",
+        "Resolved",
+        "Preview fixture"
+      ],
+      [
+        "Transition adapters",
+        "2",
+        "Resolved",
+        "Preview fixture"
+      ],
+      [
+        "Changed chunks",
+        "3 / 12",
+        "Incremental",
+        "Preview fixture"
+      ]
+    ],
+    "action": "Run preview fixture",
+    "group": 2,
+    "groupName": "Mesh configuration & roads"
+  },
+  {
+    "id": 25,
+    "slug": "25-t-junction-geometry",
+    "title": "T-junction geometry",
+    "subtitle": "Three connected arms, smooth corners, correct orientation, and compact modular joins.",
+    "kind": "viewport",
+    "scene": "tjunction",
+    "focus": "Point / J-T-001",
+    "fields": [
+      {
+        "label": "Junction type",
+        "value": "T-junction",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Corner radius (m)",
+        "value": 6,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Arm extension (m)",
+        "value": 3.25,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Mesh slot",
+        "value": "junction.t.lanes4",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Yaw offset (°)",
+        "value": 0,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Marking policy",
+        "value": "No centerline across conflict area",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Inspect the three source branches.",
+      "Align the mesh to the shared junction transform.",
+      "Check corner continuity and lane entry sockets."
+    ],
+    "checks": [
+      "Junction rotation updates mesh, links, and sub-points together.",
+      "No stray yellow cross or capped join faces appear."
+    ],
+    "rows": [],
+    "action": "Preview junction alignment",
+    "group": 3,
+    "groupName": "Junctions & roadside services"
+  },
+  {
+    "id": 26,
+    "slug": "26-four-way-junction-turn-links",
+    "title": "Four-way junction & turn links",
+    "subtitle": "Inspect lane-to-lane turns independently of the intersection mesh.",
+    "kind": "connectors",
+    "scene": "junction",
+    "focus": "Point / J-X-001",
+    "fields": [
+      {
+        "label": "Junction type",
+        "value": "Four-way",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Turn policy",
+        "value": "Explicit allowed maneuvers",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Right turn",
+        "value": "Enabled",
+        "type": "select",
+        "options": [
+          "Enabled",
+          "Disabled"
+        ],
+        "source": null
+      },
+      {
+        "label": "Left turn",
+        "value": "Signal protected",
+        "type": "select",
+        "options": [
+          "Signal protected",
+          "Yield",
+          "Disabled"
+        ],
+        "source": null
+      },
+      {
+        "label": "U-turn",
+        "value": "Disabled",
+        "type": "select",
+        "options": [
+          "Disabled",
+          "Allowed"
+        ],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Select an incoming lane.",
+      "Inspect valid outgoing connectors.",
+      "Review prohibited turns and crossing conflicts."
+    ],
+    "checks": [
+      "Every connector references valid directed lane IDs.",
+      "Visual road proximity never creates implicit turn edges."
+    ],
+    "rows": [
+      [
+        "North L1",
+        "East L1",
+        "Right",
+        "Allowed"
+      ],
+      [
+        "North L2",
+        "South L2",
+        "Straight",
+        "Allowed"
+      ],
+      [
+        "North L2",
+        "West L1",
+        "Left",
+        "Protected"
+      ],
+      [
+        "North L1",
+        "North L2",
+        "U-turn",
+        "Prohibited"
+      ]
+    ],
+    "action": "Preview turn matrix",
+    "group": 3,
+    "groupName": "Junctions & roadside services"
+  },
+  {
+    "id": 27,
+    "slug": "27-roundabout-circulating-lanes",
+    "title": "Roundabout & circulating lanes",
+    "subtitle": "Preserve yield logic, lane continuity, and short square joining arms.",
+    "kind": "viewport",
+    "scene": "roundabout",
+    "focus": "Point / RB-001",
+    "fields": [
+      {
+        "label": "Circulating lanes",
+        "value": 2,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Island radius (m)",
+        "value": 9,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Island height (m)",
+        "value": 0.305,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Entry arms",
+        "value": 4,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Circulation",
+        "value": "Counterclockwise",
+        "type": "select",
+        "options": [
+          "Counterclockwise",
+          "Clockwise"
+        ],
+        "source": null
+      },
+      {
+        "label": "Entry priority",
+        "value": "Yield to circulation",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Inspect island, ring, and compact approach arms.",
+      "Map each entry into a circulating lane.",
+      "Check exit choices and walking access."
+    ],
+    "checks": [
+      "Lane direction follows the chosen circulation rule.",
+      "Roundabout sidewalks share road boundary conventions."
+    ],
+    "rows": [],
+    "action": "Preview roundabout links",
+    "group": 3,
+    "groupName": "Junctions & roadside services"
+  },
+  {
+    "id": 28,
+    "slug": "28-traffic-light-placement",
+    "title": "Traffic light placement",
+    "subtitle": "Edit poles, signal heads, offsets, and affected lane groups.",
+    "kind": "viewport",
+    "scene": "signal",
+    "focus": "Signal / TL-001",
+    "fields": [
+      {
+        "label": "Signal group",
+        "value": "SG-JX-001",
+        "type": "text",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Pole mesh slot",
+        "value": "light.traffic",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Head count",
+        "value": 3,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Pole yaw (°)",
+        "value": 90,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Stop-line setback (m)",
+        "value": 1.5,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Controlled lanes",
+        "value": "LN-001, LN-002",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Place the pole relative to its anchored highway point.",
+      "Edit each signal-head offset independently.",
+      "Assign the lanes and crosswalks the signal controls."
+    ],
+    "checks": [
+      "Signal meshes resolve through the highway catalog.",
+      "All heads and stop lines share a stable controller link."
+    ],
+    "rows": [],
+    "action": "Preview signal placement",
+    "group": 3,
+    "groupName": "Junctions & roadside services"
+  },
+  {
+    "id": 29,
+    "slug": "29-signal-phases-conflict-timing",
+    "title": "Signal phases & conflict timing",
+    "subtitle": "A readable timeline connects vehicle phases, pedestrian clearance, and conflict checks.",
+    "kind": "signals",
+    "scene": "signal",
+    "focus": "Controller / SG-JX-001",
+    "fields": [
+      {
+        "label": "Cycle length (s)",
+        "value": 72,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Green phase (s)",
+        "value": 28,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Amber phase (s)",
+        "value": 3,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "All-red clearance (s)",
+        "value": 2,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Pedestrian interval (s)",
+        "value": 10,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Runtime state",
+        "value": "Separate controller state",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Review movement groups along the timeline.",
+      "Check overlaps against the conflict matrix.",
+      "Inspect the example pedestrian clearance interval."
+    ],
+    "checks": [
+      "Conflicting movement groups cannot be green together.",
+      "Timing values are design fixtures, not safety-certified road timings."
+    ],
+    "rows": [
+      [
+        "North / South",
+        "00–28 s",
+        "Green",
+        "Vehicle"
+      ],
+      [
+        "All approaches",
+        "31–33 s",
+        "All red",
+        "Clearance"
+      ],
+      [
+        "East / West",
+        "33–61 s",
+        "Green",
+        "Vehicle"
+      ],
+      [
+        "Pedestrian W/E",
+        "Within compatible phase",
+        "10 s",
+        "Protected"
+      ]
+    ],
+    "action": "Check signal conflicts",
+    "group": 3,
+    "groupName": "Junctions & roadside services"
+  },
+  {
+    "id": 30,
+    "slug": "30-crosswalk-waiting-points",
+    "title": "Crosswalk waiting points",
+    "subtitle": "Edit start, end, and three or more independent waiting locations.",
+    "kind": "viewport",
+    "scene": "crosswalk",
+    "focus": "Crosswalk / CW-001",
+    "fields": [
+      {
+        "label": "Anchor point",
+        "value": "CP-007",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Depth (m)",
+        "value": 3.25,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Waiting-point count",
+        "value": 3,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Selected sub-point",
+        "value": "WaitingPoints[1]",
+        "type": "select",
+        "options": [
+          "WaitingPoints[0]",
+          "WaitingPoints[1]",
+          "WaitingPoints[2]"
+        ],
+        "source": null
+      },
+      {
+        "label": "Signal controller",
+        "value": "SG-JX-001",
+        "type": "text",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Accessible connection",
+        "value": "Required",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Select one of the three visible waiting handles.",
+      "Move or rotate only the selected sub-point.",
+      "Inspect links to sidewalks and traffic signals."
+    ],
+    "checks": [
+      "N ≥ 3 handles remain independent after editing.",
+      "Crosswalk payload round-trips with IDs and signal links intact."
+    ],
+    "rows": [],
+    "action": "Inspect crosswalk payload",
+    "group": 3,
+    "groupName": "Junctions & roadside services"
+  },
+  {
+    "id": 31,
+    "slug": "31-bus-stop-bay-stopping-pose",
+    "title": "Bus stop bay & stopping pose",
+    "subtitle": "Place a bus stop with an entry, stopping location, exit, and correct lane relationship.",
+    "kind": "viewport",
+    "scene": "bus",
+    "focus": "Bus Stop / BS-001",
+    "fields": [
+      {
+        "label": "Stop name",
+        "value": "Riverbend East",
+        "type": "text",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Bus lane",
+        "value": "LN-E-02",
+        "type": "text",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Bay length (m)",
+        "value": 18,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Bay width (m)",
+        "value": 3.5,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Dwell target (s)",
+        "value": 20,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Selected sub-point",
+        "value": "StoppingPoint",
+        "type": "select",
+        "options": [
+          "EntryPoint",
+          "StoppingPoint",
+          "ExitPoint"
+        ],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Anchor the stop to an eligible travel lane.",
+      "Inspect entry → stop → exit poses.",
+      "Place the bay without blocking through-lane geometry."
+    ],
+    "checks": [
+      "The stop has both vehicle and pedestrian connectivity.",
+      "Entry and exit do not silently swap after rotation."
+    ],
+    "rows": [],
+    "action": "Preview bus-stop approach",
+    "group": 3,
+    "groupName": "Junctions & roadside services"
+  },
+  {
+    "id": 32,
+    "slug": "32-passenger-waiting-boarding",
+    "title": "Passenger waiting & boarding",
+    "subtitle": "Author independent waiting, boarding, and alighting locations for a bus service.",
+    "kind": "viewport",
+    "scene": "bus",
+    "focus": "Bus Stop / Passenger points",
+    "fields": [
+      {
+        "label": "Waiting points",
+        "value": 3,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Selected sub-point",
+        "value": "PassengerWaitingPoints[1]",
+        "type": "select",
+        "options": [
+          "PassengerWaitingPoints[0]",
+          "PassengerWaitingPoints[1]",
+          "PassengerWaitingPoints[2]"
+        ],
+        "source": null
+      },
+      {
+        "label": "Boarding side",
+        "value": "Curb side",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Queue spacing (m)",
+        "value": 0.8,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Capacity",
+        "value": 12,
+        "type": "number",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Select and move each of three waiting handles.",
+      "Inspect the boarding and alighting links.",
+      "Review queue spacing and sidewalk accessibility."
+    ],
+    "checks": [
+      "Moving one waiting point does not move its neighbors.",
+      "Capacity and positions are both exported; they are not interchangeable."
+    ],
+    "rows": [],
+    "action": "Inspect boarding connections",
+    "group": 3,
+    "groupName": "Junctions & roadside services"
+  },
+  {
+    "id": 33,
+    "slug": "33-shelter-base-indicator-meshes",
+    "title": "Shelter, base & indicator meshes",
+    "subtitle": "Bus-stop components resolve from the catalog while placement stays with the activation payload.",
+    "kind": "catalog",
+    "scene": "bus",
+    "focus": "Bus Stop / Component meshes",
+    "fields": [
+      {
+        "label": "Shelter slot",
+        "value": "bus.shelter",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Base slot",
+        "value": "bus.base",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Indicator slot",
+        "value": "bus.indicator",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Seat slot",
+        "value": "seat.bench",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Shelter yaw (°)",
+        "value": 0,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Source",
+        "value": "City override; other slots Root",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Inspect shelter, base, indicator, and seat components.",
+      "Trace each mesh assignment to its configuration level.",
+      "Edit offsets without creating competing mesh ownership."
+    ],
+    "checks": [
+      "No bus-stop component is lost from the legacy feature set.",
+      "Per-instance payloads store placement, not duplicate mesh references."
+    ],
+    "rows": [],
+    "action": "Inspect component inheritance",
+    "group": 3,
+    "groupName": "Junctions & roadside services"
+  },
+  {
+    "id": 34,
+    "slug": "34-seat-groups-interaction-poses",
+    "title": "Seat groups & interaction poses",
+    "subtitle": "One mesh may provide several logical seats with explicit capacity and interaction points.",
+    "kind": "viewport",
+    "scene": "seats",
+    "focus": "Seat Group / SG-001",
+    "fields": [
+      {
+        "label": "Physical benches",
+        "value": 2,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Seats per bench",
+        "value": 3,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Seat spacing (m)",
+        "value": 0.55,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Row gap (m)",
+        "value": 1.2,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Selected pose",
+        "value": "SeatPoints[2]",
+        "type": "select",
+        "options": [
+          "SeatPoints[0]",
+          "SeatPoints[1]",
+          "SeatPoints[2]"
+        ],
+        "source": null
+      },
+      {
+        "label": "Mesh slot",
+        "value": "seat.bench",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Set physical mesh count separately from logical capacity.",
+      "Inspect each sitting and approach pose.",
+      "Group the seats into a standalone or bus-stop service."
+    ],
+    "checks": [
+      "Six logical seats can be represented by two physical benches.",
+      "Position, rotation, spacing, capacity, and grouping survive export."
+    ],
+    "rows": [],
+    "action": "Preview seat layout",
+    "group": 3,
+    "groupName": "Junctions & roadside services"
+  },
+  {
+    "id": 35,
+    "slug": "35-parking-grid-bay-dimensions",
+    "title": "Parking grid & bay dimensions",
+    "subtitle": "Lay out rows and columns with explicit gaps, bay sizes, and inherited mesh components.",
+    "kind": "viewport",
+    "scene": "parking",
+    "focus": "Parking / P-001",
+    "fields": [
+      {
+        "label": "Rows",
+        "value": 2,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Columns",
+        "value": 6,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Spot width (m)",
+        "value": 2.6,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Spot length (m)",
+        "value": 5.2,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Row gap (m)",
+        "value": 6,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Column gap (m)",
+        "value": 0.15,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Parking angle (°)",
+        "value": 90,
+        "type": "number",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Set rows, columns, dimensions, and circulation aisle.",
+      "Inspect each computed bay transform.",
+      "Select a bay to review its stable ID and rules."
+    ],
+    "checks": [
+      "Bay positions use both dimensions and spacing fields.",
+      "Changing the grid previews affected stable bay identities."
+    ],
+    "rows": [],
+    "action": "Preview parking layout",
+    "group": 3,
+    "groupName": "Junctions & roadside services"
+  },
+  {
+    "id": 36,
+    "slug": "36-parking-entry-exit-rules",
+    "title": "Parking entry, exit & rules",
+    "subtitle": "Connect bays to drivable approach paths and pedestrian exits; occupancy is runtime state.",
+    "kind": "parking",
+    "scene": "parking",
+    "focus": "Parking / P-001 access",
+    "fields": [
+      {
+        "label": "Vehicle classes",
+        "value": "Car, Van",
+        "type": "select",
+        "options": [
+          "Car, Van",
+          "Car only",
+          "Bus only"
+        ],
+        "source": null
+      },
+      {
+        "label": "Entry lane",
+        "value": "LN-E-02",
+        "type": "text",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Exit lane",
+        "value": "LN-E-01",
+        "type": "text",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Accessible bays",
+        "value": 2,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Base slot",
+        "value": "parking.base",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Indicator slot",
+        "value": "parking.indicator",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Connect the entry and exit to road lanes.",
+      "Inspect maneuver paths into individual bays.",
+      "Review occupancy and reservation fields as runtime-only data."
+    ],
+    "checks": [
+      "Parking receives its own independent round-trip fixture.",
+      "Reserved and occupied are distinct lifecycle states."
+    ],
+    "rows": [
+      [
+        "BAY-001",
+        "Accessible",
+        "Free",
+        "Entry connected"
+      ],
+      [
+        "BAY-002",
+        "Accessible",
+        "Reserved",
+        "Entry connected"
+      ],
+      [
+        "BAY-003",
+        "Standard",
+        "Occupied",
+        "Exit connected"
+      ],
+      [
+        "BAY-004",
+        "Standard",
+        "Free",
+        "Pedestrian linked"
+      ]
+    ],
+    "action": "Inspect parking connectivity",
+    "group": 3,
+    "groupName": "Junctions & roadside services"
+  },
+  {
+    "id": 37,
+    "slug": "37-universal-sub-point-gizmo",
+    "title": "Universal sub-point gizmo",
+    "subtitle": "A common tool supports N points, axis handles, independent transforms, and stable selection.",
+    "kind": "viewport",
+    "scene": "handles",
+    "focus": "Gizmo / WaitingPoints[1]",
+    "fields": [
+      {
+        "label": "Operation",
+        "value": "Move",
+        "type": "select",
+        "options": [
+          "Move",
+          "Rotate",
+          "Scale"
+        ],
+        "source": null
+      },
+      {
+        "label": "Coordinate space",
+        "value": "Local",
+        "type": "select",
+        "options": [
+          "Local",
+          "World"
+        ],
+        "source": null
+      },
+      {
+        "label": "Translation snap (m)",
+        "value": 0.25,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Rotation snap (°)",
+        "value": 15,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Sub-point count",
+        "value": 3,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Target identity",
+        "value": "Stable point GUID",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Choose a sub-point and W / E / R transform mode.",
+      "Drag the center handle or edit the transform values.",
+      "Confirm the other points remain unchanged."
+    ],
+    "checks": [
+      "The real editor will commit one transaction per completed drag.",
+      "Canceling a drag must restore its pre-drag values."
+    ],
+    "rows": [],
+    "action": "Inspect gizmo selection",
+    "group": 4,
+    "groupName": "Editor tools & navigation"
+  },
+  {
+    "id": 38,
+    "slug": "38-batch-transforms-impact-preview",
+    "title": "Batch transforms & impact preview",
+    "subtitle": "Move or rotate selected authored offsets without moving unrelated terrain geometry.",
+    "kind": "diff",
+    "scene": "handles",
+    "focus": "Selection / 3 services",
+    "fields": [
+      {
+        "label": "Selection count",
+        "value": "3 activation records",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Transform space",
+        "value": "World",
+        "type": "select",
+        "options": [
+          "World",
+          "Local"
+        ],
+        "source": null
+      },
+      {
+        "label": "Translation X (m)",
+        "value": 2,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Translation Y (m)",
+        "value": 0,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Rotation yaw (°)",
+        "value": 15,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Commit",
+        "value": "Atomic by default",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Select a compatible group of activation records.",
+      "Preview transforms and skipped read-only geometry.",
+      "Review the impact before applying the batch."
+    ],
+    "checks": [
+      "Batch operations report exact affected and skipped targets.",
+      "Undo/redo covers the entire accepted batch in one transaction."
+    ],
+    "rows": [
+      [
+        "BS-001",
+        "Activation offset",
+        "+2 m; +15°",
+        "Included"
+      ],
+      [
+        "P-001",
+        "Activation offset",
+        "+2 m; +15°",
+        "Included"
+      ],
+      [
+        "SG-001",
+        "Activation offset",
+        "+2 m; +15°",
+        "Included"
+      ],
+      [
+        "CP-007",
+        "Landscape geometry",
+        "Source read-only",
+        "Skipped"
+      ]
+    ],
+    "action": "Preview batch transforms",
+    "group": 4,
+    "groupName": "Editor tools & navigation"
+  },
+  {
+    "id": 39,
+    "slug": "39-lights-signs-roadside-fixtures",
+    "title": "Lights, signs & roadside fixtures",
+    "subtitle": "Place repeated city lights, speed signs, barriers, and bins with reusable placement rules.",
+    "kind": "viewport",
+    "scene": "fixtures",
+    "focus": "Fixture Set / East Connector",
+    "fields": [
+      {
+        "label": "Fixture class",
+        "value": "City light",
+        "type": "select",
+        "options": [
+          "City light",
+          "Traffic sign",
+          "Barrier",
+          "Waste bin"
+        ],
+        "source": null
+      },
+      {
+        "label": "Placement spacing (m)",
+        "value": 24,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Roadside",
+        "value": "Both sides",
+        "type": "select",
+        "options": [
+          "Both sides",
+          "Left",
+          "Right"
+        ],
+        "source": null
+      },
+      {
+        "label": "Lateral offset (m)",
+        "value": 0.7,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Placement seed",
+        "value": 1847,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Mesh source",
+        "value": "Highway catalog resolver",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Choose a fixture family from the shared catalog.",
+      "Set spacing, side, and deterministic seed.",
+      "Inspect excluded intersections and service access areas."
+    ],
+    "checks": [
+      "Repeating the same input produces the same placement set.",
+      "Fixture instances do not obstruct authored pedestrian access."
+    ],
+    "rows": [],
+    "action": "Preview fixture placement",
+    "group": 4,
+    "groupName": "Editor tools & navigation"
+  },
+  {
+    "id": 40,
+    "slug": "40-activation-registry-custom-types",
+    "title": "Activation registry & custom types",
+    "subtitle": "Add advertisement, television, or custom interaction types through a shared contract.",
+    "kind": "registry",
+    "scene": "fixtures",
+    "focus": "Registry / Advertisement",
+    "fields": [
+      {
+        "label": "Type key",
+        "value": "service.advertisement",
+        "type": "text",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Payload schema",
+        "value": "1.0",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Mesh slot",
+        "value": "service.advertisement.panel",
+        "type": "text",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Runtime class",
+        "value": "NexusAdvertisementService",
+        "type": "text",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Gizmo provider",
+        "value": "Generic N-sub-point",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Validator",
+        "value": "Registered type validator",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Inspect type registration and payload fields.",
+      "Define mesh slots, gizmos, validation, and export adapters.",
+      "Preview the extension without changing the core entity tree."
+    ],
+    "checks": [
+      "New types cannot bypass persistence and validation requirements.",
+      "Unknown types remain recoverable and block unsupported compilation."
+    ],
+    "rows": [
+      [
+        "Traffic light",
+        "Signal payload",
+        "Registered",
+        "Built-in"
+      ],
+      [
+        "Bus stop",
+        "Boarding payload",
+        "Registered",
+        "Built-in"
+      ],
+      [
+        "Parking",
+        "Bay payload",
+        "Registered",
+        "Built-in"
+      ],
+      [
+        "Advertisement / TV",
+        "Service payload",
+        "Proposed extension",
+        "Example"
+      ]
+    ],
+    "action": "Inspect registration contract",
+    "group": 4,
+    "groupName": "Editor tools & navigation"
+  },
+  {
+    "id": 41,
+    "slug": "41-debug-layers-always-draw",
+    "title": "Debug layers & always-draw",
+    "subtitle": "Keep diagnostics visible outside Landscape Mode without replacing the native tool lifecycle.",
+    "kind": "viewport",
+    "scene": "debug",
+    "focus": "Diagnostics / Layer stack",
+    "fields": [
+      {
+        "label": "Lane directions",
+        "value": true,
+        "type": "toggle",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Point IDs",
+        "value": true,
+        "type": "toggle",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Activation bounds",
+        "value": true,
+        "type": "toggle",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Junction links",
+        "value": true,
+        "type": "toggle",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Always-draw diagnostics",
+        "value": true,
+        "type": "toggle",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Depth mode",
+        "value": "Depth tested",
+        "type": "select",
+        "options": [
+          "Depth tested",
+          "X-ray"
+        ],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Toggle only the diagnostic layers you need.",
+      "Inspect points and services across tool changes.",
+      "Focus an issue without rebuilding the source graph."
+    ],
+    "checks": [
+      "Leaving Landscape Mode does not freeze diagnostic state.",
+      "Debug rendering consumes a shared derived graph."
+    ],
+    "rows": [],
+    "action": "Inspect debug legend",
+    "group": 4,
+    "groupName": "Editor tools & navigation"
+  },
+  {
+    "id": 42,
+    "slug": "42-debug-lod-performance-budgets",
+    "title": "Debug LOD & performance budgets",
+    "subtitle": "Use culling, caps, and selected-item priority to keep large worlds inspectable.",
+    "kind": "metrics",
+    "scene": "debug",
+    "focus": "Diagnostics / Preview budgets",
+    "fields": [
+      {
+        "label": "Near radius (m)",
+        "value": 150,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Far radius (m)",
+        "value": 750,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Handle cap",
+        "value": 500,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Label cap",
+        "value": 150,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Selected priority",
+        "value": true,
+        "type": "toggle",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Far display",
+        "value": "Impostor / simplified glyph",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Review configured rendering budgets.",
+      "Inspect near, far, culled, and selected categories.",
+      "Separate targets from measured performance evidence."
+    ],
+    "checks": [
+      "Display caps are enforced and visible in diagnostics.",
+      "Illustrative counts are not benchmark claims."
+    ],
+    "rows": [
+      [
+        "Near details",
+        "142 / 500 handles",
+        "Within sample cap",
+        "Fixture"
+      ],
+      [
+        "Far glyphs",
+        "1,240 logical objects",
+        "Simplified",
+        "Fixture"
+      ],
+      [
+        "Labels",
+        "96 / 150",
+        "Prioritized",
+        "Fixture"
+      ],
+      [
+        "Measured frame cost",
+        "Not measured in UE",
+        "Pending real test",
+        "No claim"
+      ]
+    ],
+    "action": "Export budget checklist",
+    "group": 4,
+    "groupName": "Editor tools & navigation"
+  },
+  {
+    "id": 43,
+    "slug": "43-validation-issue-center",
+    "title": "Validation issue center",
+    "subtitle": "Every issue explains its consequence, owner, and next safe action.",
+    "kind": "validation",
+    "scene": "debug",
+    "focus": "Issue / LANE-003",
+    "fields": [
+      {
+        "label": "Filter",
+        "value": "Blocking first",
+        "type": "select",
+        "options": [
+          "Blocking first",
+          "Warnings",
+          "All issues"
+        ],
+        "source": null
+      },
+      {
+        "label": "Issue code",
+        "value": "LANE-003",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Affected record",
+        "value": "LN-TRANSITION-03",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Next action",
+        "value": "Map a merge successor",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Quick-fix policy",
+        "value": "Preview then transact",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Filter issues by scope and severity.",
+      "Jump to the owning screen or entity.",
+      "Inspect any quick fix before applying."
+    ],
+    "checks": [
+      "Compiler and publisher use the same blocking rules.",
+      "A diagnostic never reports PASS without corresponding evidence."
+    ],
+    "rows": [
+      [
+        "LANE-003",
+        "Missing merge successor",
+        "Transition TR-002",
+        "Blocking"
+      ],
+      [
+        "SIGNAL-002",
+        "Conflicting movement groups",
+        "SG-JX-001",
+        "Blocking"
+      ],
+      [
+        "ACCESS-005",
+        "Bay pedestrian link missing",
+        "BAY-009",
+        "Warning"
+      ],
+      [
+        "SOURCE-001",
+        "Unloaded source cell",
+        "CELL-043",
+        "Deferred"
+      ]
+    ],
+    "action": "Review first blocking issue",
+    "group": 4,
+    "groupName": "Editor tools & navigation"
+  },
+  {
+    "id": 44,
+    "slug": "44-highway-connectivity-graph",
+    "title": "Highway connectivity graph",
+    "subtitle": "Export connected-highway IDs, not only visual meshes or segment endpoints.",
+    "kind": "graph",
+    "scene": "graph",
+    "focus": "Graph / Highway network",
+    "fields": [
+      {
+        "label": "Selected highway",
+        "value": "HW-001",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "ConnectedHighwayIds",
+        "value": "HW-002, HW-003",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Graph identity",
+        "value": "Immutable compiled GUIDs",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Directionality",
+        "value": "Stored per lane / connector",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Topology source",
+        "value": "Validated spline bindings",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Select a highway and inspect its neighbors.",
+      "Compare logical links with physical junctions.",
+      "Inspect the exported connectivity field."
+    ],
+    "checks": [
+      "ConnectedHighwayIds survives a runtime serialization round-trip.",
+      "References never rely on mutable display names."
+    ],
+    "rows": [
+      [
+        "HW-001",
+        "HW-002",
+        "J-X-001",
+        "Connected"
+      ],
+      [
+        "HW-001",
+        "HW-003",
+        "J-T-001",
+        "Connected"
+      ],
+      [
+        "HW-002",
+        "HW-005",
+        "RB-001",
+        "Connected"
+      ],
+      [
+        "HW-004",
+        "HW-001",
+        "Overpass",
+        "Not connected"
+      ]
+    ],
+    "action": "Inspect highway graph data",
+    "group": 4,
+    "groupName": "Editor tools & navigation"
+  },
+  {
+    "id": 45,
+    "slug": "45-directed-lane-graph",
+    "title": "Directed lane graph",
+    "subtitle": "Provide runtime consumers with sampled centerlines, rules, neighbors, and junction connectors.",
+    "kind": "graph",
+    "scene": "lanes",
+    "focus": "Lane / LN-E-02",
+    "fields": [
+      {
+        "label": "Lane GUID",
+        "value": "1c851fd9-9a8e-4894-8a58-ef4a0cf8d623",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Direction",
+        "value": "Forward",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Width (m)",
+        "value": 4,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Allowed vehicles",
+        "value": "Car, Van, Bus",
+        "type": "text",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Successors",
+        "value": "LN-JX-07, LN-E-03",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Speed limit (km/h)",
+        "value": 50,
+        "type": "number",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Inspect a directed lane and its sampled geometry.",
+      "Review predecessor, successor, and lateral neighbors.",
+      "Verify turn restrictions and traversal cost."
+    ],
+    "checks": [
+      "Every legal connector terminates on an existing directed lane.",
+      "Runtime schema retains lane widths and vehicle restrictions."
+    ],
+    "rows": [],
+    "action": "Inspect lane record",
+    "group": 4,
+    "groupName": "Editor tools & navigation"
+  },
+  {
+    "id": 46,
+    "slug": "46-lane-change-permissions",
+    "title": "Lane-change permissions",
+    "subtitle": "Lane changes need legal lateral edges, allowed intervals, and runtime collision checks.",
+    "kind": "lanes",
+    "scene": "lanes",
+    "focus": "Maneuver / LC-014",
+    "fields": [
+      {
+        "label": "From lane",
+        "value": "LN-E-01",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "To lane",
+        "value": "LN-E-02",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Start station (m)",
+        "value": 24,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "End station (m)",
+        "value": 96,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Marking rule",
+        "value": "Dashed line only",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Runtime safety",
+        "value": "Gap / collision checks required",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Select adjacent lanes of compatible direction.",
+      "Review legal station intervals and markings.",
+      "Export permission edges without claiming they guarantee a safe maneuver."
+    ],
+    "checks": [
+      "No lateral edge crosses a prohibited solid line or median.",
+      "Actual traffic safety decisions belong to the runtime agent."
+    ],
+    "rows": [
+      [
+        "LN-E-01 → LN-E-02",
+        "24–96 m",
+        "Dashed",
+        "Allowed interval"
+      ],
+      [
+        "LN-E-01 → LN-W-01",
+        "Any",
+        "Center divider",
+        "Prohibited"
+      ],
+      [
+        "LN-E-02 → LN-JX-07",
+        "Junction",
+        "Connector",
+        "Not lateral change"
+      ]
+    ],
+    "action": "Preview lane-change intervals",
+    "group": 4,
+    "groupName": "Editor tools & navigation"
+  },
+  {
+    "id": 47,
+    "slug": "47-pedestrian-accessible-network",
+    "title": "Pedestrian & accessible network",
+    "subtitle": "Connect sidewalks, waiting areas, crossings, service entrances, and accessible bays.",
+    "kind": "graph",
+    "scene": "crosswalk",
+    "focus": "Pedestrian Node / PN-014",
+    "fields": [
+      {
+        "label": "Usable width (m)",
+        "value": 2.4,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Walkable",
+        "value": true,
+        "type": "toggle",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Accessible route",
+        "value": true,
+        "type": "toggle",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Slope (%)",
+        "value": 3,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Crossing controller",
+        "value": "SG-JX-001",
+        "type": "text",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Service links",
+        "value": "BS-001, P-001",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Inspect sidewalk continuity and usable walking width.",
+      "Connect crossing waiting areas and service entrances.",
+      "Review access restrictions independently from road traffic."
+    ],
+    "checks": [
+      "A decorative sidewalk mesh cannot create a walking edge by itself.",
+      "Pedestrian graphs include controlled-crossing relationships."
+    ],
+    "rows": [],
+    "action": "Inspect pedestrian route",
+    "group": 4,
+    "groupName": "Editor tools & navigation"
+  },
+  {
+    "id": 48,
+    "slug": "48-routes-destinations-query-tools",
+    "title": "Routes, destinations & query tools",
+    "subtitle": "Preview how AI requests a drivable lane, bus stop, parking bay, or walkable destination.",
+    "kind": "routes",
+    "scene": "graph",
+    "focus": "Route Query / Q-001",
+    "fields": [
+      {
+        "label": "Origin",
+        "value": "HW-001 / LN-E-02",
+        "type": "text",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Destination",
+        "value": "Parking P-001",
+        "type": "select",
+        "options": [
+          "Parking P-001",
+          "Bus Stop BS-001",
+          "City center"
+        ],
+        "source": null
+      },
+      {
+        "label": "Agent class",
+        "value": "Car",
+        "type": "select",
+        "options": [
+          "Car",
+          "Bus",
+          "Pedestrian",
+          "Accessible pedestrian"
+        ],
+        "source": null
+      },
+      {
+        "label": "Routing policy",
+        "value": "Allowed edges only",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "No-path handling",
+        "value": "Return typed failure",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Choose an origin, destination, and agent class.",
+      "Review the sample path and rejected edges.",
+      "Inspect a typed no-path result instead of an empty success."
+    ],
+    "checks": [
+      "Bus and pedestrian queries respect different edge permissions.",
+      "Routing cannot use a graph marked stale or invalid."
+    ],
+    "rows": [
+      [
+        "1",
+        "LN-E-02",
+        "Drive east",
+        "Allowed"
+      ],
+      [
+        "2",
+        "LN-JX-07",
+        "Right connector",
+        "Allowed"
+      ],
+      [
+        "3",
+        "P-001 Entry",
+        "Parking approach",
+        "Allowed"
+      ],
+      [
+        "4",
+        "BAY-001",
+        "Reserve target",
+        "Runtime check"
+      ]
+    ],
+    "action": "Run fixture route query",
+    "group": 4,
+    "groupName": "Editor tools & navigation"
+  },
+  {
+    "id": 49,
+    "slug": "49-compiler-preflight-freshness",
+    "title": "Compiler preflight & freshness",
+    "subtitle": "Reject stale or invalid inputs before building the immutable runtime snapshot.",
+    "kind": "build",
+    "scene": "graph",
+    "focus": "Compile / Preflight",
+    "fields": [
+      {
+        "label": "Authoring revision",
+        "value": "fixture:authoring-013",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Landscape fingerprint",
+        "value": "fixture:landscape-001",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Catalog fingerprint",
+        "value": "fixture:catalog-006",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Schema target",
+        "value": "Proposed V8 schema 1",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Invalid input policy",
+        "value": "Block compilation",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Check source, semantics, catalog, and schema fingerprints.",
+      "Review unresolved references and unloaded scope.",
+      "Compile only a validated, consistent snapshot."
+    ],
+    "checks": [
+      "Stale caches are invalidated before generation.",
+      "No compiler path bypasses a blocking validator."
+    ],
+    "rows": [
+      [
+        "Source geometry",
+        "Fingerprint checked",
+        "Fixture current",
+        "Required"
+      ],
+      [
+        "Lane semantics",
+        "8 directed lane records",
+        "Fixture valid",
+        "Required"
+      ],
+      [
+        "Mesh catalog",
+        "Per-entry resolution",
+        "Fixture resolved",
+        "Required"
+      ],
+      [
+        "Runtime consumers",
+        "Schema contract",
+        "Proposed",
+        "Review"
+      ]
+    ],
+    "action": "Run fixture preflight",
+    "group": 5,
+    "groupName": "Compile, runtime & review"
+  },
+  {
+    "id": 50,
+    "slug": "50-runtime-compilation-pipeline",
+    "title": "Runtime compilation pipeline",
+    "subtitle": "One canonical compile feeds meshes, traffic, pedestrians, services, and diagnostics.",
+    "kind": "pipeline",
+    "scene": "graph",
+    "focus": "Build / BLD-0008",
+    "fields": [
+      {
+        "label": "Input policy",
+        "value": "Immutable validated snapshot",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Determinism",
+        "value": "Stable sort + seeded builders",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Cancel behavior",
+        "value": "Retain last valid artifact",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Output mode",
+        "value": "Staging then atomic publish",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Evidence",
+        "value": "Browser simulation only",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Inspect the ordered compilation stages.",
+      "Run a simulated compile with clear fixture labels.",
+      "Review cancellation, failures, and final promotion."
+    ],
+    "checks": [
+      "A failed stage cannot overwrite the previous valid artifact.",
+      "Identical canonical inputs produce deterministic compiled payloads."
+    ],
+    "rows": [
+      [
+        "Read snapshot",
+        "Geometry + semantics",
+        "Stage 01",
+        "Ready"
+      ],
+      [
+        "Resolve catalog",
+        "Entry-level fallback",
+        "Stage 02",
+        "Ready"
+      ],
+      [
+        "Compile graphs",
+        "Lanes + services",
+        "Stage 03",
+        "Ready"
+      ],
+      [
+        "Validate output",
+        "References + schema",
+        "Stage 04",
+        "Ready"
+      ],
+      [
+        "Publish snapshot",
+        "Atomic promotion",
+        "Stage 05",
+        "Ready"
+      ]
+    ],
+    "action": "Run simulated compile",
+    "group": 5,
+    "groupName": "Compile, runtime & review"
+  },
+  {
+    "id": 51,
+    "slug": "51-runtime-schema-inspector",
+    "title": "Runtime schema inspector",
+    "subtitle": "Inspect actual fixture fields for points, segments, lanes, connections, and activation payloads.",
+    "kind": "schema",
+    "scene": "graph",
+    "focus": "Schema / world.runtime.json",
+    "fields": [
+      {
+        "label": "Schema version",
+        "value": "1-prototype",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Coordinate units",
+        "value": "meters in fixture",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Identity",
+        "value": "UUID fields; sample codes separate",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Mutability",
+        "value": "Compiled static data is immutable",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Editor dependencies",
+        "value": "None in runtime contract",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Select a runtime record family.",
+      "Inspect geometry, connectivity, rules, and service fields.",
+      "Download the fixture without mistaking it for a UE compiler output."
+    ],
+    "checks": [
+      "Parking and bus stops each retain their complete specialized payloads.",
+      "Runtime output explicitly includes ConnectedHighwayIds."
+    ],
+    "rows": [],
+    "action": "Download runtime fixture",
+    "group": 5,
+    "groupName": "Compile, runtime & review"
+  },
+  {
+    "id": 52,
+    "slug": "52-mesh-build-manifest-ownership",
+    "title": "Mesh build manifest & ownership",
+    "subtitle": "Link generated chunks and instances to source IDs and fingerprints for safe incremental rebuilds.",
+    "kind": "table",
+    "scene": "city",
+    "focus": "Manifest / Build 0008",
+    "fields": [
+      {
+        "label": "Generation scope",
+        "value": "Changed chunks",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Owner build ID",
+        "value": "fixture:build-0008",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Chunk layout",
+        "value": "World Partition-aligned",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Collision policy",
+        "value": "Per mesh catalog metadata",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Replacement policy",
+        "value": "Owned outputs only",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Inspect each derived chunk and its owning build.",
+      "Compare dirty versus unchanged source fingerprints.",
+      "Review what a rebuild replaces and what it leaves untouched."
+    ],
+    "checks": [
+      "User-authored actors are never deleted by output cleanup.",
+      "The manifest links generated geometry back to semantic IDs."
+    ],
+    "rows": [
+      [
+        "CH-001",
+        "Road + sidewalks",
+        "Source hash A12",
+        "Unchanged"
+      ],
+      [
+        "CH-002",
+        "Junction + signals",
+        "Source hash B17",
+        "Rebuild"
+      ],
+      [
+        "CH-003",
+        "Parking + bus stop",
+        "Source hash C04",
+        "Rebuild"
+      ],
+      [
+        "CH-004",
+        "Fixtures",
+        "Source hash D21",
+        "Unchanged"
+      ]
+    ],
+    "action": "Export manifest fixture",
+    "group": 5,
+    "groupName": "Compile, runtime & review"
+  },
+  {
+    "id": 53,
+    "slug": "53-vehicle-travel-lane-following",
+    "title": "Vehicle travel & lane following",
+    "subtitle": "A fixture playback illustrates lane following, junction turns, and legal lane-change metadata.",
+    "kind": "simulation",
+    "scene": "traffic",
+    "focus": "Agent / Vehicle 014",
+    "fields": [
+      {
+        "label": "Agent class",
+        "value": "Car",
+        "type": "select",
+        "options": [
+          "Car",
+          "Bus",
+          "Van"
+        ],
+        "source": null
+      },
+      {
+        "label": "Current lane",
+        "value": "LN-E-02",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Desired speed (km/h)",
+        "value": 40,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Playback rate",
+        "value": "1×",
+        "type": "select",
+        "options": [
+          "0.5×",
+          "1×",
+          "2×"
+        ],
+        "source": null
+      },
+      {
+        "label": "Lane changes",
+        "value": true,
+        "type": "toggle",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Execution",
+        "value": "Illustrative browser playback",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Start the illustrative route playback.",
+      "Inspect the selected agent and lane metadata.",
+      "Review future collision, headway, and dead-end policies."
+    ],
+    "checks": [
+      "Playback is explicitly not a runtime AI implementation.",
+      "Real acceptance must test following, turns, lane changes, and no-path behavior."
+    ],
+    "rows": [],
+    "action": "Play fixture animation",
+    "group": 5,
+    "groupName": "Compile, runtime & review"
+  },
+  {
+    "id": 54,
+    "slug": "54-pedestrian-queue-boarding-flow",
+    "title": "Pedestrian, queue & boarding flow",
+    "subtitle": "Visualize walking → waiting → boarding → alighting with explicit service relationships.",
+    "kind": "simulation",
+    "scene": "bus",
+    "focus": "Agent / Pedestrian 021",
+    "fields": [
+      {
+        "label": "State",
+        "value": "Waiting",
+        "type": "select",
+        "options": [
+          "Walking",
+          "Waiting",
+          "Boarding",
+          "Seated",
+          "Alighting"
+        ],
+        "source": null
+      },
+      {
+        "label": "Bus stop",
+        "value": "BS-001",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Waiting point",
+        "value": "WAIT-002",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Seat reservation",
+        "value": "SEAT-004",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Queue index",
+        "value": 2,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Execution",
+        "value": "Illustrative state fixture",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Inspect the pedestrian-to-bus-stop link.",
+      "Step through queue, board, seat, and alight states.",
+      "Check service capacity and unavailable-path outcomes."
+    ],
+    "checks": [
+      "Logical people and seats do not require permanent actors.",
+      "State transitions use stable IDs, not array indexes alone."
+    ],
+    "rows": [],
+    "action": "Play boarding fixture",
+    "group": 5,
+    "groupName": "Compile, runtime & review"
+  },
+  {
+    "id": 55,
+    "slug": "55-parking-reservation-occupancy",
+    "title": "Parking reservation & occupancy",
+    "subtitle": "Runtime reservation is separate from immutable bay layout and survives actor pooling.",
+    "kind": "parking",
+    "scene": "parking",
+    "focus": "Runtime / BAY-002",
+    "fields": [
+      {
+        "label": "Bay ID",
+        "value": "BAY-002",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Occupancy state",
+        "value": "Reserved",
+        "type": "select",
+        "options": [
+          "Free",
+          "Reserved",
+          "Occupied",
+          "Unavailable"
+        ],
+        "source": null
+      },
+      {
+        "label": "Reservation owner",
+        "value": "VEH-014",
+        "type": "text",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Reservation expiry (s)",
+        "value": 30,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Allowed class",
+        "value": "Car",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "State owner",
+        "value": "Runtime service state",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Select a bay and inspect its static geometry.",
+      "Step through reserve → occupy → release.",
+      "Review contention, expired reservations, and unload behavior."
+    ],
+    "checks": [
+      "Two agents cannot hold the same exclusive reservation.",
+      "Parking-specific state and static-data round-trips are tested separately."
+    ],
+    "rows": [
+      [
+        "BAY-001",
+        "Free",
+        "No owner",
+        "Available"
+      ],
+      [
+        "BAY-002",
+        "Reserved",
+        "VEH-014",
+        "30 s lease"
+      ],
+      [
+        "BAY-003",
+        "Occupied",
+        "VEH-009",
+        "Active"
+      ],
+      [
+        "BAY-004",
+        "Unavailable",
+        "Blocked access",
+        "Excluded"
+      ]
+    ],
+    "action": "Preview occupancy transition",
+    "group": 5,
+    "groupName": "Compile, runtime & review"
+  },
+  {
+    "id": 56,
+    "slug": "56-streaming-pooled-actors",
+    "title": "Streaming & pooled actors",
+    "subtitle": "Keep the full logical world while activating only nearby interactive actor proxies.",
+    "kind": "streaming",
+    "scene": "city",
+    "focus": "Streaming / Cell 07",
+    "fields": [
+      {
+        "label": "Activation radius (m)",
+        "value": 150,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Deactivation radius (m)",
+        "value": 200,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Interactive actor cap",
+        "value": 256,
+        "type": "number",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Logical records",
+        "value": "Retained when proxies unload",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Static geometry",
+        "value": "Chunked / instanced",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "State restoration",
+        "value": "GUID-keyed runtime service",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Inspect logical records separately from active proxies.",
+      "Review activation/deactivation hysteresis and caps.",
+      "Check state continuity while crossing cell boundaries."
+    ],
+    "checks": [
+      "Occupancy is not lost when a proxy is returned to the pool.",
+      "Counts are illustrative targets until measured in Unreal."
+    ],
+    "rows": [
+      [
+        "Logical service records",
+        "12,480",
+        "Persistent data",
+        "Fixture"
+      ],
+      [
+        "Active interactive proxies",
+        "84 / 256",
+        "Near field",
+        "Fixture"
+      ],
+      [
+        "Pooled inactive proxies",
+        "42",
+        "Reusable",
+        "Fixture"
+      ],
+      [
+        "UE performance measurements",
+        "Not executed",
+        "Required later",
+        "Pending"
+      ]
+    ],
+    "action": "Inspect streaming policy",
+    "group": 5,
+    "groupName": "Compile, runtime & review"
+  },
+  {
+    "id": 57,
+    "slug": "57-verification-regression-lab",
+    "title": "Verification & regression lab",
+    "subtitle": "Collect evidence for five release gates; UI samples are never engine-test evidence.",
+    "kind": "tests",
+    "scene": "debug",
+    "focus": "Quality / Five phase gates",
+    "fields": [
+      {
+        "label": "Gate policy",
+        "value": "Manual approval required",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Browser smoke tests",
+        "value": "See bundled evidence report",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "UE builds",
+        "value": "Not executed in this package",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Data migration tests",
+        "value": "Planned, not executed",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Decision",
+        "value": "Not approved",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Select a phase gate and its required evidence.",
+      "Separate automated, manual, and unexecuted tests.",
+      "Record a decision only after reviewing the actual artifacts."
+    ],
+    "checks": [
+      "No phase unlocks automatically from a demo PASS indicator.",
+      "Blockers, evidence links, and reviewer decisions remain explicit."
+    ],
+    "rows": [
+      [
+        "Phase 1",
+        "Shell + source safety",
+        "Draft gate",
+        "Not approved"
+      ],
+      [
+        "Phase 2",
+        "Cascade + road meshes",
+        "Draft gate",
+        "Not approved"
+      ],
+      [
+        "Phase 3",
+        "Junctions + services",
+        "Draft gate",
+        "Not approved"
+      ],
+      [
+        "Phase 4",
+        "Tools + graph contracts",
+        "Draft gate",
+        "Not approved"
+      ],
+      [
+        "Phase 5",
+        "Runtime + packaging",
+        "Draft gate",
+        "Not approved"
+      ]
+    ],
+    "action": "Open gate checklist",
+    "group": 5,
+    "groupName": "Compile, runtime & review"
+  },
+  {
+    "id": 58,
+    "slug": "58-appearance-shortcuts-layout",
+    "title": "Appearance, shortcuts & layout",
+    "subtitle": "Compact controls with readable labels, dark/light themes, and keyboard navigation.",
+    "kind": "settings",
+    "scene": "city",
+    "focus": "Preferences / Local workspace",
+    "fields": [
+      {
+        "label": "Theme",
+        "value": "Dark",
+        "type": "select",
+        "options": [
+          "Dark",
+          "Light"
+        ],
+        "source": null
+      },
+      {
+        "label": "Density",
+        "value": "Comfortable compact",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Reduced motion",
+        "value": false,
+        "type": "toggle",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Guide panel",
+        "value": true,
+        "type": "toggle",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Preferred workspace",
+        "value": "Authoring",
+        "type": "select",
+        "options": [
+          "Authoring",
+          "Review",
+          "Compact"
+        ],
+        "source": null
+      },
+      {
+        "label": "Settings storage",
+        "value": "This browser only",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Switch between dark and light themes.",
+      "Try keyboard navigation and the command palette.",
+      "Review the same layout at 1920 × 1080."
+    ],
+    "checks": [
+      "Focus states and text remain legible in both themes.",
+      "Undo/redo is excluded from prototypes but required in real phases."
+    ],
+    "rows": [
+      [
+        "Ctrl / Cmd + K",
+        "Open command palette",
+        "Browser prototype",
+        "Active"
+      ],
+      [
+        "Alt + ← / →",
+        "Previous / next screen",
+        "Browser prototype",
+        "Active"
+      ],
+      [
+        "W / E / R",
+        "Move / rotate / scale",
+        "Viewport demo",
+        "Active"
+      ],
+      [
+        "Ctrl + Z / Ctrl + Y",
+        "Unreal transaction history",
+        "Future editor only",
+        "Not simulated"
+      ]
+    ],
+    "action": "Open keyboard guide",
+    "group": 5,
+    "groupName": "Compile, runtime & review"
+  },
+  {
+    "id": 59,
+    "slug": "59-export-package-handoff",
+    "title": "Export package & handoff",
+    "subtitle": "Review the runtime contract, mesh manifest, source fingerprints, and validation report together.",
+    "kind": "export",
+    "scene": "city",
+    "focus": "Package / V8-review-fixture",
+    "fields": [
+      {
+        "label": "Export profile",
+        "value": "Canonical runtime fixture",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Includes",
+        "value": "Graphs + services + manifest",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Schema",
+        "value": "Proposed; review required",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Production publishing",
+        "value": "Unavailable in prototype",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Input source",
+        "value": "Synthetic demo records",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Inspect what belongs in the final output package.",
+      "Download the illustrative runtime schema or review notes.",
+      "Verify no authoring source files are changed by the prototype."
+    ],
+    "checks": [
+      "Every export clearly identifies schema and fixture provenance.",
+      "The final UE build must pass validation and freshness checks before publish."
+    ],
+    "rows": [
+      [
+        "world.runtime.json",
+        "Canonical runtime example",
+        "Synthetic fixture",
+        "Included"
+      ],
+      [
+        "mesh-manifest.json",
+        "Derived ownership example",
+        "Synthetic fixture",
+        "Included"
+      ],
+      [
+        "review-notes.json",
+        "Your browser review decisions",
+        "Local export",
+        "Downloadable"
+      ],
+      [
+        "UE project binaries",
+        "Not part of this review",
+        "Future implementation",
+        "Not included"
+      ]
+    ],
+    "action": "Download runtime fixture",
+    "group": 5,
+    "groupName": "Compile, runtime & review"
+  },
+  {
+    "id": 60,
+    "slug": "60-prototype-review-approval",
+    "title": "Prototype review & approval",
+    "subtitle": "Review screens first, confirm the five-phase plan second, then implement one approved phase at a time.",
+    "kind": "review",
+    "scene": "city",
+    "focus": "Review / V8 prototype",
+    "fields": [
+      {
+        "label": "Prototype status",
+        "value": "Awaiting your review",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Phase documents",
+        "value": "Five provisional drafts",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Implementation status",
+        "value": "Not started",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      },
+      {
+        "label": "Gate order",
+        "value": "UI → plan → phase 1 → … → phase 5",
+        "type": "readonly",
+        "options": [],
+        "source": null
+      }
+    ],
+    "steps": [
+      "Record approved screens or requested changes.",
+      "Export your feedback with screen IDs.",
+      "Finalize phase tasks only after prototype approval."
+    ],
+    "checks": [
+      "A local review mark never authorizes code implementation automatically.",
+      "Each real phase stops for test evidence and explicit approval."
+    ],
+    "rows": [],
+    "action": "Export review notes",
+    "group": 5,
+    "groupName": "Compile, runtime & review"
+  }
+]

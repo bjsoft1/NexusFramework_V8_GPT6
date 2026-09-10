@@ -1,0 +1,14 @@
+{
+  "scope": "prototype only",
+  "date": "2026-09-10",
+  "render": 144,
+  "interactions": 32,
+  "static": 45,
+  "total": 221,
+  "failed": 0,
+  "browserPageErrors": 0,
+  "engineTestsExecuted": false,
+  "directFileLaunchVerified": false,
+  "persistentStorageVerified": false,
+  "originalArchiveSHA256": "aa0363d9936f94bb75b7abd5b66f140dd1b4c415f0f49a61e12683e429d428ac"
+}

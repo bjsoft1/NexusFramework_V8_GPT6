@@ -1,0 +1,5917 @@
+{
+  "mode": "Chromium page.set_content of shipped standalone HTML (not file/HTTP navigation)",
+  "chromium": "144.0.7559.96",
+  "range": [
+    1,
+    60
+  ],
+  "checks": 144,
+  "passed": 144,
+  "pageErrors": [],
+  "results": [
+    {
+      "screen": 1,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "World workspace",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 2,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "World root & identity",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 3,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "States, cities & ownership",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 4,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Choose landscape sources",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 5,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Landscape scan inventory",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 6,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Scan \u2192 diff \u2192 reconcile",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 7,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Legacy layout import",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 8,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Bind highway control points",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 9,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Segments & tangent inspection",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 10,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Branches, loops & crossings",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 11,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Draft, compare & apply",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 12,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Save, recovery & conflicts",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 13,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Mesh catalog browser",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 14,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Root mesh defaults",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 15,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "State mesh overrides",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 16,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "City mesh overrides",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 17,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Highway mesh overrides",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 18,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Live fallback resolver",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 19,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Missing assets & blocked build",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 20,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Lane profile & widths",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 21,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Sidewalks, curbs & borders",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 22,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Markings & crossing footprint",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 23,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Lane transitions & adapters",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 24,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Road mesh generation preview",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 25,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "T-junction geometry",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 26,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Four-way junction & turn links",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 27,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Roundabout & circulating lanes",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 28,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Traffic light placement",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 29,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Signal phases & conflict timing",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 30,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Crosswalk waiting points",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 31,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Bus stop bay & stopping pose",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 32,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Passenger waiting & boarding",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 33,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Shelter, base & indicator meshes",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 34,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Seat groups & interaction poses",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 35,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Parking grid & bay dimensions",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 36,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Parking entry, exit & rules",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 37,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Universal sub-point gizmo",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 38,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Batch transforms & impact preview",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 39,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Lights, signs & roadside fixtures",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 40,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Activation registry & custom types",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 41,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Debug layers & always-draw",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 42,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Debug LOD & performance budgets",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 43,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Validation issue center",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 44,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Highway connectivity graph",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 45,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Directed lane graph",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 46,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Lane-change permissions",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 47,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Pedestrian & accessible network",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 48,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Routes, destinations & query tools",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 49,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Compiler preflight & freshness",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 50,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Runtime compilation pipeline",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 51,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Runtime schema inspector",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 52,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Mesh build manifest & ownership",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 53,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Vehicle travel & lane following",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 54,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Pedestrian, queue & boarding flow",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 55,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Parking reservation & occupancy",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 56,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Streaming & pooled actors",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 57,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Verification & regression lab",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 58,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Appearance, shortcuts & layout",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 59,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Export package & handoff",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 60,
+      "theme": "dark",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Prototype review & approval",
+        "theme": "dark",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 1,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "World workspace",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 2,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "World root & identity",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 3,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "States, cities & ownership",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 4,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Choose landscape sources",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 5,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Landscape scan inventory",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 6,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Scan \u2192 diff \u2192 reconcile",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 7,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Legacy layout import",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 8,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Bind highway control points",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 9,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Segments & tangent inspection",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 10,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Branches, loops & crossings",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 11,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Draft, compare & apply",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 12,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Save, recovery & conflicts",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 13,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Mesh catalog browser",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 14,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Root mesh defaults",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 15,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "State mesh overrides",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 16,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "City mesh overrides",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 17,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Highway mesh overrides",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 18,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Live fallback resolver",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 19,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Missing assets & blocked build",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 20,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Lane profile & widths",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 21,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Sidewalks, curbs & borders",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 22,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Markings & crossing footprint",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 23,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Lane transitions & adapters",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 24,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Road mesh generation preview",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 25,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "T-junction geometry",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 26,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Four-way junction & turn links",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 27,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Roundabout & circulating lanes",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 28,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Traffic light placement",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 29,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Signal phases & conflict timing",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 30,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Crosswalk waiting points",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 31,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Bus stop bay & stopping pose",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 32,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Passenger waiting & boarding",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 33,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Shelter, base & indicator meshes",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 34,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Seat groups & interaction poses",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 35,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Parking grid & bay dimensions",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 36,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Parking entry, exit & rules",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 37,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Universal sub-point gizmo",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 38,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Batch transforms & impact preview",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 39,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Lights, signs & roadside fixtures",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 40,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Activation registry & custom types",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 41,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Debug layers & always-draw",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 42,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Debug LOD & performance budgets",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 43,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Validation issue center",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 44,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Highway connectivity graph",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 45,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Directed lane graph",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 46,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Lane-change permissions",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 47,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Pedestrian & accessible network",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 48,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Routes, destinations & query tools",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 49,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Compiler preflight & freshness",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 50,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Runtime compilation pipeline",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 51,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Runtime schema inspector",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 52,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Mesh build manifest & ownership",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 53,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Vehicle travel & lane following",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 54,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Pedestrian, queue & boarding flow",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 55,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Parking reservation & occupancy",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 56,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Streaming & pooled actors",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 57,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Verification & regression lab",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 58,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Appearance, shortcuts & layout",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 59,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Export package & handoff",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 60,
+      "theme": "light",
+      "pass": true,
+      "issues": [],
+      "layout": {
+        "title": "Prototype review & approval",
+        "theme": "light",
+        "width": 1920,
+        "height": 1080,
+        "sw": 1920,
+        "sh": 1080,
+        "nav": 12,
+        "undo": true,
+        "redo": true,
+        "brokenImages": 0,
+        "panels": [
+          {
+            "class": "toolbar",
+            "x": 0,
+            "y": 29,
+            "w": 1920,
+            "h": 43,
+            "right": 1920,
+            "bottom": 72
+          },
+          {
+            "class": "panel left-panel",
+            "x": 0,
+            "y": 116,
+            "w": 258,
+            "h": 745,
+            "right": 258,
+            "bottom": 861
+          },
+          {
+            "class": "panel inspector",
+            "x": 1616,
+            "y": 116,
+            "w": 304,
+            "h": 745,
+            "right": 1920,
+            "bottom": 861
+          }
+        ]
+      }
+    },
+    {
+      "screen": 1,
+      "resolution": "1600x900",
+      "pass": true,
+      "layout": {
+        "w": 1600,
+        "h": 900,
+        "sw": 1600,
+        "sh": 900
+      }
+    },
+    {
+      "screen": 6,
+      "resolution": "1600x900",
+      "pass": true,
+      "layout": {
+        "w": 1600,
+        "h": 900,
+        "sw": 1600,
+        "sh": 900
+      }
+    },
+    {
+      "screen": 18,
+      "resolution": "1600x900",
+      "pass": true,
+      "layout": {
+        "w": 1600,
+        "h": 900,
+        "sw": 1600,
+        "sh": 900
+      }
+    },
+    {
+      "screen": 20,
+      "resolution": "1600x900",
+      "pass": true,
+      "layout": {
+        "w": 1600,
+        "h": 900,
+        "sw": 1600,
+        "sh": 900
+      }
+    },
+    {
+      "screen": 30,
+      "resolution": "1600x900",
+      "pass": true,
+      "layout": {
+        "w": 1600,
+        "h": 900,
+        "sw": 1600,
+        "sh": 900
+      }
+    },
+    {
+      "screen": 35,
+      "resolution": "1600x900",
+      "pass": true,
+      "layout": {
+        "w": 1600,
+        "h": 900,
+        "sw": 1600,
+        "sh": 900
+      }
+    },
+    {
+      "screen": 37,
+      "resolution": "1600x900",
+      "pass": true,
+      "layout": {
+        "w": 1600,
+        "h": 900,
+        "sw": 1600,
+        "sh": 900
+      }
+    },
+    {
+      "screen": 45,
+      "resolution": "1600x900",
+      "pass": true,
+      "layout": {
+        "w": 1600,
+        "h": 900,
+        "sw": 1600,
+        "sh": 900
+      }
+    },
+    {
+      "screen": 50,
+      "resolution": "1600x900",
+      "pass": true,
+      "layout": {
+        "w": 1600,
+        "h": 900,
+        "sw": 1600,
+        "sh": 900
+      }
+    },
+    {
+      "screen": 51,
+      "resolution": "1600x900",
+      "pass": true,
+      "layout": {
+        "w": 1600,
+        "h": 900,
+        "sw": 1600,
+        "sh": 900
+      }
+    },
+    {
+      "screen": 58,
+      "resolution": "1600x900",
+      "pass": true,
+      "layout": {
+        "w": 1600,
+        "h": 900,
+        "sw": 1600,
+        "sh": 900
+      }
+    },
+    {
+      "screen": 60,
+      "resolution": "1600x900",
+      "pass": true,
+      "layout": {
+        "w": 1600,
+        "h": 900,
+        "sw": 1600,
+        "sh": 900
+      }
+    },
+    {
+      "screen": 1,
+      "resolution": "1366x768",
+      "pass": true,
+      "layout": {
+        "w": 1366,
+        "h": 768,
+        "sw": 1366,
+        "sh": 768
+      }
+    },
+    {
+      "screen": 6,
+      "resolution": "1366x768",
+      "pass": true,
+      "layout": {
+        "w": 1366,
+        "h": 768,
+        "sw": 1366,
+        "sh": 768
+      }
+    },
+    {
+      "screen": 18,
+      "resolution": "1366x768",
+      "pass": true,
+      "layout": {
+        "w": 1366,
+        "h": 768,
+        "sw": 1366,
+        "sh": 768
+      }
+    },
+    {
+      "screen": 20,
+      "resolution": "1366x768",
+      "pass": true,
+      "layout": {
+        "w": 1366,
+        "h": 768,
+        "sw": 1366,
+        "sh": 768
+      }
+    },
+    {
+      "screen": 30,
+      "resolution": "1366x768",
+      "pass": true,
+      "layout": {
+        "w": 1366,
+        "h": 768,
+        "sw": 1366,
+        "sh": 768
+      }
+    },
+    {
+      "screen": 35,
+      "resolution": "1366x768",
+      "pass": true,
+      "layout": {
+        "w": 1366,
+        "h": 768,
+        "sw": 1366,
+        "sh": 768
+      }
+    },
+    {
+      "screen": 37,
+      "resolution": "1366x768",
+      "pass": true,
+      "layout": {
+        "w": 1366,
+        "h": 768,
+        "sw": 1366,
+        "sh": 768
+      }
+    },
+    {
+      "screen": 45,
+      "resolution": "1366x768",
+      "pass": true,
+      "layout": {
+        "w": 1366,
+        "h": 768,
+        "sw": 1366,
+        "sh": 768
+      }
+    },
+    {
+      "screen": 50,
+      "resolution": "1366x768",
+      "pass": true,
+      "layout": {
+        "w": 1366,
+        "h": 768,
+        "sw": 1366,
+        "sh": 768
+      }
+    },
+    {
+      "screen": 51,
+      "resolution": "1366x768",
+      "pass": true,
+      "layout": {
+        "w": 1366,
+        "h": 768,
+        "sw": 1366,
+        "sh": 768
+      }
+    },
+    {
+      "screen": 58,
+      "resolution": "1366x768",
+      "pass": true,
+      "layout": {
+        "w": 1366,
+        "h": 768,
+        "sw": 1366,
+        "sh": 768
+      }
+    },
+    {
+      "screen": 60,
+      "resolution": "1366x768",
+      "pass": true,
+      "layout": {
+        "w": 1366,
+        "h": 768,
+        "sw": 1366,
+        "sh": 768
+      }
+    }
+  ]
+}

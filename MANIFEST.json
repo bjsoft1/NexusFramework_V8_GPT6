@@ -1,0 +1,398 @@
+{
+  "schema_version": 1,
+  "package": "NexusFramework V8 — five-phase documentation",
+  "revision": "V8.1-aligned / 1.0",
+  "scope": "All packaged payload files except MANIFEST.json itself",
+  "files": [
+    {
+      "path": "00-START-HERE.md",
+      "bytes": 4429,
+      "sha256": "4f3b1f6d7b0283e6c5a5af6ad2d89b1113a0d9174ecfe41959d52758dc2e83b7"
+    },
+    {
+      "path": "01-MASTER-REQUIREMENTS.md",
+      "bytes": 5927,
+      "sha256": "10b08cd059842598343b1da85800ff043f7c37dd2c133df4edca56d23d86c5f1"
+    },
+    {
+      "path": "02-FIVE-PHASE-ROADMAP.md",
+      "bytes": 3443,
+      "sha256": "854b83eb460c86d8c9c07aec9ec89dd7dea1c8a3168200f41650110c9265e0f1"
+    },
+    {
+      "path": "AGENT-INSTRUCTIONS.md",
+      "bytes": 3585,
+      "sha256": "d6c7e5123c8fc55bfcdbe9719d317878248d8b236d92375de9159635a7a9c906"
+    },
+    {
+      "path": "PHASE-STATUS.json",
+      "bytes": 2577,
+      "sha256": "237d5336f274cbe40d1801bd9fc0612bfd57179ea11a9a42c7b01a54bd077027"
+    },
+    {
+      "path": "README.md",
+      "bytes": 457,
+      "sha256": "5d677e7655f4247d8e2d9c4c423282959141d11de88d4aae7869f957cc36e0b1"
+    },
+    {
+      "path": "START-HERE.html",
+      "bytes": 313385,
+      "sha256": "21fc2f8358237d4561842def296b17eb81199cad6474c33fff3a9d95fb9a2545"
+    },
+    {
+      "path": "architecture/01-Hierarchy-and-Data-Ownership.md",
+      "bytes": 5704,
+      "sha256": "8292ba7188ace670788e43116d5a84a2f75d8d737b8220cff69522f41dcc9fb1"
+    },
+    {
+      "path": "architecture/02-Mesh-Inheritance-and-Road-Profiles.md",
+      "bytes": 5403,
+      "sha256": "0cf33651a7f198970e3cc45e9d510e13acf124dc6a20b033c54b8319b054ea80"
+    },
+    {
+      "path": "architecture/03-Point-Features-and-Places.md",
+      "bytes": 6863,
+      "sha256": "dda949badb7cfa0d97f8930a40c554e88acea9583119d99509ff6cc9cd8beb72"
+    },
+    {
+      "path": "architecture/04-Lane-Graph-and-Runtime-Contract.md",
+      "bytes": 5899,
+      "sha256": "3fc074558850b33a81e971b33ce5ceede9c58ac2891c3df73fa774aa8c79d9c5"
+    },
+    {
+      "path": "architecture/05-Editor-UX-and-Gizmo-Contract.md",
+      "bytes": 5019,
+      "sha256": "d50c89322356d3d8e052ce87ac8075c1d3de265b8870624f9d7db179a9d0f2fb"
+    },
+    {
+      "path": "architecture/06-Compiler-Persistence-and-Publishing.md",
+      "bytes": 5188,
+      "sha256": "27680c9220e5daaaa7c71b875211b81361befd3c2e41697048a292248f1fd485"
+    },
+    {
+      "path": "decisions/DECISION-REGISTER.md",
+      "bytes": 4663,
+      "sha256": "b1f68ef707fd67a44dd4a83474b2b3100bb60ed25f9ec15764ea1c9a684a75fa"
+    },
+    {
+      "path": "phases/01-Foundation-and-Landscape.md",
+      "bytes": 9723,
+      "sha256": "65a6dceed19a61a1a8e0ffa86d50b1153af6bfd9407aeefa5c32fc284e433a3a"
+    },
+    {
+      "path": "phases/02-Mesh-Inheritance-Roads-and-Adapters.md",
+      "bytes": 9905,
+      "sha256": "94307be86e04d5bb96408023071617566b7466801c90c3cecc6913abd525b386"
+    },
+    {
+      "path": "phases/03-Junctions-Point-Features-and-Places.md",
+      "bytes": 10166,
+      "sha256": "54211cd1a764fc87851fb87198d7dc5786889d652212726602836d03d95bea45"
+    },
+    {
+      "path": "phases/04-Editor-Tools-Navigation-and-Validation.md",
+      "bytes": 9790,
+      "sha256": "0253e35eaf9e606c336c015136b5f231ea20576213ddd09577eeac5adccf63e3"
+    },
+    {
+      "path": "phases/05-Compiler-Runtime-and-Release.md",
+      "bytes": 10625,
+      "sha256": "82feccce8a4b74e86c0fdefdee6db47fa269137cc83fc92de18cb1c9f3767c3b"
+    },
+    {
+      "path": "prototype-reference/README.md",
+      "bytes": 1126,
+      "sha256": "64563eb7ab629601c10247ae2ef5aea334efe651e803ccaac81445b37fef36ef"
+    },
+    {
+      "path": "prototype-reference/V8-60-Screen-Reference.html",
+      "bytes": 259723,
+      "sha256": "a42e0de153a0b5dcf4c6448dedb7c70667fdae8576beb8523ca681bf356bca2c"
+    },
+    {
+      "path": "prototype-reference/V8.1-Simple-Review.html",
+      "bytes": 66384,
+      "sha256": "e7dec137d130b9547db1e4cb090c0d800b8b251975a3a3a5b33ee58974750591"
+    },
+    {
+      "path": "references/Legacy-V0-V7-Documentation.zip",
+      "bytes": 2468888,
+      "sha256": "e074ec8ae3011349f19a8382e95dcae9412b264d648aeb10faae7d3b0485210c"
+    },
+    {
+      "path": "references/README.md",
+      "bytes": 2897,
+      "sha256": "d59f464f6217af8179cb889b655c88be52fc654a408c75eea4f37cb53505388e"
+    },
+    {
+      "path": "references/SOURCE-INVENTORY.json",
+      "bytes": 1354,
+      "sha256": "b2d7728753abd0f6f0aeafd9079374cf58b6002347311db7d45d63f6a8206556"
+    },
+    {
+      "path": "references/v8-1-review/README.md",
+      "bytes": 3885,
+      "sha256": "0287f54ed09f7bbcdbfeb81079ae7bb649eecc2b7d62097d77e1b862ddf30e3d"
+    },
+    {
+      "path": "references/v8-1-review/SHA256.json",
+      "bytes": 12600,
+      "sha256": "a21d61ecff333ad93c55af911dd331f15daee0650aa47813b4f1f3eca2d9bef7"
+    },
+    {
+      "path": "references/v8-1-review/advanced-reference/REFERENCE-STATUS.md",
+      "bytes": 211,
+      "sha256": "6b011f2ce427c72ec7089d5b3e707bbb92ad451be63f98ffb5d8dee23e9420da"
+    },
+    {
+      "path": "references/v8-1-review/advanced-reference/assets/mesh-manifest-fixture.json",
+      "bytes": 709,
+      "sha256": "2615245df833cd6c81ff498717c5b5687e5a2ecd90c5add873c0700b0ac4ac5c"
+    },
+    {
+      "path": "references/v8-1-review/advanced-reference/assets/runtime-fixture.json",
+      "bytes": 58668,
+      "sha256": "adcad689fa45843c1356d48c194f3f93630b536df642de7c3b7a685302c3ec83"
+    },
+    {
+      "path": "references/v8-1-review/advanced-reference/assets/screens.json",
+      "bytes": 112237,
+      "sha256": "01039f923b462a8e165306aff6caa0711d839bc3a7c9c7f70126f7273e386538"
+    },
+    {
+      "path": "references/v8-1-review/docs/20-POINT-REVISION.md",
+      "bytes": 2153,
+      "sha256": "dd6838afd0c49597e65422a756ca3c9fc91d52ea5b45661c757a05abea87b537"
+    },
+    {
+      "path": "references/v8-1-review/docs/ENGINE-ACCEPTANCE-TESTS.md",
+      "bytes": 6575,
+      "sha256": "3800ce7caed8300f9250070ab1eb28debb94300e657e287950be757e8db9b5a7"
+    },
+    {
+      "path": "references/v8-1-review/docs/INPUT-PRESERVATION.md",
+      "bytes": 475,
+      "sha256": "7580c99edc3245e5030d1c8d26885d07d931c997ad25f84f4f1fde11881cb2da"
+    },
+    {
+      "path": "references/v8-1-review/docs/ROAD-NETWORK-CONTRACT.md",
+      "bytes": 19011,
+      "sha256": "c379e249a419e0de5f55c406ca64452fc7fa72d80e660a87a12e740a99561ebc"
+    },
+    {
+      "path": "references/v8-1-review/evidence/BROWSER-RESULTS.json",
+      "bytes": 23287,
+      "sha256": "4c613af66ef1a846be24ed27025038fc0571c8aaadfe873a7dcf2df808a93a79"
+    },
+    {
+      "path": "references/v8-1-review/evidence/DEFAULT-REVIEW-FIXTURE.json",
+      "bytes": 11865,
+      "sha256": "7e17a6d10d8f73abf38867d2dc2dde6a07da7e0030adc7a6de4869f41c2bd437"
+    },
+    {
+      "path": "references/v8-1-review/evidence/EXPORTED-REVIEW-TEST.json",
+      "bytes": 13934,
+      "sha256": "f520afbb86a44a66e2b091267ad1a9f1e7c592c5535b537bc992b55261c2e667"
+    },
+    {
+      "path": "references/v8-1-review/evidence/TEST-REPORT.md",
+      "bytes": 3687,
+      "sha256": "d6a983c7080dc58fdcf000fce782e1ef11db7f2dabc9e47ed04aa0cb405c335e"
+    },
+    {
+      "path": "references/v8-1-review/prior-phase-drafts/01-foundation-landscape-DRAFT.md",
+      "bytes": 4985,
+      "sha256": "0e1ca09fe7d0d944b3fdb9bbcfc219c145cbc03e3e8f6eea625791f93fb12740"
+    },
+    {
+      "path": "references/v8-1-review/prior-phase-drafts/02-mesh-cascade-roads-DRAFT.md",
+      "bytes": 5066,
+      "sha256": "cd6ebca828acc34d5f8e8559649de9d3a6190fecfce98dd03d5b409c51a1e1b8"
+    },
+    {
+      "path": "references/v8-1-review/prior-phase-drafts/03-junctions-services-DRAFT.md",
+      "bytes": 4989,
+      "sha256": "7b42f76fe48aab1931d6682411f8145c7844e669c5256a188a03419ef3d34495"
+    },
+    {
+      "path": "references/v8-1-review/prior-phase-drafts/04-tools-navigation-DRAFT.md",
+      "bytes": 5084,
+      "sha256": "5f50d885192b4a11eb09316403fc3a5ed2e3512bfd30426ed718cafaa42a5800"
+    },
+    {
+      "path": "references/v8-1-review/prior-phase-drafts/05-compiler-runtime-release-DRAFT.md",
+      "bytes": 5376,
+      "sha256": "e87599ef33eca8cd5d880425b8fcf9fa5853af2b2411e38c926dbe93629b74a0"
+    },
+    {
+      "path": "references/v8-1-review/prior-phase-drafts/README.md",
+      "bytes": 506,
+      "sha256": "d58a7a7b84a8e9c1145a48541137c2c832daad1b81bfc2bd8adf70efd5bf38ed"
+    },
+    {
+      "path": "references/v8-first-review/LICENSE-NOTICE.md",
+      "bytes": 758,
+      "sha256": "5bd1f9c3eebb76b46fa265b79f4e980f73dc9cf17de38ddb1423ef3bc609d1fe"
+    },
+    {
+      "path": "references/v8-first-review/README.md",
+      "bytes": 4684,
+      "sha256": "fdb51b09ddb16ae692780cf8300bb775b87d449f1a38f1654d0398e6509b7b13"
+    },
+    {
+      "path": "references/v8-first-review/assets/mesh-manifest-fixture.json",
+      "bytes": 709,
+      "sha256": "2615245df833cd6c81ff498717c5b5687e5a2ecd90c5add873c0700b0ac4ac5c"
+    },
+    {
+      "path": "references/v8-first-review/assets/runtime-fixture.json",
+      "bytes": 58668,
+      "sha256": "adcad689fa45843c1356d48c194f3f93630b536df642de7c3b7a685302c3ec83"
+    },
+    {
+      "path": "references/v8-first-review/assets/screens.json",
+      "bytes": 112237,
+      "sha256": "01039f923b462a8e165306aff6caa0711d839bc3a7c9c7f70126f7273e386538"
+    },
+    {
+      "path": "references/v8-first-review/docs/20-POINT-REVIEW.md",
+      "bytes": 2017,
+      "sha256": "b0dc370f38060de2f8c3e80dae4c9469a8dcd08a91ad786cfc1aee6d61942b28"
+    },
+    {
+      "path": "references/v8-first-review/docs/DECISIONS-FOR-APPROVAL.md",
+      "bytes": 2813,
+      "sha256": "7b7a9ac4dd7f7aa43fc4b86725e1e2720a0cdd282946e1404403a8836512bebc"
+    },
+    {
+      "path": "references/v8-first-review/docs/RUNTIME-CONTRACT.md",
+      "bytes": 3705,
+      "sha256": "7e4c590b0519b944bd87c6728b0640f39e452fc028073c632e9342473a96187d"
+    },
+    {
+      "path": "references/v8-first-review/docs/SCREEN-CATALOG.md",
+      "bytes": 10680,
+      "sha256": "65566ca2a9761dd31eb14027a4fe8ad25ae53453e16f1321efb2188a3cb9878c"
+    },
+    {
+      "path": "references/v8-first-review/docs/SOURCE-TRACEABILITY.md",
+      "bytes": 4007,
+      "sha256": "8dcf0c97845ff2316e5638191fa5d3b135ea032e66b2b75d1adcff8fe3f01ce4"
+    },
+    {
+      "path": "references/v8-first-review/evidence/SUMMARY.json",
+      "bytes": 369,
+      "sha256": "52d557a8c529d26e34666fe223ccc518ef92c796a1efa63b1643741e498cb737"
+    },
+    {
+      "path": "references/v8-first-review/evidence/TEST-REPORT.md",
+      "bytes": 5590,
+      "sha256": "ded556e2c2ce77646c48763691a074d5c0b6d5c1be61f2c3df7fd358dda35894"
+    },
+    {
+      "path": "references/v8-first-review/evidence/browser-render-01-60.json",
+      "bytes": 125451,
+      "sha256": "616a2835f8bca30ac2c2ddbf1602a1130cef9faf03d4e45f222174004643ce07"
+    },
+    {
+      "path": "references/v8-first-review/evidence/interaction-results.json",
+      "bytes": 2995,
+      "sha256": "541e8d461bf94db2e6a2e6b9f6fb0788484032904b4a37adf8e24769d44d4dea"
+    },
+    {
+      "path": "references/v8-first-review/evidence/static-results.json",
+      "bytes": 5435,
+      "sha256": "22bc494c5f9684105d561c20b3ab7aba6b01ddfb1376efe914a7150d62d53854"
+    },
+    {
+      "path": "references/v8-first-review/phases-draft/01-foundation-landscape-DRAFT.md",
+      "bytes": 4985,
+      "sha256": "0e1ca09fe7d0d944b3fdb9bbcfc219c145cbc03e3e8f6eea625791f93fb12740"
+    },
+    {
+      "path": "references/v8-first-review/phases-draft/02-mesh-cascade-roads-DRAFT.md",
+      "bytes": 5066,
+      "sha256": "cd6ebca828acc34d5f8e8559649de9d3a6190fecfce98dd03d5b409c51a1e1b8"
+    },
+    {
+      "path": "references/v8-first-review/phases-draft/03-junctions-services-DRAFT.md",
+      "bytes": 4989,
+      "sha256": "7b42f76fe48aab1931d6682411f8145c7844e669c5256a188a03419ef3d34495"
+    },
+    {
+      "path": "references/v8-first-review/phases-draft/04-tools-navigation-DRAFT.md",
+      "bytes": 5084,
+      "sha256": "5f50d885192b4a11eb09316403fc3a5ed2e3512bfd30426ed718cafaa42a5800"
+    },
+    {
+      "path": "references/v8-first-review/phases-draft/05-compiler-runtime-release-DRAFT.md",
+      "bytes": 5376,
+      "sha256": "e87599ef33eca8cd5d880425b8fcf9fa5853af2b2411e38c926dbe93629b74a0"
+    },
+    {
+      "path": "references/v8-first-review/phases-draft/README.md",
+      "bytes": 506,
+      "sha256": "d58a7a7b84a8e9c1145a48541137c2c832daad1b81bfc2bd8adf70efd5bf38ed"
+    },
+    {
+      "path": "references/v8-first-review/tests/README.md",
+      "bytes": 1446,
+      "sha256": "95fb3207633eb708668e3746d184f4cceaf7408dbdc9d7f7f30492cad93e1741"
+    },
+    {
+      "path": "verification/DOCUMENT-PACKAGE-CHECKS.md",
+      "bytes": 3568,
+      "sha256": "e0f35f7249b4348652ad618e37bc7871f8ce1b2c0e32ba1879a6a2bdd29ae889"
+    },
+    {
+      "path": "verification/DOCUMENT-PACKAGE-RESULTS.json",
+      "bytes": 18957,
+      "sha256": "3071ff8383983651fa2a4e34d1bf87f0d7b06681f52e85784574954ae438bd3f"
+    },
+    {
+      "path": "verification/ENGINE-36-COVERAGE.md",
+      "bytes": 3044,
+      "sha256": "6739b061060999ad67de54862b31cf66efc3aaf078b0ea4ac3bc9ff5a417955b"
+    },
+    {
+      "path": "verification/PHASE-GATE-REPORT-TEMPLATE.md",
+      "bytes": 2394,
+      "sha256": "01721c21f6eeff3c981040bc195349fe34f0b7b98a89c264665064bb68390ff2"
+    },
+    {
+      "path": "verification/PLANNED-TESTS.json",
+      "bytes": 36413,
+      "sha256": "5e3606d956c6b966e44d287fb1f825df71f0f8caa1a042cd9e75fd85157783cf"
+    },
+    {
+      "path": "verification/REGRESSION-FIXTURES.md",
+      "bytes": 4835,
+      "sha256": "8c5d7b6f0510da2319f992d216d4d4a4439ea0eb2ea0eab358e421f9d4213847"
+    },
+    {
+      "path": "verification/REQUIREMENT-COVERAGE.md",
+      "bytes": 2818,
+      "sha256": "0de2de73c9002c4e1f4505196f7760d5fdcc26ee023a5ed47de24fcf966e5dc6"
+    },
+    {
+      "path": "verification/TEST-MATRIX.md",
+      "bytes": 6469,
+      "sha256": "3c0c1484083ce990532e65564c8e364fb9eeefbb7096d4af2e3095ef8c70509c"
+    },
+    {
+      "path": "verification/guide-light.png",
+      "bytes": 230014,
+      "sha256": "f38208c2f075ae95252c551828dc0376be0f8b5e8d5132dcbb29f310b60ef0d0"
+    },
+    {
+      "path": "verification/phase3-dark.png",
+      "bytes": 255410,
+      "sha256": "d599fffbede6f681f9abc649f0299bd21d2e9884fa304d93b55477e362d37e2c"
+    },
+    {
+      "path": "verification/verify-package.py",
+      "bytes": 2071,
+      "sha256": "128c50f2b97fd4d491650c4e1d445ac45141478df45d4eb8f53042c26ace6006"
+    }
+  ]
+}
