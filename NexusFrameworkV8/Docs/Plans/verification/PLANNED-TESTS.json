@@ -1,0 +1,1054 @@
+{
+  "package_revision": "V8.1-aligned five-phase documentation / 1.0",
+  "evidence_class": "PLANNED_ENGINE_TESTS",
+  "engine_tests_executed": 0,
+  "tests": [
+    {
+      "id": "P01-T01",
+      "phase": 1,
+      "title": "Build and module boundary",
+      "procedure": "Configure the recorded engine/toolchain; build the Editor target and a runtime-only module/dependency check.",
+      "expected": "Both succeed with no runtime dependency on editor modules; archive commands and logs.",
+      "requirements": [
+        "R03",
+        "R20"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P01-T02",
+      "phase": 1,
+      "title": "Exact ownership tree",
+      "procedure": "Create each hierarchy level and all five place-type identity shells; try a cycle and orphan parent.",
+      "expected": "World and Root are aliases for one record; valid place parents are highway points; invalid ownership is rejected.",
+      "requirements": [
+        "R01"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P01-T03",
+      "phase": 1,
+      "title": "Stable IDs and reparent",
+      "procedure": "Rename and reparent a city/highway/place; undo/redo; save/reopen.",
+      "expected": "GUIDs and references remain stable; dependency review identifies affected descendants.",
+      "requirements": [
+        "R01",
+        "R04"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P01-T04",
+      "phase": 1,
+      "title": "Per-segment-end tangents",
+      "procedure": "Use a point with at least three connected segment ends and unequal/negative tangent values.",
+      "expected": "Each endpoint retains its own binding and values; no single shared tangent replaces them.",
+      "requirements": [
+        "R02"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P01-T05",
+      "phase": 1,
+      "title": "Closed loops and duplicates",
+      "procedure": "Scan a closed loop, repeated shared point and repeated import; rescan twice.",
+      "expected": "No duplicate points/segments or broken loop closure; source order does not redefine identity.",
+      "requirements": [
+        "R02"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P01-T06",
+      "phase": 1,
+      "title": "Source transforms and grade separation",
+      "procedure": "Read rotated/scaled source actors and roads crossing at different elevations.",
+      "expected": "Resolved geometry is consistent in the declared units/frame; XY overlap does not create topology.",
+      "requirements": [
+        "R02"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P01-T07",
+      "phase": 1,
+      "title": "Rescan preserves semantics",
+      "procedure": "Attach authored codes, feature stubs and place offsets; move source geometry; reconcile.",
+      "expected": "Compatible authored values survive and derived transforms update without authoring copies of source geometry.",
+      "requirements": [
+        "R02",
+        "R13"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P01-T08",
+      "phase": 1,
+      "title": "Split/merge reconciliation",
+      "procedure": "Split and merge bound source segments; attempt Apply with unmapped references.",
+      "expected": "Affected IDs are remapped explicitly or blocked; no orphan places or silently discarded metadata.",
+      "requirements": [
+        "R02",
+        "R04"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P01-T09",
+      "phase": 1,
+      "title": "Unloaded is not deleted",
+      "procedure": "Unload a source partition, scan and reopen it.",
+      "expected": "State is unavailable/unloaded until resolved; no deletion is inferred from temporary absence.",
+      "requirements": [
+        "R02",
+        "R19"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P01-T10",
+      "phase": 1,
+      "title": "Map and tab lifecycle",
+      "procedure": "Change maps, reopen tabs, switch mode and alter selection during source refresh.",
+      "expected": "Old source handles are invalidated; no stale callbacks, stuck selection or unintended source edit occurs.",
+      "requirements": [
+        "R02",
+        "R03"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P01-T11",
+      "phase": 1,
+      "title": "Transactional edits",
+      "procedure": "Create/apply A; draft B; cancel/revert B; undo/redo A from toolbar and keyboard.",
+      "expected": "One accepted action is one transaction; cancel restores pre-drag state and Revert affects only the draft.",
+      "requirements": [
+        "R04"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P01-T12",
+      "phase": 1,
+      "title": "Interrupted save and conflicts",
+      "procedure": "Inject failure before replacement and open a stale draft against a newer saved revision.",
+      "expected": "Last valid save survives; recovery and three-way conflict review are explicit; no data is overwritten silently.",
+      "requirements": [
+        "R04"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P01-T13",
+      "phase": 1,
+      "title": "Landscape preservation",
+      "procedure": "Fingerprint Landscape content before and after scan, semantic save and reopen.",
+      "expected": "Read/save paths leave geometry assets unchanged; no rebuild or terrain mutation is hidden in saving.",
+      "requirements": [
+        "R02",
+        "R04"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P01-T14",
+      "phase": 1,
+      "title": "Schema and legacy import",
+      "procedure": "Load a supported test legacy fixture, unknown schema version and duplicate import into a backup workspace.",
+      "expected": "Supported data has a reviewed diff; unsupported data is preserved/rejected safely; import is repeatable.",
+      "requirements": [
+        "R04",
+        "R19",
+        "R20"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P01-T15",
+      "phase": 1,
+      "title": "Vertical slice and usability",
+      "procedure": "Author one highway and place; serialize/reopen; operate Basic at 1920×1080 and 125%/150% display scale.",
+      "expected": "IDs/bindings round-trip; dark/light, focus, tooltips and ordinary authoring work without opening Advanced.",
+      "requirements": [
+        "R01",
+        "R03",
+        "R17"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P02-T01",
+      "phase": 2,
+      "title": "Four-level precedence",
+      "procedure": "Assign one slot at Root, State, City and Highway; clear them from nearest to farthest.",
+      "expected": "Source changes Highway → City → State → Root; clearing Root yields a typed missing-required-entry issue.",
+      "requirements": [
+        "R05"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P02-T02",
+      "phase": 2,
+      "title": "Partial catalog and nulls",
+      "procedure": "Override only a City shelter; leave its road entry absent; remove City/State config references.",
+      "expected": "Each slot resolves independently; absent asset/entry inherits and does not copy parent values into children.",
+      "requirements": [
+        "R05"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P02-T03",
+      "phase": 2,
+      "title": "Broken explicit asset",
+      "procedure": "Assign an invalid Highway path while a valid Root fallback exists; disable an optional feature separately.",
+      "expected": "Broken assignment blocks instead of silently falling through; disabled optional feature is not treated as null inheritance.",
+      "requirements": [
+        "R05",
+        "R09"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P02-T04",
+      "phase": 2,
+      "title": "Mesh interfaces and shared owner",
+      "procedure": "Resolve a shared-topology fixture using an explicit owner; swap an incompatible lane-width/port/pivot variant.",
+      "expected": "Owner choice is deterministic; mismatched interface produces an actionable error naming the port/slot.",
+      "requirements": [
+        "R06",
+        "R10"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P02-T05",
+      "phase": 2,
+      "title": "6→4 forward merge",
+      "procedure": "Build the 3-forward-lane to 2-forward-lane fixture and remove the dropped lane successor.",
+      "expected": "All valid inputs have continuous approved successors; the negative fixture is blocked with lane identity.",
+      "requirements": [
+        "R07",
+        "R08"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P02-T06",
+      "phase": 2,
+      "title": "6→4 reverse branch",
+      "procedure": "Traverse the same physical adapter in reverse travel, from two lanes toward three.",
+      "expected": "Explicit branch options exist; direction, access and no-wrong-way rules are preserved.",
+      "requirements": [
+        "R07",
+        "R08"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P02-T07",
+      "phase": 2,
+      "title": "4→2 and 6→2 staging",
+      "procedure": "Build both travel directions for 4→2 and an explicitly supported direct/staged 6→2 preset.",
+      "expected": "Every lane transition is mapped and has enough validated geometry; unsupported abrupt transitions cannot publish.",
+      "requirements": [
+        "R08"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P02-T08",
+      "phase": 2,
+      "title": "Asymmetric and one-way",
+      "procedure": "Use 4+2, 2+0 and bus-only lanes with independent width/access settings.",
+      "expected": "Total count never substitutes for direction/profile semantics; forbidden participant types are rejected.",
+      "requirements": [
+        "R07"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P02-T09",
+      "phase": 2,
+      "title": "Width/count edits and identity",
+      "procedure": "Change lane width without count, then add/remove a lane and inspect stable ID remapping.",
+      "expected": "Widths and corridors refresh together; unaffected IDs survive and removed lane references are reviewed.",
+      "requirements": [
+        "R07",
+        "R17"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P02-T10",
+      "phase": 2,
+      "title": "Interior adapter interval",
+      "procedure": "Place a semantic adapter inside a curved source segment; edit its station range and rescan.",
+      "expected": "Range is explicit and valid; no hidden source split or Landscape mutation is introduced.",
+      "requirements": [
+        "R02",
+        "R08"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P02-T11",
+      "phase": 2,
+      "title": "Driving-side convention",
+      "procedure": "Mirror a controlled profile fixture between left/right driving using the approved policy.",
+      "expected": "Lane identity rules stay stable; directional ordering and allowed mappings change consistently.",
+      "requirements": [
+        "R07",
+        "R08"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P02-T12",
+      "phase": 2,
+      "title": "Mesh seam and marking quality",
+      "procedure": "Join straight, curve and adapter boundaries using existing assets.",
+      "expected": "Profile boundaries align; sidewalk/border continuity, normals and material conventions match; no unintended end caps or separate lane-marker meshes.",
+      "requirements": [
+        "R06"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P02-T13",
+      "phase": 2,
+      "title": "Banked curve containment",
+      "procedure": "Sweep the configured vehicle envelope through a banked curve and adapter using agreed tolerances.",
+      "expected": "Usable corridors and mesh surface agree; geometric failures are reported, not hidden by resampling or clamping.",
+      "requirements": [
+        "R06",
+        "R08"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P02-T14",
+      "phase": 2,
+      "title": "Build failure and ownership",
+      "procedure": "Repeat a preview build; inject failure/cancel before replacement with unrelated scene assets present.",
+      "expected": "No duplicate generated output; last valid preview remains; unrelated assets are untouched.",
+      "requirements": [
+        "R04",
+        "R17"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P02-T15",
+      "phase": 2,
+      "title": "History, persistence and cache",
+      "procedure": "Change a parent mesh and segment profile; undo/redo, rescan, save/reopen and compare resolved results.",
+      "expected": "Only affected derived output invalidates; authored values and inheritance semantics round-trip.",
+      "requirements": [
+        "R04",
+        "R05",
+        "R07"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P03-T01",
+      "phase": 3,
+      "title": "Canonical junction identity",
+      "procedure": "Connect three highways to one shared junction, including a boundary between cities; rebuild in different orders.",
+      "expected": "Only one canonical junction is generated; explicit owner and scope membership remain stable.",
+      "requirements": [
+        "R01",
+        "R10"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P03-T02",
+      "phase": 3,
+      "title": "Typed junction movements",
+      "procedure": "Test T, cross, skewed and mixed-profile arms with legal/prohibited/U-turn cases.",
+      "expected": "Only approved directed lane connectors exist; invalid arms and prohibited movements are rejected.",
+      "requirements": [
+        "R06",
+        "R10"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P03-T03",
+      "phase": 3,
+      "title": "Shared intersection transform",
+      "procedure": "Rotate/bank a shared intersection at non-right angles and change its declared mesh owner.",
+      "expected": "Mesh, port frames, lane paths, signals and offsets align; ownership does not follow traversal order.",
+      "requirements": [
+        "R06",
+        "R10",
+        "R14"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P03-T04",
+      "phase": 3,
+      "title": "Roundabout identity and schema",
+      "procedure": "Reference one roundabout from four highway points; inspect ring lanes, ports, circulation and scope references.",
+      "expected": "One canonical ID is counted once per requested scope; required entry/exit and yield data are present.",
+      "requirements": [
+        "R11"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P03-T05",
+      "phase": 3,
+      "title": "Feature-component consistency",
+      "procedure": "Toggle a crossing/signal, undo/redo and import a flag that disagrees with its component links.",
+      "expected": "Switches reflect backing records; incompatible summaries or dangling dependencies cannot be saved/published silently.",
+      "requirements": [
+        "R09"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P03-T06",
+      "phase": 3,
+      "title": "Crosswalk geometry and waiting points",
+      "procedure": "Create crossings with symmetric and unequal sidewalk/border widths; choose the declared depth basis; edit waiting point 2 of 3.",
+      "expected": "Full carriageway span and explicit depth resolve correctly; no ambiguous width policy; only selected waiting handle changes.",
+      "requirements": [
+        "R12",
+        "R14"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P03-T07",
+      "phase": 3,
+      "title": "Signal definitions and conflicts",
+      "procedure": "Create incompatible greens, missing controller, clearance violations and an allowed phase.",
+      "expected": "Invalid definitions block with exact movement/control IDs; valid phase definitions serialize without mutable live state.",
+      "requirements": [
+        "R12"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P03-T08",
+      "phase": 3,
+      "title": "Full 3D local placement",
+      "procedure": "Move/rotate/bank the selected approach frame with nonzero XYZ/pitch/roll/yaw place offsets.",
+      "expected": "All services follow the full frame without drift; offsets remain local authored values.",
+      "requirements": [
+        "R13",
+        "R14"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P03-T09",
+      "phase": 3,
+      "title": "Reparent and independent handles",
+      "procedure": "Edit at least three bus waiting/seat handles; preserve-world then preserve-local reparent; cancel/undo/redo.",
+      "expected": "Siblings remain unchanged; both modes match documented math; transaction restores IDs, links and transforms.",
+      "requirements": [
+        "R04",
+        "R14"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P03-T10",
+      "phase": 3,
+      "title": "Complete bus-stop round-trip",
+      "procedure": "Save/reload and emit the complete entry/stop/exit, boarding/alighting, queue, seat and mesh-slot fixture.",
+      "expected": "Every field and typed vehicle/pedestrian connection survives; one default stop pose is not treated as complete coverage.",
+      "requirements": [
+        "R13",
+        "R15"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P03-T11",
+      "phase": 3,
+      "title": "Physical versus logical seats",
+      "procedure": "Create two benches with three logical seats each; move independent sitting poses and round-trip.",
+      "expected": "Two physical mesh instances and six logical seats retain distinct IDs, capacity and pose links.",
+      "requirements": [
+        "R15"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P03-T12",
+      "phase": 3,
+      "title": "Parking authoring and bay access",
+      "procedure": "Create a 2×6 grid with nonzero gaps, angled/accessible bays and varied class rules.",
+      "expected": "Twelve stable bay poses and explicit entry/exit/walk links serialize; dynamic occupancy is not authored state.",
+      "requirements": [
+        "R13",
+        "R15"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P03-T13",
+      "phase": 3,
+      "title": "Hospital and city park",
+      "procedure": "Set an ambulance-only entrance, ordinary access and independent park walking entrances.",
+      "expected": "Vehicle and pedestrian targets reference legal entrances, not building/park centers; restrictions persist.",
+      "requirements": [
+        "R13",
+        "R15"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P03-T14",
+      "phase": 3,
+      "title": "Petrol pump and queues",
+      "procedure": "Create entry/exit driveway circulation, fuel-bay poses, waiting points and fuel/vehicle compatibility.",
+      "expected": "Approach and exit corridors, queues and restrictions survive save/reopen with no placeholder unvalidated access IDs.",
+      "requirements": [
+        "R13",
+        "R15"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P03-T15",
+      "phase": 3,
+      "title": "Independent payload and extension validation",
+      "procedure": "Round-trip each feature/place family separately; add a registered example type and an unknown compiler type.",
+      "expected": "Known schemas preserve every required field; unknown data is retained but publication is blocked until handled.",
+      "requirements": [
+        "R09",
+        "R13",
+        "R19"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P04-T01",
+      "phase": 4,
+      "title": "Connectivity serialization",
+      "procedure": "Round-trip highway/lane graphs including shared junctions, loops and dead ends.",
+      "expected": "Stable IDs, ConnectedHighwayIds and legal directed edges survive; no actor pointer is runtime identity.",
+      "requirements": [
+        "R10",
+        "R16"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P04-T02",
+      "phase": 4,
+      "title": "Lane-change permission",
+      "procedure": "Query dashed/solid boundaries, opposing lanes, bus restrictions and prohibited junction intervals.",
+      "expected": "Adjacent but prohibited lanes are not returned as legal changes; interval and participant data are explicit.",
+      "requirements": [
+        "R16"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P04-T03",
+      "phase": 4,
+      "title": "Directional adapter routes",
+      "procedure": "Find routes through 6→4→2 and reverse; remove a merge link and restrict one participant class.",
+      "expected": "All allowed routes use explicit mapping; invalid route returns NO_PATH with diagnostic context.",
+      "requirements": [
+        "R08",
+        "R16"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P04-T04",
+      "phase": 4,
+      "title": "Junction query rules",
+      "procedure": "Query each approach lane at mixed-profile T/cross/skewed junctions.",
+      "expected": "Only legal turns are returned; turn bans, class rules and U-turn policy are honored.",
+      "requirements": [
+        "R10",
+        "R16"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P04-T05",
+      "phase": 4,
+      "title": "Unique roundabout counts",
+      "procedure": "Query world/city scopes with four references to one roundabout and an intersection shared across cities.",
+      "expected": "One canonical ID appears once within each selected scope; boundary-membership policy is documented.",
+      "requirements": [
+        "R11"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P04-T06",
+      "phase": 4,
+      "title": "Entry-relative roundabout exits",
+      "procedure": "Query single/multi-lane ring routes using both circulation directions, restricted exits and U-turn modes.",
+      "expected": "Physical port count is separate from legal onward exits; entry-relative ordering and reachability are correct.",
+      "requirements": [
+        "R11",
+        "R16"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P04-T07",
+      "phase": 4,
+      "title": "Service and walk reachability",
+      "procedure": "Query each parking bay, bus stop, hospital, park and fuel entrance for cars/buses/pedestrians.",
+      "expected": "Routes terminate at permitted access/interaction records; inaccessible destinations return typed failure.",
+      "requirements": [
+        "R13",
+        "R15",
+        "R16"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P04-T08",
+      "phase": 4,
+      "title": "Projection and grade separation",
+      "procedure": "Project near parallel/stacked roads and far from the network using heading/elevation constraints.",
+      "expected": "No nearest-road jump across elevation/direction; out-of-bounds queries are explicit failures.",
+      "requirements": [
+        "R02",
+        "R16"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P04-T09",
+      "phase": 4,
+      "title": "Failure-state contract",
+      "procedure": "Request missing IDs, closed exit, unloaded graph chunk and stale snapshot revision.",
+      "expected": "Returns distinguish invalid, NO_PATH, CLOSED, DATA_UNAVAILABLE and STALE; no successful fake route.",
+      "requirements": [
+        "R16",
+        "R17"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P04-T10",
+      "phase": 4,
+      "title": "Gizmo and batch atomicity",
+      "procedure": "Move/rotate/allowed-scale multiple objects, include a read-only point, then cancel/undo/redo.",
+      "expected": "Correct include/skip preview; one accepted transaction; source geometry and sibling handles remain unchanged.",
+      "requirements": [
+        "R04",
+        "R14"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P04-T11",
+      "phase": 4,
+      "title": "Tool lifecycle",
+      "procedure": "Change mode, map, tab and selection during drag; invoke camera and native spline tools.",
+      "expected": "No stuck capture, transform fighting, stale callbacks or lost/incorrect selection.",
+      "requirements": [
+        "R03",
+        "R14"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P04-T12",
+      "phase": 4,
+      "title": "Debug budgets and always-draw",
+      "procedure": "Run declared large fixtures across near/far thresholds with modes/tabs changed.",
+      "expected": "Caps/LOD/culling work; selected diagnostics remain useful; cost is measured on declared hardware.",
+      "requirements": [
+        "R03",
+        "R19"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P04-T13",
+      "phase": 4,
+      "title": "Actionable validation",
+      "procedure": "Inject orphan link, bad mesh port, unresolved successor and conflicting signal; invoke Select and allowed Fix.",
+      "expected": "Exact offending entities are selected; accepted fixes are transactional; blockers remain until genuinely resolved.",
+      "requirements": [
+        "R09",
+        "R16",
+        "R17"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P04-T14",
+      "phase": 4,
+      "title": "Registered extension and deterministic placement",
+      "procedure": "Register an advertisement/TV or approved new type; place by fixed seed; repeat build; try unknown type.",
+      "expected": "Known type uses all adapters and stable placement; unknown export blocks without deleting authored data.",
+      "requirements": [
+        "R19"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P04-T15",
+      "phase": 4,
+      "title": "Expert and Basic usability",
+      "procedure": "Complete common tasks without Advanced; use keyboard-only expert tools at 1080p and scaled DPI in both themes.",
+      "expected": "Primary controls stay reachable and labeled; advanced capability does not become mandatory for routine authoring.",
+      "requirements": [
+        "R03",
+        "R20"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P05-T01",
+      "phase": 5,
+      "title": "Deterministic compile",
+      "procedure": "Compile identical canonical inputs twice, changing traversal order but not logical inputs.",
+      "expected": "Normalized payload hashes, IDs, lane mapping and manifests are equivalent; volatile metadata is excluded from content hashes.",
+      "requirements": [
+        "R17"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P05-T02",
+      "phase": 5,
+      "title": "Atomic publish and stale inputs",
+      "procedure": "Change source/catalog mid-build; inject errors/cancel before publication and simulate failure at switch-over.",
+      "expected": "No partial or mixed-revision output is active; last valid package remains; stale build is rejected.",
+      "requirements": [
+        "R04",
+        "R17"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P05-T03",
+      "phase": 5,
+      "title": "Runtime completeness and schema",
+      "procedure": "Load/round-trip every specialized payload and graph in runtime-only context; test supported/unknown schema versions.",
+      "expected": "All required IDs/fields survive; editor modules are absent; incompatible schema is rejected without corrupting prior data.",
+      "requirements": [
+        "R09",
+        "R13",
+        "R15",
+        "R17"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P05-T04",
+      "phase": 5,
+      "title": "Lane following and containment",
+      "procedure": "Drive configured car/bus envelopes over straight/curved/banked roads, 6→4→2 and reverse adapters.",
+      "expected": "No wrong-way/unauthorized corridor exit in the approved scenarios; record trajectory, sweep method, tolerances and failures.",
+      "requirements": [
+        "R07",
+        "R08",
+        "R18"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P05-T05",
+      "phase": 5,
+      "title": "Lane-change/merge safety",
+      "procedure": "Run valid lane-change intervals with safe and unsafe gaps, simultaneous merges and braking constraints.",
+      "expected": "Permission alone does not trigger motion; unsafe maneuvers wait/replan and approved priority is respected.",
+      "requirements": [
+        "R16",
+        "R18"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P05-T06",
+      "phase": 5,
+      "title": "Junction and roundabout travel",
+      "procedure": "Traverse T/cross/mixed-profile junctions and single/multi-lane roundabouts with missed/blocked exits.",
+      "expected": "Vehicles obey lane turns, yields and signals; legal recovery is used rather than cutting across the ring or teleporting.",
+      "requirements": [
+        "R10",
+        "R11",
+        "R18"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P05-T07",
+      "phase": 5,
+      "title": "Crossings and signals at runtime",
+      "procedure": "Execute pedestrian phases, missing/stale controller states and competing vehicle/pedestrian movements.",
+      "expected": "Conflicting permission is not granted; invalid control data invokes the documented safe policy; waiting and clearance are observed.",
+      "requirements": [
+        "R12",
+        "R18"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P05-T08",
+      "phase": 5,
+      "title": "Runtime failure and projection",
+      "procedure": "Remove an edge, close access, unload the next graph chunk and place an agent near an overpass.",
+      "expected": "Explicit stop/wait/replan behavior; no straight-line off-road fallback, uncontrolled nearest-lane jump or hidden clamping.",
+      "requirements": [
+        "R16",
+        "R18",
+        "R19"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P05-T09",
+      "phase": 5,
+      "title": "Bus and seat consumers",
+      "procedure": "Route bus entry/stop/exit and pedestrian queue/board/alight; contend for logical seats sharing benches.",
+      "expected": "Correct access/interaction poses and capacity; no double assignment; physical mesh count does not replace logical capacity.",
+      "requirements": [
+        "R13",
+        "R15",
+        "R18"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P05-T10",
+      "phase": 5,
+      "title": "Parking and fuel service state",
+      "procedure": "Compete for one bay, expire a lease, occupy/release it, and unload/reload its visual proxy.",
+      "expected": "Reservation is owner-specific and exclusive; expiry cannot clear actual occupancy; GUID-keyed state survives proxy changes.",
+      "requirements": [
+        "R13",
+        "R15",
+        "R19"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P05-T11",
+      "phase": 5,
+      "title": "Hospital/park/fuel route integration",
+      "procedure": "Drive/walk different participant classes to required service entrances and blocked/closed alternatives.",
+      "expected": "Permitted access only, including ambulance restrictions; never uses a mesh-center or placeholder route.",
+      "requirements": [
+        "R13",
+        "R15",
+        "R18"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P05-T12",
+      "phase": 5,
+      "title": "Large-world graph and pooling",
+      "procedure": "Cross chunk boundaries and rebase origin under load while decorative actors deactivate/reactivate.",
+      "expected": "Graph availability is explicit and independent of visual actors; stable IDs/state persist; hysteresis and caps hold.",
+      "requirements": [
+        "R02",
+        "R19"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P05-T13",
+      "phase": 5,
+      "title": "Measured performance",
+      "procedure": "Execute the approved world-size and active-agent fixtures with specified hardware/build settings.",
+      "expected": "Publish actual median/tail timings, memory and actor counts against agreed budgets; unresolved budget failures block scale claims.",
+      "requirements": [
+        "R19",
+        "R20"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P05-T14",
+      "phase": 5,
+      "title": "Full regression and data safety",
+      "procedure": "Rerun all earlier phase suites; include save/reopen, crash recovery, undo/redo and generator ownership checks.",
+      "expected": "No accepted scenario regresses or authored data disappears; exact failures and deviations are documented.",
+      "requirements": [
+        "R04",
+        "R20"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    },
+    {
+      "id": "P05-T15",
+      "phase": 5,
+      "title": "Clean delivery and end-to-end acceptance",
+      "procedure": "Extract on the recorded clean environment; build, launch, author, undo/redo, save, compile, run and export.",
+      "expected": "Documented commands succeed with real evidence; all phase decisions and final user release approval are recorded.",
+      "requirements": [
+        "R03",
+        "R17",
+        "R20"
+      ],
+      "status": "NOT_EXECUTED",
+      "observed": null,
+      "evidence": []
+    }
+  ]
+}

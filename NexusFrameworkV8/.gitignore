@@ -1,0 +1,13 @@
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+.vs/
+.idea/
+*.sln
+*.suo
+*.VC.db
+build*/
+test-output/
+*.nv8.lock/
+*.staging

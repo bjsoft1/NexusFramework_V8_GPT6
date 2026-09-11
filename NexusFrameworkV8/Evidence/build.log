@@ -1,0 +1,13 @@
+[ 20%] Building CXX object CMakeFiles/nexus_domain.dir/Source/NexusV8Runtime/Private/Domain/NexusCompiler.cpp.o
+[ 20%] Building CXX object CMakeFiles/nexus_domain.dir/Source/NexusV8Runtime/Private/Domain/NexusCodec.cpp.o
+[ 30%] Building CXX object CMakeFiles/nexus_domain.dir/Source/NexusV8Runtime/Private/Domain/NexusDomain.cpp.o
+[ 40%] Building CXX object CMakeFiles/nexus_domain.dir/Source/NexusV8Runtime/Private/Domain/NexusSource.cpp.o
+[ 50%] Building CXX object CMakeFiles/nexus_domain.dir/Source/NexusV8Runtime/Private/Domain/NexusStorage.cpp.o
+[ 60%] Linking CXX static library libnexus_domain.a
+[ 60%] Built target nexus_domain
+[ 80%] Building CXX object CMakeFiles/nexus_preview.dir/Tests/PreviewExport.cpp.o
+[ 80%] Building CXX object CMakeFiles/nexus_tests.dir/Tests/DomainTests.cpp.o
+[ 90%] Linking CXX executable nexus_preview
+[ 90%] Built target nexus_preview
+[100%] Linking CXX executable nexus_tests
+[100%] Built target nexus_tests
