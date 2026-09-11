@@ -1,5 +1,13 @@
 # Instructions for the V8 implementation agent
 
+## Git working branch — user instruction, 2026-09-11
+
+Use `gpt6` as the single persistent working branch in `bjsoft1/NexusFramework_V8_GPT6` for all implementation phases, build fixes, tests and documentation changes. Reuse this branch for every subsequent task. Do not create additional feature, phase, review, hotfix or timestamped branches unless the user explicitly requests one.
+
+Before editing or pushing, read the current remote `gpt6` tip and inspect the affected files. Preserve other contributors' commits and local edits. If the branch has advanced, reconcile against its current state; do not force-push or reset it to an older snapshot. Incorporate approved changes from `master` into this same branch when needed, without creating another working branch.
+
+Keep `master` unchanged unless the user explicitly authorizes a merge or direct update. Phase acceptance remains separate from committing source: do not mark unexecuted tests or incomplete phases as passed. Do not delete the previous branches without the user's permission. After a push, read back the remote branch and report the verified commit SHA and actual changed scope.
+
 ## Read order
 
 Read `00-START-HERE.md`, `01-MASTER-REQUIREMENTS.md`, `02-FIVE-PHASE-ROADMAP.md`, `decisions/DECISION-REGISTER.md`, then the six `architecture/` contracts and the current file in `phases/`. Consult `verification/` for fixture and evidence requirements. Inspect relevant original repository files before changing code.
